@@ -1,0 +1,53 @@
+for n in {0..9}; do echo hello ; done //for loop
+
+find . -name "*txt"  //will find all 
+
+for ((i=0,j=10;i<=j;i++,j--))
+do
+   echo "i=$i"
+   echo "j=$j"
+done   
+
+for FILENAME in *;  do mv $FILENAME Unix_$FILENAME; // rename
+
+export j=0; for n in {0..3}; do echo world $j;let "j=j+1"  ; done // variable
+
+export k=100 ;for FILENAME in *;  do mv $FILENAME $k.txt ; let "k=k+3"; done
+
+
+
+make script by any editor name.sh 
+chmod +x s.sh // then this
+./s.sh
+------------------------------------------
+
+rm * //rm all files
+rm *".txt" // delete all files with.txt ,
+* means all file ..same as sql
+*.. // from last 
+..* from front
+
+------------------------------------------
+
+
+
+
+
+for n in {0..9}; do mv "$n.txt" "$n.cpp" ; done ///to rename .txt to .anything
+
+
+a=10; for i in *.jpg; do   new=$(printf "%04d.txt" "$a") ;   mv -i -- "$i" "$new";   let a=a+1; done
+// to rename all file in order manner
+
+x=1; for i in *.txt; do  mv $i "$x.cpp"; let x=x+1;done //rename all file
+
+
+a=1;for n in *.pdf; do mv $n "bronze_$a.exe" ;let a=a+1; done // rename 
+
+
+
+rpm -qa for display alll the installed files
+
+
+
+cat p.c >> t.txt u know bro

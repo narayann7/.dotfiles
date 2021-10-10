@@ -1,0 +1,18 @@
+cp -copy
+cp *cpp /path #will copy all cpp files from current dir to dir of given path
+
+> t.txt #will store the file , it will replace the file
+>> t.txt #add the new info into the existing file 
+
+cat filename
+cat file1 file2 
+cat file1 file2 > newcombinedfile
+cat < file1 > file2 #copy file1 to file2
+
+chmod 
+https://ss64.com/bash/chmod.html
+
+diff  t1.txt t2.txt #shows diff between two files
+
+file file name  #Determine file type.
+
