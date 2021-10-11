@@ -1,9 +1,0 @@
--which bash 
--whereis bash
--which $SHELL
--whatis bash
-any command with * helps us to query 
-
-*cpp (output which have ext cpp )
-test* (file name which starts with test)
-

@@ -1,0 +1,48 @@
+cat filename
+cat file1 file2 
+cat file1 file2 > newcombinedfile
+cat < file1 > file2 #copy file1 to file2
+
+chmod 
+https://ss64.com/bash/chmod.html
+
+cut 
+{
+
+https://www.geeksforgeeks.org/cut-command-linux-examples/
+
+
+	t.txt ->  hello 
+	          world
+	          good
+	          code
+
+	cut -b 1 t.txt 
+
+	h
+	w
+	g
+	c
+
+   cut -b 1-2,4-5 t.txt
+
+   1-2 will b the  substring
+
+   hello   -b 1,3,5  ->  hlo
+           -b 1-2,5  ->  heo
+           -b 3-     ->  lo
+           -b -3     ->  he
+
+
+hello world i am learning bash scripting        
+
+cut -d " " -f 2 t.txt -> world 
+cut -d " " -f 5 t.txt -> learning
+cut -d " " -f 1-3 t.txt -> hello world i
+
+
+
+
+}
+
+

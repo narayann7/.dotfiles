@@ -60,3 +60,15 @@ done
 # done
 
 until same as while but until the condion becomes true
+
+
+to=$1
+
+if [ -z $to ] 
+then
+	echo cool
+else
+	echo hot
+fi
+
+-z check weather variable is empty or not
