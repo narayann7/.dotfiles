@@ -19,3 +19,13 @@ do
 	mv $i $ans
 done
 ls *$to
+
+
+:'
+mass_file_rename.sh to from (if name)
+
+ex-> mass_file_rename.sh cpp java 
+     mass_file_rename.sh java cpp test
+
+
+'
