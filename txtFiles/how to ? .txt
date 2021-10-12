@@ -1,0 +1,21 @@
+--
+how to create a global command like ls,cd..etc ?
+touch ~/.example.sh
+
+#remember that you should create the file in the root dir (~) 
+#create a function 
+ex --- 
+
+ function test()
+ {
+ echo helllo world
+} 
+
+save it !
+
+chmod +x .example.sh
+
+source ~/.example.sh 
+
+then use test command where ever you want 
+
