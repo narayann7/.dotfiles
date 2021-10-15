@@ -1,0 +1,62 @@
+----------------------------------------------------------------------
+how to create a global command like ls,cd..etc ?
+touch ~/.example.sh
+
+#remember that you should create the file in the root dir (~) 
+#create a function 
+ex --- 
+
+ function test()
+ {
+ echo helllo world
+} 
+
+save it !
+
+chmod +x .example.sh
+
+source ~/.example.sh 
+
+then use test command where ever you want 
+
+----------------------------------------------------------------------
+how to convert images into pdf ?
+
+sudo apt-get install imagemagick
+
+convert \* mydoc.pdf
+
+this wont work then
+
+{
+	sudo mv /etc/ImageMagick-6/policy.xml /etc/ImageMagick-6/policy.xmlout
+    
+    revert
+
+    sudo mv /etc/ImageMagick-6/policy.xmlout /etc/ImageMagick-6/policy.xml
+
+    https://askubuntu.com/questions/1081895/trouble-with-batch-conversion-of-png-to-pdf-using-convert 
+}
+
+----------------------------------------------------------------------
+how to add password to pdf files?
+
+install qpdf
+
+qpdf --encrypt abc  hello 256  -- test.pdf test2.pdf
+
+test.pdf - real file
+test2.pdf - procted file
+
+256 ,128 ,40 -- pass type
+
+hello - password
+
+----------------------------------------------------------------------
+how to encrypt file using gpg?
+
+install gpg
+
+gpg -c test.docx
+
+gpg test.docx.gpg

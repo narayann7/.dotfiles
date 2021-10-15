@@ -31,7 +31,6 @@
 
  11 <any command output > >>t.txt (will store in t.txt file)    
 
-
  edit bash rc 
  to change terminal name 
 

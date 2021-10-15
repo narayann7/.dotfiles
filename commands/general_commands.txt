@@ -52,3 +52,9 @@ ${parameter/pattern/string}
 --
 ${#varName}
 #length of the string
+
+--
+echo "hello" | base64 
+echo "aGVsbG8K" | base64 --decode
+
+same goes for base32
