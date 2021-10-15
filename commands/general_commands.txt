@@ -56,5 +56,30 @@ ${#varName}
 --
 echo "hello" | base64 
 echo "aGVsbG8K" | base64 --decode
-
 same goes for base32
+
+--
+path="/home/skillz"
+res="${path//[^\/]}"
+echo "$res"
+echo "${#res}"
+
+op-> 
+//
+2
+
+
+--
+for removing last dir from path
+# path=`pwd`
+# path2=${path%/*}
+
+--
+generate  random no.
+echo $((1 + $RANDOM % 10))
+
+--
+no of dir
+ls -l | grep -v ^l | wc -l
+
+
