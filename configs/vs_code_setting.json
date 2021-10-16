@@ -1,0 +1,150 @@
+{
+    "C_Cpp.updateChannel": "Insiders",
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "workbench.iconTheme": "helium-icon-theme",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.mouseWheelZoom": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.runInTerminal": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "java.semanticHighlighting.enabled": true,
+    "java.configuration.checkProjectSettingsExclusions": false,
+  
+  
+    "dart.openDevTools": "flutter",
+    "dart.debugExternalLibraries": true,
+    "dart.debugSdkLibraries": true,
+    "explorer.confirmDelete": false,
+    "git.autofetch": true,
+    "editor.cursorBlinking": "smooth",
+    "editor.selectionHighlight": true,
+    "editor.suggest.snippetsPreventQuickSuggestions": true,
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": true,
+    "editor.fontFamily": "",
+    "editor.fontLigatures": true,
+    "editor.letterSpacing": 1.4,
+    "editor.tabSize": 1,
+    "editor.cursorStyle": "line",
+    "editor.fontWeight": "400",
+    "editor.autoIndent": "full",
+    "editor.lineHeight": 26,
+    "editor.fontSize": 17,
+    "dart.previewFlutterUiGuides": false,
+    "dart.previewFlutterUiGuidesCustomTracking": false,
+    "terminal.integrated.rendererType": "dom",
+    "workbench.colorTheme": "Community Material Theme Ocean High Contrast",
+    "sync.gist": "fad3b8e7eddf8b2deeb79ddeef2fd47a",
+  
+    "customizeUI.fontSizeMap": {
+        "13px": "12px"
+    },
+    "markdown.preview.lineHeight": 2,
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#000000",
+        "activityBar.dropBackground": "#000000",
+        "editor.background": "#060608",
+        "statusBar.background" : "#000000",
+        "sideBar.foreground": "#cbd9dc",
+        "editor.selectionBackground": "#ffffff0e",
+        "toolbar.activeBackground:" : "#000000",
+        "sideBar.background:" : "#000000",
+        "editor.foreground" : "#ffffff",
+        "editorCursor.background" : "#000000",
+        "editor.wordHighlightBorder: " : "#000000",
+        "editor.wordHighlightBackground" : "#000000",
+        "editorLineNumber.foreground" : "#525252",
+        "window.activeBorder" : "#000000",
+        "textCodeBlock.background" : "#000000",
+        "editor.wordHighlightStrongBackground" : "#0A0D14",
+        "statusBar.debuggingBackground": "#000000",
+        "editor.wordHighlightStrongBorder:": "#000000",
+    },
+    "pubspec-assist.useLegacyParser": true,
+    "cSpell.userWords": [
+        "Premission",
+        "wxyz"
+    ],
+    "explorer.confirmDragAndDrop": false,
+  
+    "bracketPairColorizer.activeScopeCSS": [
+
+        "borderStyle : solid",
+        "borderWidth : 1px",
+        "borderColor : {color}; opacity: 0.5"
+    ],
+    "bracketPairColorizer.consecutivePairColors": [
+
+        "()",
+        "[]",
+        "{}",
+        [
+            "#FFA400",
+            "#FFBF3B",
+            "#21A0A0",
+        ],
+        "Red"
+    ],
+  
+
+    "editor.tokenColorCustomizations":{
+        
+        "comments": "#969696",
+        "functions": "#FFBF3B",
+        "keywords": "#21A0A0",
+        "numbers": "#FFFFFF",
+        "strings": "#FCFFF7",
+        "variables": "#FFFFFF",
+        "types": "#D0CD94",
+        "textMateRules": [
+          
+          
+            {
+                "scope": "constant",
+                "settings": {
+                    "foreground": "#c2c2c2"
+                },
+            },
+            {
+                "scope": "entity.name.class",
+                "settings": {
+                    "foreground": "#FFE900"
+                },
+            },
+        
+            {
+                "scope": "variable",
+                "settings": {
+                    "foreground": "#c2c2c2"                },
+            },
+            {
+                "scope": "keyword",
+                "settings": {
+                    "foreground": "#c2c2c2"                },
+            },
+            {
+                "scope": "string",
+                "settings": {
+                    "foreground": "#c2c2c2"                },
+            },
+            {
+                "scope": "support",
+                "settings": {
+                    "foreground": "#c2c2c2"                },
+            },
+            {
+                "scope": "meta",
+                "settings": {
+                    "foreground": "#c2c2c2"                },
+            },
+            {
+                "scope": "markup",
+                "settings": {
+                    "foreground": "#c2c2c2"                },
+            },
+        ]
+    }
+
+}
