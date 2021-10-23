@@ -9,7 +9,7 @@ ex ---
  function test()
  {
  echo helllo world
-} 
+ } 
 
 save it !
 
@@ -18,6 +18,8 @@ chmod +x .example.sh
 source ~/.example.sh 
 
 then use test command where ever you want 
+
+when making any changes then use source command again to reflect the changes
 
 ----------------------------------------------------------------------
 how to convert images into pdf ?
@@ -60,3 +62,31 @@ install gpg
 gpg -c test.docx
 
 gpg test.docx.gpg
+
+----------------------------------------------------------------------
+how to install kde in ubuntu?
+
+
+sudo apt install sddm
+sudo apt install tasksel
+sudo tasksel install kubuntu-desktop
+
+----------------------------------------------------------------------
+how to remove grub ?
+
+open cmd as admin
+
+diskpart
+list disk
+select disk 0
+list patition 
+select partition 1
+assign letter=x
+exit
+x:
+dir
+cd efi
+dir
+rd ubuntu /S //will remove or delete boot file
+
+----------------------------------------------------------------------

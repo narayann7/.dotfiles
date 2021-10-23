@@ -1,0 +1,9 @@
+1.which bash
+
+2.whereis bash
+
+3.which $SHELL
+
+4.whatis bash
+
+5.systemd-analyze #for boot time

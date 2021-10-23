@@ -1,0 +1,22 @@
+heroku---------------------------------------------------------
+
+follow website for adding heroku main/master
+
+heroku config:set BOT_TOKEN=token
+
+heroku logs --tail 
+
+heroku maintenance:on
+heroku maintenance:off
+#app on off
+
+npm-------------------------------------------------------------
+
+nmp init -y #for skip the config process
+npm i express dotenv -D nodemon  # i for normal install , -D for dev dep..
+npm list 	#Lists the installed versions of all dependencies in this software
+npm list -g --depth 0 	#Lists the installed versions of all globally installed packages
+npm view 	#Lists the latest versions of all dependencies in this software
+npm outdated 	#Lists only the dependencies in this software which are outdated
+
+for esm package -> node -r esm app.js
