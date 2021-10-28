@@ -1,0 +1,5 @@
+--sublimeText code formater
+
+[
+{"keys": ["shift+enter"], "command": "reindent", "args": {"single_line": false}}
+]

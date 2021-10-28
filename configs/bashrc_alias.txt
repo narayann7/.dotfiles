@@ -1,22 +1,63 @@
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
+#basic
+alias c='clear'
+alias ..='cd ..'
+alias l='ls'
+alias l='ls -l'
+alias e='exit'
+alias nf='mkdir'
+alias df='rm -r'
+
+
+
+
+
+alias ..='cd ..'
+alias ...='cd ../../../'
+alias ....='cd ../../../../'
+alias .....='cd ../../../../'
+alias .4='cd ../../../../'
+alias .5='cd ../../../../..'
 alias up='sudo dnf upgrade || dnf check-update'
 #alias up='sudo apt-get upgrade || apt-get update'
 alias sub='/opt/sublime_text/sublime_text'
 alias .m='cmatrix'
 alias code='cd /home/narayann/Documents/code/'
-alias c='clear'
-alias ..='cd ..'
 alias ec='echo'
 alias dia='figlet'
 alias btime='systemd-analyze'
 alias ae='sub .bashrc'
 alias brave='/usr/bin/brave-browser-stable %U'
-alias nf='mkdir'
-alias dl='rm -r'
-alias e='exit'
+
+
 alias ans='./a.out'
 alias sn='shutdown now'
 alias in='sudo dnf install'
+
+
+gg()
+{
+git add .
+git commit -m "$1"
+if [[ -z  $2 ]]
+git push -u origin main
+else
+git push -u origin $2
+}
+
+ans(){
+    g++ $1
+    ./a.out
+}
+
+
+#for-windows
+ae(){
+    cd ~
+    sub .bashrc
+    cd /mnt/c/Users/narayann7
+}
+
+alias hm='cd /mnt/c/Users/narayann7'
+alias sub="/mnt/c/Program\ Files/Sublime\ Text/sublime_text.exe"
+
 
