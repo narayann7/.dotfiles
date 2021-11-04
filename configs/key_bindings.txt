@@ -1,0 +1,43 @@
+windows key -> wk
+ctrl -> ct
+shift -> sf
+alt -> at 
+
+
+---------------------------------------------------------------
+--universal
+
+ct + pageUp || pageDown --> switch between tabs
+//works for vc code , sublime , brave	
+
+---------------------------------------------------------------
+--linux
+
+edit path of debian based file ctrl +l
+
+
+---------------------------------------------------------------
+--windows inbuilt-key-bindings
+
+
+-- wk + '.' --> for emoji
+-- wk + sf + c --> for colour pallet  // power_toy
+-- at + f4 --> for closing the active window 
+-- ct + l --> to edit the file path
+
+
+
+---------------------------------------------------------------
+--apps
+
+--sublimeText code formater
+
+[
+{"keys": ["shift+enter"], "command": "reindent", "args": {"single_line": false}}
+]
+
+
+--brave
+
+ct + l --> can type in link tab
+

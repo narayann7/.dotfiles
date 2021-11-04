@@ -11,6 +11,15 @@ cp -copy
 cp *cpp /path 
 #will copy all cpp files from current dir to dir of given path
 
+
+--
+mkdir -p parent\{child1,child2}
+mkdir -p parent\child{1..3}
+
+
+
+
+
 --
 > t.txt 
 #will store the file , it will replace the file
@@ -84,4 +93,9 @@ like touch test{1..12}.cpp
 
 echo {1..10..2}
 1 3 5 7 9
+
+--
+$ sudo shutdown 21:00
+$ sudo shutdown +15
+
 --

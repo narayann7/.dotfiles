@@ -7,3 +7,10 @@
 4.whatis bash
 
 5.systemd-analyze #for boot time
+
+6.locate filename 
+//will locate all files with above filename
+//when you are in / dir it will locate all files in the os
+//but when you are in normal dir it will list all file in currrent dir
+
+ 

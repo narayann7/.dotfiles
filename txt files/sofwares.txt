@@ -1,0 +1,27 @@
+-----------------------------------------------------
+windows
+
+--power toy 
+https://github.com/microsoft/PowerToys
+
+--media preview
+https://www.free-codecs.com/download/media_preview.htm
+
+thumbnail preview
+
+--x mouse controll
+https://www.highrez.co.uk/downloads/xmousebuttoncontrol.htm
+
+change mouse setting 
+
+
+-----------------------------------------------------
+linux
+
+--figlet,cmatrix,hollywood,neofetch,aafire 
+//fun
+
+apps-terminal-based
+-ncdu //storage
+-ranger //file manager
+-htop //sysytem analysis

@@ -30,15 +30,14 @@ convert \* mydoc.pdf
 
 this wont work then
 
-{
-	sudo mv /etc/ImageMagick-6/policy.xml /etc/ImageMagick-6/policy.xmlout
+ sudo mv /etc/ImageMagick-6/policy.xml /etc/ImageMagick-6/policy.xmlout
     
-    revert
+ revert
 
-    sudo mv /etc/ImageMagick-6/policy.xmlout /etc/ImageMagick-6/policy.xml
+ sudo mv /etc/ImageMagick-6/policy.xmlout /etc/ImageMagick-6/policy.xml
 
-    https://askubuntu.com/questions/1081895/trouble-with-batch-conversion-of-png-to-pdf-using-convert 
-}
+ https://askubuntu.com/questions/1081895/trouble-with-batch-conversion-of-png-to-pdf-using-convert 
+
 
 ----------------------------------------------------------------------
 how to add password to pdf files?
@@ -88,5 +87,49 @@ dir
 cd efi
 dir
 rd ubuntu /S //will remove or delete boot file
+
+----------------------------------------------------------------------
+auto mount drives?
+
+sudo blkid 
+//will list all drives  .1
+
+/dev/sda9: LABEL="core2" UUID="8dd7c6b9-6c24-4503-8df9-50062b265da5" BLOCK_SIZE="4096" TYPE="ext4" PARTUUID="3f2b3c24-c4ca-2946-a4c0-b883e0b01a7e"
+
+sudo mkdir /mnt/sdb9  
+// .2
+
+
+sudo nano /etc/fstab
+//.3 use gedit or any
+
+
+// UUID=<uuid-of-your-drive>  <mount-point>  <file-system-type>  <mount-option>  <dump>  <pass> 
+//basic format is above
+
+
+UUID=8dd7c6b9-6c24-4503-8df9-50062b265da5  /mnt/sdb9  ext4  defaults  0  2
+
+
+// add the above line in the end of the fstab  where UUID will same as output drive which u want to mount of blkid and sdb9 depend on name of the drive
+
+
+----------------------------------------------------------------------
+creating icons? in linux based os
+
+You can do it manually. Make a new text-file named something.desktop and write this in there:
+
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=command to run here
+Name=visible name here
+Comment=comment here
+Icon=icon path here
+
+Don't forget to make the file executable (chmod +x something.desktop)
 
 ----------------------------------------------------------------------
