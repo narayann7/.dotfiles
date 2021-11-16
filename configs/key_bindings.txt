@@ -40,4 +40,16 @@ edit path of debian based file ctrl +l
 --brave
 
 ct + l --> can type in link tab
+ct + w --> to close the current tab
+
+
+--android studio
+
+ct + al + l --> code indentation
+ct +d --> copy line down
+sf + sf --> search files
+ct + e --> recently opened files
+ct + sf + a --> search setting
+
+
 

@@ -79,7 +79,8 @@ diskpart
 list disk
 select disk 0
 list patition 
-select partition 1
+select partition 2
+//select partition named sysytem
 assign letter=x
 exit
 x:

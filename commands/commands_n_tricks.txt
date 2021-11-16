@@ -16,10 +16,6 @@ cp *cpp /path
 mkdir -p parent\{child1,child2}
 mkdir -p parent\child{1..3}
 
-
-
-
-
 --
 > t.txt 
 #will store the file , it will replace the file
@@ -42,20 +38,9 @@ file file name
 #Determine file type.
 
 --
-variableName=`mkdir name`
-#storing command in variable use ``
-
---
 column -t
 #gives output in vertical format
 
---
-${parameter/pattern/string}
-#string replacement
-
---
-${#varName}
-#length of the string
 
 --
 echo "hello" | base64 
@@ -63,38 +48,11 @@ echo "aGVsbG8K" | base64 --decode
 same goes for base32
 
 --
-path="/home/skillz"
-res="${path//[^\/]}"
-echo "$res"
-echo "${#res}"
-
-op-> 
-//
-2
-
-
---
-for removing last dir from path
-# path=`pwd`
-# path2=${path%/*}
-
---
-generate  random no.
-echo $((1 + $RANDOM % 10))
-
---
 no of dir
 ls -l | grep -v ^l | wc -l
 
 --
-can range operator any where
-{1..10}
-like touch test{1..12}.cpp
 
-echo {1..10..2}
-1 3 5 7 9
-
---
 $ sudo shutdown 21:00
 $ sudo shutdown +15
 

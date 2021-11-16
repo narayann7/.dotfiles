@@ -20,3 +20,37 @@ npm view 	#Lists the latest versions of all dependencies in this software
 npm outdated 	#Lists only the dependencies in this software which are outdated
 
 for esm package -> node -r esm app.js
+
+
+git-------------------------------------------------------------
+
+sudo apt-get install git //to install
+git --version //to check installed or not
+git config --global user.name "narayann7"
+git config --global user.email "laxminarayanreddy432@gmail.com"
+git config --list //to check above commands are linked with username and email or not 
+
+git reset --hard //help while pushing
+git pull 
+
+
+git branch new-branch-name
+
+git switch nameOfBranch
+
+git branch -d name //to delete branch
+
+<working area>  ---  <staging>  ---  <local repo>  --- <remote repo>
+           git add filename     git commit         git push
+
+
+git commit -am "kuch be" //add + commit           
+
+git remote add origin "link"
+
+git config --global alias.ac "commit -am"
+
+ac = anyname
+
+
+git commit --amend -m "rename commit message" //for renaming the commit message

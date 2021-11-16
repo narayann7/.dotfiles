@@ -14,11 +14,15 @@ https://www.highrez.co.uk/downloads/xmousebuttoncontrol.htm
 
 change mouse setting 
 
+--net speed monitor
+https://www.guidingtech.com/display-internet-speed-taskbar-windows/
+
+
 
 -----------------------------------------------------
 linux
 
---figlet,cmatrix,hollywood,neofetch,aafire 
+--figlet,cmatrix,hollywood,neofetch,aafire,fortune,cowsay, aa bb,toilet,xeyes,lolcat,figlet,pacman4console
 //fun
 
 apps-terminal-based

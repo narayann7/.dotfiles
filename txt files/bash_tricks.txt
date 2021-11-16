@@ -1,0 +1,51 @@
+--for any arithmatic expression use $((ecp))
+a=10
+b=20
+
+c=$((a+b))
+c=$((c+1))
+
+
+--brackets
+if [ $n == "y" ] || [ $n == "Y" ]
+
+
+--
+path="/home/skillz"
+res="${path//[^\/]}"
+echo "$res"
+echo "${#res}"
+
+op--
+
+//
+2
+
+
+--
+for removing last dir from path
+# path=`pwd`
+# path2=${path%/*}
+
+--
+generate  random no.
+echo $((1 + $RANDOM % 10))
+
+can range operator any where
+{1..10}
+like touch test{1..12}.cpp
+
+echo {1..10..2}
+1 3 5 7 9
+
+--
+${parameter/pattern/string}
+#string replacement
+
+--
+${#varName}
+#length of the string
+
+--
+variableName=`mkdir name`
+#storing command in variable use ``

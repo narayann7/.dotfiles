@@ -9,7 +9,7 @@ https://ss64.com/bash/chmod.html
 ----------------------------------------------------------------------------------
 
 cut 
-{
+
 
 https://www.geeksforgeeks.org/cut-command-linux-examples/
 
@@ -43,13 +43,16 @@ cut -d " " -f 5 t.txt -> learning
 cut -d " " -f 1-3 t.txt -> hello world i
 
 
+echo hello | cut -b 2 //c
+echo hello world | cut -b 2,7  //eo
+echo hello world | cut -b 2-7  //ello w
 
 
-}
+
 ----------------------------------------------------------------------------------
 
 string
-{
+
 
 ${parameter/pattern/string}
 
@@ -83,11 +86,11 @@ ${FOO/%from/to} 	Replace suffix
 ${FOO/#from/to} 	Replace prefix
 
 
-}
+
 ----------------------------------------------------------------------------------
 
 files
-{
+
 
 
 [[ -e FILE ]] 	Exists
@@ -103,11 +106,12 @@ files
 [[ FILE1 -ef FILE2 ]] 	Same files
 
 
-}
+
+----------------------------------------------------------------------------------
 
 
 conditions
-{
+
 
 [[ -z STRING ]] 	Empty string
 [[ -n STRING ]] 	Not empty string
@@ -127,4 +131,3 @@ More conditions
 [[ X && Y ]] 	And
 [[ X || Y ]] 	Or
 
-}
