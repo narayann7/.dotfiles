@@ -156,3 +156,28 @@ Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Command Processor
 add new string named AutoRun with value = path of the file
 
 ----------------------------------------------------------------------
+how to create permanent alias commands in power shell ?
+
+1. 
+
+New-Item -Type file -Path $Profile -Force
+
+2.
+
+code $Profile or notepad $Profile
+
+3.
+
+ex set-alias -name c -value clear
+
+function lab { cd "C:\User" }
+
+4.
+
+if error
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+----------------------------------------------------------------------
+
+How to customise the powershell
+https://blog.apedu.co/how-to-customize-the-windows-terminal-modify-powershell-or-terminalor-cmd-or-posh-git-or-oh-my-posh

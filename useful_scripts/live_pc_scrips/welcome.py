@@ -8,3 +8,5 @@ def typingPrint(text):
     sys.stdout.flush()
     time.sleep(0.013)
 typingPrint(welcome_meassage)    
+
+print('\n')
