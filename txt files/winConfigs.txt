@@ -1,0 +1,2 @@
+-- using AutoRun 
+first script will run same as bashrc

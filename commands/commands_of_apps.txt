@@ -38,7 +38,7 @@ git branch new-branch-name
 
 git switch nameOfBranch
 
-git branch -d name //to delete branch
+git branch -D name //to delete branch
 
 <working area>  ---  <staging>  ---  <local repo>  --- <remote repo>
            git add filename     git commit         git push
@@ -54,3 +54,7 @@ ac = anyname
 
 
 git commit --amend -m "rename commit message" //for renaming the commit message
+
+git hard --reset master {@"10min"}
+
+git remote add origin https://github.com/narayann7/testgit.git

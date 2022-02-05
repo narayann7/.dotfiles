@@ -9,8 +9,6 @@ alias df='rm -r'
 
 
 
-
-
 alias ..='cd ..'
 alias ...='cd ../../../'
 alias ....='cd ../../../../'

@@ -24,6 +24,7 @@ edit path of debian based file ctrl +l
 -- wk + sf + c --> for colour pallet  // power_toy
 -- at + f4 --> for closing the active window 
 -- ct + l --> to edit the file path
+-- wt + sh + s --> screenshot cropper
 
 
 
@@ -33,7 +34,10 @@ edit path of debian based file ctrl +l
 --sublimeText code formater
 
 [
-{"keys": ["shift+enter"], "command": "reindent", "args": {"single_line": false}}
+
+{"keys": ["shift+enter"], "command": "reindent", "args": {"single_line": false}},
+
+{ "keys": ["ctrl+down"], "command": "duplicate_line" },
 ]
 
 
@@ -50,6 +54,7 @@ ct +d --> copy line down
 sf + sf --> search files
 ct + e --> recently opened files
 ct + sf + a --> search setting
+ct + y --> delete a line
 
 
 

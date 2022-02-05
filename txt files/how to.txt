@@ -134,3 +134,25 @@ Icon=icon path here
 Don't forget to make the file executable (chmod +x something.desktop)
 
 ----------------------------------------------------------------------
+
+how to create permanent alias commands using doskey?
+
+create a file ex: alias.cmd  //you can run directly in cmd by its name
+
+@echo off
+
+doskey c=cls
+doskey pwd=cd
+doskey ls=dir
+
+edit the file and add above lines code
+
+goto registry Editor
+
+then goto
+
+Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Command Processor
+
+add new string named AutoRun with value = path of the file
+
+----------------------------------------------------------------------
