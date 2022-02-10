@@ -18,6 +18,10 @@ change mouse setting
 https://www.guidingtech.com/display-internet-speed-taskbar-windows/
 
 
+--pdfSam
+https://pdfsam.org/download-pdfsam-basic/
+
+
 
 -----------------------------------------------------
 linux
