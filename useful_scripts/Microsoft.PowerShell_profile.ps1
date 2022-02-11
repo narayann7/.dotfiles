@@ -6,7 +6,8 @@ set-alias -name c -value clear
 set-alias -name ec -value echo
 
 Function e{ exit}
-Function ep{code $Profile}
+Function ep{ sub $Profile}
+Function epc{ code $Profile}
 Function home{Set-Location ~}
 Function down{Set-Location "~/Downloads"}
 Function doc{Set-Location "~/Documents"}
@@ -14,8 +15,13 @@ Function dump{Set-Location "C:\Users\narayann7\Documents\love\GitHubRepos\dump"}
 Function test{Set-Location "C:\Users\narayann7\Documents\love\GitHubRepos\dump\testing"}
 Function gb{Set-Location "C:\Users\narayann7\Documents\love\GitHubRepos"}
 Function sub{
-    # "C:\Program Files\Sublime Text\sublime_text.exe"
-    call "C:\Program Files\Sublime Text\sublime_text.exe"
+    Param(
+        [Parameter(Mandatory=$true,
+        ValueFromPipeline=$true)]
+        [string[]]
+        $message
+    )
+ C:\"Program Files"\"Sublime Text"\sublime_text.exe $message
 }
 Function gac{
        Param(
