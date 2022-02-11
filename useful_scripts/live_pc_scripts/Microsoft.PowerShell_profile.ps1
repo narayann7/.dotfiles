@@ -1,6 +1,6 @@
 
 Clear-Host
-python C:\Users\narayann7\Documents\love\GitHubRepos\scripts-n-files\useful_scripts\live_pc_scrips\welcome.py
+python C:\Users\narayann7\Documents\love\GitHubRepos\scripts-n-files\useful_scripts\live_pc_scripts\welcome.py
 
 set-alias -name c -value clear
 set-alias -name ec -value echo
@@ -68,4 +68,32 @@ Function gch {
     git add .
     git commit -m "$message"
     git push origin -u main
+}
+
+Function pushall {
+
+    $command = "python C:\Users\narayann7\Documents\love\GitHubRepos\scripts-n-files\useful_scripts\live_pc_scripts\pushAllGitHubRepo.py 0"
+    Invoke-Expression $command
+}
+Function pushallm {
+
+    $command = "python C:\Users\narayann7\Documents\love\GitHubRepos\scripts-n-files\useful_scripts\live_pc_scripts\pushAllGitHubRepo.py 1"
+    Invoke-Expression $command
+}
+
+Function gethis{
+    
+
+$path=(Get-PSReadlineOption).HistorySavePath
+
+cat $path
+
+}
+Function hispath{
+    
+
+$path=(Get-PSReadlineOption).HistorySavePath
+
+echo $path
+
 }

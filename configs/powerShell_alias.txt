@@ -1,37 +1,95 @@
-
 set-alias -name c -value clear
 set-alias -name ec -value echo
+set-alias -name l -value ls
 
-Function e{ exit}
-Function ep{code $Profile}
-Function home{Set-Location ~}
-Function down{Set-Location "~/Downloads"}
-Function doc{Set-Location "~/Documents"}
-Function dump{Set-Location "C:\Users\narayann7\Documents\love\GitHubRepos\dump"}
-Function test{Set-Location "C:\Users\narayann7\Documents\love\GitHubRepos\dump\testing"}
-Function gb{Set-Location "C:\Users\narayann7\Documents\love\GitHubRepos"}
-Function sub{
-    # "C:\Program Files\Sublime Text\sublime_text.exe"
-    call "C:\Program Files\Sublime Text\sublime_text.exe"
+Function e { exit }
+Function cpop { 
+    Param(
+        [Parameter(Mandatory = $true,
+            ValueFromPipeline = $true)]
+        [string[]]
+        $command,
+        [string[]]
+        $path
+    )
+
+    $execute_it = "$command | Out-File -FilePath $path"
+   
+    Invoke-Expression $execute_it 
+
 }
-Function gac{
-       Param(
-    [Parameter(Mandatory=$true,
-    ValueFromPipeline=$true)]
-    [string[]]
-    $message
-)
+
+Function ep { sub $Profile }
+Function touch {
+    Param(
+        [Parameter(Mandatory = $true,
+            ValueFromPipeline = $true)]
+        [string[]]
+        $file_name
+    ) New-Item $file_name
+}
+Function epc { code $Profile }
+Function hm { Set-Location ~ }
+Function down { Set-Location "~/Downloads" }
+Function doc { Set-Location "~/Documents" }
+Function dump { Set-Location "C:\Users\narayann7\Documents\love\GitHubRepos\dump" }
+Function test { Set-Location "C:\Users\narayann7\Documents\love\GitHubRepos\dump\testing" }
+Function gb { Set-Location "C:\Users\narayann7\Documents\love\GitHubRepos" }
+Function sub {
+    Param(
+        [Parameter(Mandatory = $true,
+            ValueFromPipeline = $true)]
+        [string[]]
+        $message
+    )
+    C:\"Program Files"\"Sublime Text"\sublime_text.exe $message
+}
+Function gac {
+    Param(
+        [Parameter(Mandatory = $true,
+            ValueFromPipeline = $true)]
+        [string[]]
+        $message
+    )
     git add .
     git commit -m "$message"
 }
-Function gch{
-       Param(
-    [Parameter(Mandatory=$true,
-    ValueFromPipeline=$true)]
-    [string[]]
-    $message
-)
+Function gch {
+    Param(
+        [Parameter(Mandatory = $true,
+            ValueFromPipeline = $true)]
+        [string[]]
+        $message
+    )
     git add .
     git commit -m "$message"
     git push origin -u main
+}
+
+Function pushall {
+
+    $command = "python C:\Users\narayann7\Documents\love\GitHubRepos\scripts-n-files\useful_scripts\live_pc_scripts\pushAllGitHubRepo.py 0"
+    Invoke-Expression $command
+}
+Function pushallm {
+
+    $command = "python C:\Users\narayann7\Documents\love\GitHubRepos\scripts-n-files\useful_scripts\live_pc_scripts\pushAllGitHubRepo.py 1"
+    Invoke-Expression $command
+}
+
+Function gethis{
+    
+
+$path=(Get-PSReadlineOption).HistorySavePath
+
+cat $path
+
+}
+Function hispath{
+    
+
+$path=(Get-PSReadlineOption).HistorySavePath
+
+echo $path
+
 }
