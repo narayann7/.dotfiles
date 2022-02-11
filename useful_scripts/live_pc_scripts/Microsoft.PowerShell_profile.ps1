@@ -18,7 +18,7 @@ Function cpop {
     )
 
     $execute_it = "$command | Out-File -FilePath $path"
-   
+
     Invoke-Expression $execute_it 
 
 }
@@ -32,7 +32,7 @@ Function touch {
         $file_name
     ) New-Item $file_name
 }
-Function epc { code $Profile }
+Function epvc { code $Profile }
 Function hm { Set-Location ~ }
 Function down { Set-Location "~/Downloads" }
 Function doc { Set-Location "~/Documents" }
@@ -46,7 +46,15 @@ Function sub {
         [string[]]
         $message
     )
-    C:\"Program Files"\"Sublime Text"\sublime_text.exe $message
+    if ($message -eq "1") {
+        C:\"Program Files"\"Sublime Text"\sublime_text.exe
+    }
+    elseif ($message -eq ".") {
+        C:\"Program Files"\"Sublime Text"\sublime_text.exe $pwd
+    } else {
+        C:\"Program Files"\"Sublime Text"\sublime_text.exe $message
+    }
+
 }
 Function gac {
     Param(
@@ -71,29 +79,24 @@ Function gch {
 }
 
 Function pushall {
-
     $command = "python C:\Users\narayann7\Documents\love\GitHubRepos\scripts-n-files\useful_scripts\live_pc_scripts\pushAllGitHubRepo.py 0"
     Invoke-Expression $command
 }
 Function pushallm {
-
     $command = "python C:\Users\narayann7\Documents\love\GitHubRepos\scripts-n-files\useful_scripts\live_pc_scripts\pushAllGitHubRepo.py 1"
     Invoke-Expression $command
 }
 
-Function gethis{
-    
-
-$path=(Get-PSReadlineOption).HistorySavePath
-
-cat $path
-
+Function gethis {
+    $path = (Get-PSReadlineOption).HistorySavePath
+    Get-Content $path
 }
-Function hispath{
-    
+Function hispath {
+    $path = (Get-PSReadlineOption).HistorySavePath
+    Write-Output $path
+}
 
-$path=(Get-PSReadlineOption).HistorySavePath
-
-echo $path
-
+Function vs {
+    $path = "code $pwd"
+    Invoke-Expression $path
 }
