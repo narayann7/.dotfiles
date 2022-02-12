@@ -5,6 +5,7 @@ python C:\Users\narayann7\Documents\love\GitHubRepos\scripts-n-files\useful_scri
 set-alias -name c -value clear
 set-alias -name ec -value echo
 set-alias -name l -value ls
+set-alias -name pp -value python
 
 Function e { exit }
 Function cpop { 
@@ -31,7 +32,24 @@ Function touch {
         [string[]]
         $file_name
     ) New-Item $file_name
+
+
 }
+
+Function file {
+    Param(
+        [Parameter(Mandatory = $true,
+            ValueFromPipeline = $true)]
+        [string[]]
+        $file_name
+    ) 
+   $command="explorer $file_name"
+   Invoke-Expression $command
+}
+
+
+
+
 Function epvc { code $Profile }
 Function hm { Set-Location ~ }
 Function down { Set-Location "~/Downloads" }

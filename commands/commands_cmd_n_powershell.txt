@@ -1,0 +1,8 @@
+cmd------------------------------------------------------
+
+-- doskey test=dir //used as alias
+
+
+powershell-----------------------------------------------
+
+get-command //to get all powershell commands
