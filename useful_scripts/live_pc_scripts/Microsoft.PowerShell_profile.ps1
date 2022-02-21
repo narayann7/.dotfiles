@@ -123,6 +123,12 @@ Function vs {
 }
 
 Function op7 {
-    $path = "python C:\Users\narayann7\Documents\love\GitHubRepos\scripts-n-files\useful_scripts\live_pc_scripts\adb_connect_wireless.py"
+ Param(
+        [Parameter(Mandatory = $true,
+            ValueFromPipeline = $true)]
+        [string[]]
+        $port
+    )
+    $path = "python C:\Users\narayann7\Documents\love\GitHubRepos\scripts-n-files\useful_scripts\live_pc_scripts\adb_connect_wireless.py $port"
     Invoke-Expression $path
 }
