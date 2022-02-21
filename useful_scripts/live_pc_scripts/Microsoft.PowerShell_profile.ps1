@@ -8,6 +8,8 @@ set-alias -name l -value ls
 set-alias -name pp -value python
 
 Function e { exit }
+Function pg { flutter pub get }
+
 Function cpop { 
     Param(
         [Parameter(Mandatory = $true,
@@ -55,6 +57,7 @@ Function hm { Set-Location ~ }
 Function down { Set-Location "~/Downloads" }
 Function doc { Set-Location "~/Documents" }
 Function dump { Set-Location "C:\Users\narayann7\Documents\love\GitHubRepos\dump" }
+Function scripts { Set-Location "C:\Users\narayann7\Documents\love\GitHubRepos\scripts-n-files" }
 Function test { Set-Location "C:\Users\narayann7\Documents\love\GitHubRepos\dump\testing" }
 Function gb { Set-Location "C:\Users\narayann7\Documents\love\GitHubRepos" }
 Function sub {
@@ -116,5 +119,10 @@ Function hispath {
 
 Function vs {
     $path = "code $pwd"
+    Invoke-Expression $path
+}
+
+Function op7 {
+    $path = "python C:\Users\narayann7\Documents\love\GitHubRepos\scripts-n-files\useful_scripts\live_pc_scripts\adb_connect_wireless.py"
     Invoke-Expression $path
 }
