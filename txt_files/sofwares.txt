@@ -18,10 +18,16 @@ change mouse setting
 https://www.guidingtech.com/display-internet-speed-taskbar-windows/
 
 
---pdfSam
+--pdfSam !using
 https://pdfsam.org/download-pdfsam-basic/
 
+--bandicam screen cast
 
+--openboard // to write via pen
+https://openboard.ch/download.en.html
+
+--for pdf wondershare pdf 
+getintopc
 
 -----------------------------------------------------
 linux
