@@ -6,3 +6,10 @@ cmd------------------------------------------------------
 powershell-----------------------------------------------
 
 get-command //to get all powershell commands
+
+-- control // to open control panel
+-- msconfig 
+// System Configuration window consists of multiple tabs to manage boot settings and background services.
+
+--osk //on screen keyboard
+--snippingtool 

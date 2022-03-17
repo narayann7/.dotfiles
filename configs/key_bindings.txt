@@ -8,7 +8,8 @@ alt -> at
 --universal
 
 ct + pageUp || pageDown --> switch between tabs
-//works for vc code , sublime , brave	
+ct + w --> close a tab
+//works for vcCode, sublime, brave, firefox 
 
 ---------------------------------------------------------------
 --linux
@@ -25,6 +26,7 @@ edit path of debian based file ctrl +l
 -- at + f4 --> for closing the active window 
 -- ct + l --> to edit the file path
 -- wt + sh + s --> screenshot cropper
+-- wt + ct + rightArrow --> change desktop
 
 
 

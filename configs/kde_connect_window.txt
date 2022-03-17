@@ -13,4 +13,4 @@ ex : sublime : C:\"Program Files"\"Sublime Text"\sublime_text.exe
 
 vs code : C:\Users\narayann7\AppData\Local\Programs\"Microsoft VS Code"\Code.exe
 
-scrcpy:  C:\Users\narayann7\AppData\Roaming\Microsoft\Windows\"Start Menu"\Programs\ScrCpy\ScrCpy.lnk
+scrcpy:  scrcpy
