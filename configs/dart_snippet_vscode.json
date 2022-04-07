@@ -1,0 +1,152 @@
+{
+  "basic": {
+    "prefix": "bs",
+    "body": [
+      "import 'package:flutter/material.dart';",
+      "",
+      "void main() {",
+      "  runApp($1);",
+      "}",
+      "",
+      ""
+    ],
+    "description": "basic"
+  },
+  "scaffoldd": {
+    "prefix": "sca",
+    "body": [
+      " Scaffold(",
+      "      appBar: AppBar(",
+      "        title: Text(\"\"),",
+      "      ),",
+      "      floatingActionButton: FloatingActionButton(",
+      "          onPressed: (){},",
+      "      ),",
+      "      body: Container(",
+      "          child:",
+      "      ),",
+      "    );"
+    ],
+    "description": "scaffoldd"
+  },
+  "set": {
+    "prefix": "set",
+    "body": [
+      "import 'package:flutter/material.dart';",
+      "",
+      "void main() {",
+      "  runApp(Front());",
+      "}",
+      "",
+      "class Front extends StatelessWidget {",
+      "  const Front({Key key}) : super(key: key);",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return MaterialApp(",
+      "      title: 'NOtePad',",
+      "      home: First(),",
+      "    );",
+      "  }",
+      "}",
+      "",
+      "class First extends StatefulWidget {",
+      "  First({Key key}) : super(key: key);",
+      "",
+      "  @override",
+      "  _FirstState createState() => _FirstState();",
+      "}",
+      "",
+      "class _FirstState extends State<First> {",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return",
+      "}",
+      "}"
+    ],
+    "description": "set"
+  },
+  "printf": {
+    "prefix": "pi",
+    "body": ["print(\"$1\");"],
+    "description": "printf"
+  },
+  "container": {
+    "prefix": "con",
+    "body": [
+      " Container(",
+      "          alignment: Alignment.center,",
+      "                     height: MediaQuery.of(context).size.height ,",
+      "          width:  MediaQuery.of(context).size.width,",
+      "          decoration: BoxDecoration(color: Colors.amber[100]),",
+      "          child:$1,",
+      "        )"
+    ],
+    "description": "container"
+  },
+  "text": {
+    "prefix": "tx",
+    "body": [
+      " Text(",
+      "            \"$1\",",
+      "            style: TextStyle(",
+      "              color: Colors.black,",
+      "              fontSize: 15,",
+      "            ),",
+      "          )"
+    ],
+    "description": "text"
+  },
+
+  "stateless": {
+    "prefix": "less",
+    "body": [
+      "class $1 extends StatelessWidget {",
+      "  const $1({Key? key}) : super(key: key);",
+      "  static const String routeName = '/$1';",
+      "",
+      "  static getNavigator() {",
+      "    return MaterialPageRoute(",
+      "        settings: const RouteSettings(name: \"/$1\"),",
+      "        builder: (c) {",
+      "          return const $1();",
+      "        });",
+      "  }",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return Container();",
+      "  }",
+      "}"
+    ],
+    "description": "stateless"
+  },
+
+  "stateless": {
+    "prefix": "full",
+    "body": [
+      "",
+      "class $1extends StatefulWidget {",
+      "  $1({Key? key}) : super(key: key);",
+      "  static const String routeName = '/$1';",
+      "",
+      "  static getNavigator() {",
+      "    return MaterialPageRoute(",
+      "        settings: const RouteSettings(name: \"/$1\"),",
+      "        builder: (c) {",
+      "          return const $1();",
+      "        });",
+      "  }",
+      "  @override",
+      "  State<$1> createState() => _$1State();",
+      "}",
+      "",
+      "class _$1State extends State<$1> {",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return Container();",
+      "  }",
+      "}"
+    ],
+    "description": "stateless"
+  }
+}
