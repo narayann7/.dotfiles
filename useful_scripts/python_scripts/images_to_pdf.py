@@ -20,12 +20,12 @@ def put_password(file_path,folder_name):
      pdf = Pdf.open(file_path)  
      output=folder_name+".xml"
      password=string_to_base64(output)
-     pdf.save(output, encryption=pikepdf.Encryption(owner=password, user=password, R=4)) 
+     pdf.save(output, encryption=pikepdf.Encryption(owner="@//@", user="@//@", R=4)) 
      pdf.close()
 
 
 def image_to_pdf(path):
- images=  [i for i in os.listdir(path) if i.endswith(".jpg")]
+ images=  [i for i in os.listdir(path) if i.endswith(".jpg") or i.endswith(".png") or i.endswith(".jpeg")]
  print(images)
  os.chdir(path)
  with open("output.pdf", "wb") as f:
@@ -43,12 +43,15 @@ def compress_image(file_path):
    img.save(save_path)
    os.remove(file_path)
 
+# program starts from here
+
+
 path=os.getcwd()
 print(path)
 
 os.chdir(path)
 for file in os.listdir(path):
-    if file.endswith(".jpg"):
+    if file.endswith(".jpg") or file.endswith(".png") or file.endswith(".jpeg"):
         compress_image(path+'\\'+file)
 
 folder_name=path.split('\\')[-1]   
@@ -59,7 +62,7 @@ image_to_pdf(path)
 
 # delete all images
 for file in os.listdir(path):
-    if  file.endswith(".jpg") and file.endswith("_.jpeg")  :
+    if  file.endswith(".jpg") or file.endswith(".png") or file.endswith(".jpeg"):
         os.remove(file) 
             
 put_password(full_path,folder_name)   
