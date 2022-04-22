@@ -13,3 +13,5 @@ get-command //to get all powershell commands
 
 --osk //on screen keyboard
 --snippingtool 
+
+--sysdm.cpl

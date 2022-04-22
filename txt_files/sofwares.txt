@@ -44,3 +44,8 @@ apps-terminal-based
 -ncdu //storage
 -ranger //file manager
 -htop //sysytem analysis
+
+
+-----------------------------------------------------------
+pdf commpressor cli
+https://www.coherentpdf.com/compression.html

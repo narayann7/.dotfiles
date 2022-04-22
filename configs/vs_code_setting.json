@@ -2,7 +2,7 @@
     "C_Cpp.updateChannel": "Insiders",
     "code-runner.saveFileBeforeRun": true,
     "code-runner.saveAllFilesBeforeRun": true,
-    "workbench.iconTheme": "helium-icon-theme",
+    "workbench.iconTheme": "material-icon-theme",
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "editor.mouseWheelZoom": true,
@@ -15,7 +15,7 @@
   
     "dart.openDevTools": "flutter",
     "dart.debugExternalLibraries": true,
-    "dart.debugSdkLibraries": true,
+    "dart.debugSdkLibraries": false,
     "explorer.confirmDelete": false,
     "git.autofetch": true,
     "editor.cursorBlinking": "smooth",
@@ -25,22 +25,16 @@
     "editor.wordBasedSuggestions": true,
     "editor.fontFamily": "",
     "editor.fontLigatures": true,
-    "editor.letterSpacing": 1.4,
-    "editor.tabSize": 1,
+    "editor.letterSpacing": 1.4, 
+    "editor.tabSize": 4,
     "editor.cursorStyle": "line",
     "editor.fontWeight": "400",
     "editor.autoIndent": "full",
     "editor.lineHeight": 26,
     "editor.fontSize": 17,
-    "dart.previewFlutterUiGuides": false,
     "dart.previewFlutterUiGuidesCustomTracking": false,
     "terminal.integrated.rendererType": "dom",
-    "workbench.colorTheme": "Community Material Theme Ocean High Contrast",
     "sync.gist": "fad3b8e7eddf8b2deeb79ddeef2fd47a",
-  
-    "customizeUI.fontSizeMap": {
-        "13px": "12px"
-    },
     "markdown.preview.lineHeight": 2,
     "workbench.colorCustomizations": {
         "activityBar.background": "#000000",
@@ -51,21 +45,23 @@
         "editor.selectionBackground": "#ffffff0e",
         "toolbar.activeBackground:" : "#000000",
         "sideBar.background:" : "#000000",
-        "editor.foreground" : "#ffffff",
         "editorCursor.background" : "#000000",
         "editor.wordHighlightBorder: " : "#000000",
         "editor.wordHighlightBackground" : "#000000",
         "editorLineNumber.foreground" : "#525252",
+        "editorGroupHeader.tabsBackground" : "#000000",
         "window.activeBorder" : "#000000",
-        "textCodeBlock.background" : "#000000",
         "editor.wordHighlightStrongBackground" : "#0A0D14",
-        "statusBar.debuggingBackground": "#000000",
         "editor.wordHighlightStrongBorder:": "#000000",
+        "tab.inactiveBackground": "#000000",
+        "tab.activeBackground": "#19181a",
+        "terminal.foreground" : "#ffffff",
+        "terminal.background" : "#060608",
+        "editor.autoClosingBrackets":"always"
+     
     },
-    "pubspec-assist.useLegacyParser": true,
     "cSpell.userWords": [
-        "Premission",
-        "wxyz"
+     
     ],
     "explorer.confirmDragAndDrop": false,
   
@@ -87,24 +83,23 @@
         ],
         "Red"
     ],
-  
+
 
     "editor.tokenColorCustomizations":{
-        
-        "comments": "#969696",
-        "functions": "#FFBF3B",
+      
+        "comments": "#5c5858",
+        "functions": "#EABB44",
         "keywords": "#21A0A0",
         "numbers": "#FFFFFF",
-        "strings": "#FCFFF7",
+        "strings": "#ffffff",
         "variables": "#FFFFFF",
         "types": "#D0CD94",
         "textMateRules": [
           
-          
             {
                 "scope": "constant",
                 "settings": {
-                    "foreground": "#c2c2c2"
+                    "foreground": "#ffffff"
                 },
             },
             {
@@ -117,7 +112,7 @@
             {
                 "scope": "variable",
                 "settings": {
-                    "foreground": "#c2c2c2"                },
+                    "foreground": "#ffffff"                },
             },
             {
                 "scope": "keyword",
@@ -127,24 +122,90 @@
             {
                 "scope": "string",
                 "settings": {
-                    "foreground": "#c2c2c2"                },
+                    "foreground": "#ffffff"                },
             },
             {
                 "scope": "support",
                 "settings": {
-                    "foreground": "#c2c2c2"                },
+                    "foreground": "#ffffff"                },
             },
             {
                 "scope": "meta",
                 "settings": {
-                    "foreground": "#c2c2c2"                },
+                    "foreground": "#ffffff"                },
             },
             {
                 "scope": "markup",
                 "settings": {
-                    "foreground": "#c2c2c2"                },
+                    "foreground": "#ffffff"                },
             },
         ]
-    }
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+            "editor.autoClosingBrackets":"always"
+    },
 
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
+      },
+
+    "editor.quickSuggestionsDelay": 1,
+    "workbench.productIconTheme": "fluent-icons",
+    "editor.autoClosingQuotes": "always",
+    "editor.autoClosingBrackets": "always",
+    "security.workspace.trust.untrustedFiles": "open",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false,
+        "editor.defaultFormatter": "Dart-Code.dart-code"
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "workbench.startupEditor": "none",
+    "terminal.integrated.gpuAcceleration": "off",
+    "workbench.colorTheme": "Ayu Dark",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "dart.showInspectorNotificationsForWidgetErrors": false,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": false
+    },
+    "editor.inlineSuggest.enabled": true,
+    "powershell.powerShellDefaultVersion": "Windows PowerShell (x86)",
+    "bracketPairColorizer.depreciation-notice": false,
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+
+    "editor.codeActionsOnSave":{
+    
+        "source.fixAll": true
+    }
+    ,
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "material-ui-snippets.showNotesOnStartup": false
 }

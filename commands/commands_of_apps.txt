@@ -53,8 +53,8 @@ git config --global alias.ac "commit -am"
 ac = anyname
 
 
-git commit --amend -m "rename commit message" //for renaming the commit message
 
 git hard --reset master {@"10min"}
 
-git remote add origin https://github.com/narayann7/testgit.git
+
+https://books.goalkicker.com/GitBook/
