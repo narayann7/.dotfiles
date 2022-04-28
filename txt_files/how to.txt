@@ -181,3 +181,40 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 How to customise the powershell
 https://blog.apedu.co/how-to-customize-the-windows-terminal-modify-powershell-or-terminalor-cmd-or-posh-git-or-oh-my-posh
+
+
+----------------------------------------------------------------------
+
+auto complete suggestion in powershell
+
+1.
+Install-Module PSReadLine -Force
+
+2.
+
+Set-PSReadLineOption -PredictionSource History
+
+Set-PSReadLineOption -PredictionViewStyle ListView
+
+in $PROFILE
+
+
+
+----------------------------------------------------------------------
+
+
+how to make windows terminal tranparent
+
+in setting.json 
+
+ "defaults": 
+        {
+             "useAcrylic": true,        //add
+              "acrylicOpacity": 0.3,    //add
+
+            "font": 
+            {
+                "face": "Comic Sans MS"
+            },
+            "startingDirectory": "C:\\Users\\narayann7\\Documents\\love"
+        },

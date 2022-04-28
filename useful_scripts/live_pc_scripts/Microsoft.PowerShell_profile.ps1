@@ -2,6 +2,12 @@
 Clear-Host
 python C:\Users\narayann7\Documents\love\GitHubRepos\scripts-n-files\useful_scripts\live_pc_scripts\welcome.py
 
+
+Import-Module posh-git
+Import-Module oh-my-posh
+Set-PoshPrompt darkblood
+
+
 set-alias -name c -value clear
 set-alias -name ec -value echo
 set-alias -name l -value ls
@@ -87,7 +93,17 @@ Function gac {
     git add .
     git commit -m "$message"
 }
-Function gch {
+Function op {
+    Param(
+        [Parameter(Mandatory = $true,
+            ValueFromPipeline = $true)]
+        [string[]]
+        $message
+    )
+  g++ $message
+  .\a.exe
+}
+Function gcp {
     Param(
         [Parameter(Mandatory = $true,
             ValueFromPipeline = $true)]
@@ -132,3 +148,20 @@ Function op7 {
     $path = "python C:\Users\narayann7\Documents\love\GitHubRepos\scripts-n-files\useful_scripts\live_pc_scripts\adb_connect_wireless.py $port"
     Invoke-Expression $path
 }
+
+function sudo {
+    Start-Process @args -verb runas
+}
+
+Set-PSReadLineOption -PredictionSource History
+Set-PSReadLineOption -PredictionViewStyle ListView
+
+
+
+
+
+
+
+
+
+
