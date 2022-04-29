@@ -27,7 +27,8 @@ edit path of debian based file ctrl +l
 -- ct + l --> to edit the file path
 -- wt + sh + s --> screenshot cropper
 -- wt + ct + rightArrow --> change desktop
-
+-- Win + CTRL + O --> on screen keyboard
+-- wt + h --> speech to text
 
 
 ---------------------------------------------------------------
