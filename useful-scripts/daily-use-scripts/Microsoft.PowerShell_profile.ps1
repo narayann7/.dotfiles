@@ -1,6 +1,6 @@
 
 Clear-Host
-python C:\Users\narayann7\Documents\love\GitHubRepos\scripts-n-files\useful_scripts\live_pc_scripts\welcome.py
+python C:\Users\narayann7\Documents\love\GitHubRepos\scripts-n-files\useful-scripts\daily-use-scripts\welcome.py
 
 
 Import-Module posh-git
@@ -116,11 +116,11 @@ Function gcp {
 }
 
 Function pushall {
-    $command = "python C:\Users\narayann7\Documents\love\GitHubRepos\scripts-n-files\useful_scripts\live_pc_scripts\pushAllGitHubRepo.py 0"
+    $command = "python C:\Users\narayann7\Documents\love\GitHubRepos\scripts-n-files\useful_scripts\daily-use-scripts\push_all_gitHub_repo.py 0"
     Invoke-Expression $command
 }
 Function pushallm {
-    $command = "python C:\Users\narayann7\Documents\love\GitHubRepos\scripts-n-files\useful_scripts\live_pc_scripts\pushAllGitHubRepo.py 1"
+    $command = "python C:\Users\narayann7\Documents\love\GitHubRepos\scripts-n-files\useful_scripts\daily-use-scripts\push_all_gitHub_repo.py 1"
     Invoke-Expression $command
 }
 
@@ -145,7 +145,7 @@ Function op7 {
         [string[]]
         $port
     )
-    $path = "python C:\Users\narayann7\Documents\love\GitHubRepos\scripts-n-files\useful_scripts\live_pc_scripts\adb_connect_wireless.py $port"
+    $path = "python C:\Users\narayann7\Documents\love\GitHubRepos\scripts-n-files\useful_scripts\push_all_gitHub_repo.py\adb_connect_wireless.py $port"
     Invoke-Expression $path
 }
 
