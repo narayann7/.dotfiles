@@ -35,28 +35,17 @@
     {
         "defaults": 
         {
-            "acrylicOpacity": 0.80000000000000004,
+            "acrylicOpacity": 0.48999999999999999,
+            "colorScheme": "Campbell",
             "font": 
             {
-                "face": "Comic Sans MS"
+                "face": "Century Gothic"
             },
             "startingDirectory": "C:\\Users\\narayann7\\Documents\\love",
             "useAcrylic": true
         },
         "list": 
         [
-            {
-                "colorScheme": "Tango Dark",
-                "commandline": "cmd.exe",
-                "font": 
-                {
-                    "face": "Consolas"
-                },
-                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-                "hidden": false,
-                "name": "Command Prompt",
-                "startingDirectory": "C:\\Users\\narayann7\\Documents\\love"
-            },
             {
                 "backgroundImage": "C:\\Users\\narayann7\\Pictures\\coredump\\newcore\\tgbg.png",
                 "backgroundImageOpacity": 1.0,
@@ -77,6 +66,40 @@
                 "scrollbarState": "visible",
                 "startingDirectory": "C:\\Users\\narayann7",
                 "useAcrylic": false
+            },
+            {
+                "acrylicOpacity": 0.17999999999999999,
+                "backgroundImage": "C:\\Users\\narayann7\\Pictures\\coredump\\newcore\\wallpapersden.com_abstract-gradient-hd-shapes_1920x1080.jpg",
+                "backgroundImageOpacity": 0.20000000000000001,
+                "colorScheme": "Campbell",
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "experimental.retroTerminalEffect": false,
+                "font": 
+                {
+                    "face": "Consolas",
+                    "size": 12,
+                    "weight": "normal"
+                },
+                "guid": "{cecdee01-6255-47cd-a38e-90a022751520}",
+                "historySize": 999999999,
+                "icon": "C:\\Users\\narayann7\\Pictures\\icons\\bash.png",
+                "name": "coreX",
+                "padding": "26",
+                "scrollbarState": "visible",
+                "startingDirectory": "C:\\Users\\narayann7",
+                "tabTitle": "core",
+                "useAcrylic": false
+            },
+            {
+                "backgroundImage": "C:\\Users\\narayann7\\Pictures\\coredump\\newcore\\wallpaperflare.com_wallpaper (2).jpg",
+                "backgroundImageOpacity": 0.87,
+                "colorScheme": "Campbell",
+                "font": 
+                {
+                    "face": "Consolas"
+                },
+                "guid": "{ae834b25-c41f-4297-acee-d67a848f42ed}",
+                "name": "cmd"
             }
         ]
     },
