@@ -49,3 +49,24 @@ apps-terminal-based
 -----------------------------------------------------------
 pdf commpressor cli
 https://www.coherentpdf.com/compression.html
+
+
+
+
+-----------------------------------------------------------
+open source 
+
+
+--ghost script 
+https://www.ghostscript.com/
+for pdfs
+
+
+--imagemagick
+https://imagemagick.org/index.php
+for image manpulation
+
+--ffmpeg
+https://ffmpeg.org/
+for videos, audios manpulation
+
