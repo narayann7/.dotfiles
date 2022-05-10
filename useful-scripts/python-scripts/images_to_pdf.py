@@ -40,6 +40,11 @@ def compress_image(file_path):
     img = PIL.Image.open(file_path)
     myHeight, mywidth = img.size
     size = os.stat(file_path).st_size
+    rgb_im = img.convert('RGB')
+    rgb_im.save('audacious.jpg')
+    img=rgb_im
+    print(rgb_im)
+    
 
     if size >= 500000:
         img = img.resize((myHeight, mywidth), PIL.Image.ANTIALIAS)
