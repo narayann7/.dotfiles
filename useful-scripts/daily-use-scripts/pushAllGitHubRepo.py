@@ -7,7 +7,7 @@ import python_paths
 
 def pushAllCode(message, branchName):
     if len(message) <= 1 or message == '':
-        message = "testing commit"
+        message = "commit from script"
     os.system('git add .')
     message = '\''+message+'\''
     os.system(f'git commit -m {message}')

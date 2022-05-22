@@ -57,9 +57,10 @@ https://www.coherentpdf.com/compression.html
 open source 
 
 
---ghost script 
+--ghost script  / ps2pdf
 https://www.ghostscript.com/
 for pdfs
+
 
 
 --imagemagick
