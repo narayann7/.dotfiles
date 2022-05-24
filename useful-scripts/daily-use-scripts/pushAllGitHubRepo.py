@@ -30,7 +30,7 @@ def allRepo(commit_message_for_dump, commit_message_for_script,commit_message_fo
 pushWithMessage = sys.argv[1]
 
 if pushWithMessage == '0':
-    allRepo("testing commit", "testing commit", "testing commit")
+    allRepo("commit from script", "commit from script", "commit from script")
 if pushWithMessage == '1':
     commit_message_for_dump = input("Enter commit message for dump: ")
     if commit_message_for_dump == '':
