@@ -1,0 +1,59 @@
+{
+  "lg": {
+    "prefix": "lg",
+    "body": ["    console.log($1);", ""],
+    "description": "lg"
+  },
+
+  //react specific👇👇
+  "Create Functional React Component": {
+    "prefix": "fc",
+    "body": [
+      "",
+      "",
+      "function $1() {",
+      "  return (",
+      "    <div>",
+      "   $1",
+      "    </div>",
+      "  )",
+      "}",
+      "",
+      "export default $1;"
+    ],
+    "description": "Create Functional React Component"
+  },
+  "import react": {
+    "prefix": "ir",
+    "body": ["", "import {React }from \"react\";", ""],
+    "description": "import react"
+  },
+  "react index js ": {
+    "prefix": "ijs",
+    "body": [
+      "import React from \"react\";",
+      "import ReactDOM from \"react-dom\";",
+      "import App from \"./App\";",
+      "const root = document.getElementById(\"root\");",
+      "ReactDOM.render(<App />, root);"
+    ],
+    "description": "react index js "
+  },
+
+  "use state": {
+    "prefix": "us",
+    "body": [
+      "  const [$1, set$1] = useState($2);",
+      ""
+    ],
+    "description": "use state"
+  }
+  ,
+  "const": {
+    "prefix": "c",
+    "body": [
+      "  const "
+    ],
+    "description": "  const"
+  }
+}
