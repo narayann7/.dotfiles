@@ -1,0 +1,156 @@
+{
+  "Gestures": [
+    {
+      "pattern": [
+        [
+          171,
+          0
+        ]
+      ],
+      "command": {
+        "name": "OpenLinkInNewTab",
+        "settings": {
+          "position": "default",
+          "focus": false,
+          "emptyTab": false
+        }
+      }
+    },
+    {
+      "pattern": [
+        [
+          18,
+          -320
+        ]
+      ],
+      "command": {
+        "name": "NewTab",
+        "settings": {
+          "position": "default",
+          "focus": true
+        }
+      }
+    },
+    {
+      "pattern": [
+        [
+          -36,
+          289
+        ]
+      ],
+      "command": {
+        "name": "CloseTab",
+        "settings": {
+          "nextFocus": "default",
+          "closePinned": true
+        }
+      }
+    },
+    {
+      "pattern": [
+        [
+          139,
+          -184
+        ],
+        [
+          142,
+          200
+        ],
+        [
+          10,
+          6
+        ]
+      ],
+      "command": {
+        "name": "ScrollTop",
+        "settings": {
+          "duration": 100
+        }
+      }
+    },
+    {
+      "pattern": [
+        [
+          30,
+          95
+        ],
+        [
+          28,
+          41
+        ],
+        [
+          81,
+          -137
+        ]
+      ],
+      "command": {
+        "name": "ScrollBottom",
+        "settings": {
+          "duration": 100
+        }
+      }
+    },
+    {
+      "pattern": [
+        [
+          -20,
+          -1
+        ],
+        [
+          -141,
+          62
+        ],
+        [
+          -30,
+          32
+        ],
+        [
+          -5,
+          11
+        ],
+        [
+          4,
+          35
+        ],
+        [
+          52,
+          63
+        ],
+        [
+          40,
+          26
+        ],
+        [
+          143,
+          -2
+        ],
+        [
+          14,
+          -7
+        ]
+      ],
+      "command": {
+        "name": "CopyTabURL"
+      }
+    },
+    {
+      "pattern": [
+        [
+          -303,
+          1
+        ]
+      ],
+      "command": {
+        "name": "RestoreTab",
+        "settings": {
+          "currentWindowOnly": false
+        }
+      }
+    }
+  ],
+  "Settings": {
+    "General": {
+      "theme": "dark"
+    }
+  }
+}
