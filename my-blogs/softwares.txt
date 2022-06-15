@@ -71,3 +71,11 @@ for image manpulation
 https://ffmpeg.org/
 for videos, audios manpulation
 
+
+extensions - browser
+
+Enhancer for YouTube™ -- extra features over youtube
+Copyfish 🐟 Free OCR Software -- copt text from images
+New Tab Tools - good home page 
+
+
