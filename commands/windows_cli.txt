@@ -15,3 +15,4 @@ get-command //to get all powershell commands
 --snippingtool 
 
 --sysdm.cpl
+--shell:startup //for startup runing file

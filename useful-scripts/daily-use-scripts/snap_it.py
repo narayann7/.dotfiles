@@ -12,6 +12,6 @@ move_to_path = 'C:\\Users\\narayann7\\AppData\\Roaming\\Microsoft\\Windows\\"Net
 os.chdir(screenshot_path)
 
 os.system(
-    f'C:\\Users\\narayann7\\Documents\\love\\GitHubRepos\\scripts-n-files\\useful_scripts\\live_pc_scripts\\screen_snap.bat {image_name}')
+    f'C:\\Users\\narayann7\\Documents\\love\\GitHubRepos\\scripts-n-files\\useful-scripts\\daily-use-scripts\\screen_snap.bat {image_name}')
 # os.system(f'COPY  {screenshot_path_with_image_name} {move_to_path}')
 os.remove("screen_snap.exe")

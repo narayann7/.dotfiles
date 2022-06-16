@@ -29,6 +29,17 @@ edit path of debian based file ctrl +l
 -- wt + ct + rightArrow --> change desktop
 -- Win + CTRL + O --> on screen keyboard
 -- wt + h --> speech to text
+-- wt + e --> file browser
+
+--app specific
+
+-- sf + prtSca --> instant screen shot full screen
+
+----windows --ahk
+-- win + s : for sublime 
+-- win + t : for windows terminal 
+-- win + f : for everything
+
 
 
 ---------------------------------------------------------------
