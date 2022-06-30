@@ -1,0 +1,492 @@
+{
+  "guid": "root________",
+  "title": "",
+  "index": 0,
+  "dateAdded": 1655016192456000,
+  "lastModified": 1656494759087000,
+  "id": 1,
+  "typeCode": 2,
+  "type": "text/x-moz-place-container",
+  "root": "placesRoot",
+  "children": [
+    {
+      "guid": "menu________",
+      "title": "menu",
+      "index": 0,
+      "dateAdded": 1655016192456000,
+      "lastModified": 1655020563989000,
+      "id": 2,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "root": "bookmarksMenuFolder"
+    },
+    {
+      "guid": "toolbar_____",
+      "title": "toolbar",
+      "index": 1,
+      "dateAdded": 1655016192456000,
+      "lastModified": 1656494759087000,
+      "id": 3,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "root": "toolbarFolder",
+      "children": [
+        {
+          "guid": "vOCimPWNsUEl",
+          "title": "dev tools💡",
+          "index": 0,
+          "dateAdded": 1655490487116000,
+          "lastModified": 1655490562390000,
+          "id": 50,
+          "typeCode": 2,
+          "type": "text/x-moz-place-container",
+          "children": [
+            {
+              "guid": "JXt6W8HLZilj",
+              "title": "WebToys",
+              "index": 0,
+              "dateAdded": 1655292404290000,
+              "lastModified": 1655490499879000,
+              "id": 44,
+              "typeCode": 1,
+              "iconuri": "https://webtoys.ovine.xyz/images/apple-touch-icon-180x180.png",
+              "type": "text/x-moz-place",
+              "uri": "https://webtoys.ovine.xyz/"
+            },
+            {
+              "guid": "SsrYrmjBWKpL",
+              "title": "DevToysWeb",
+              "index": 1,
+              "dateAdded": 1655292933897000,
+              "lastModified": 1655490501926000,
+              "id": 45,
+              "typeCode": 1,
+              "iconuri": "https://devtoys.vercel.app/icons/apple-touch-icon.png",
+              "type": "text/x-moz-place",
+              "uri": "https://devtoys.vercel.app/"
+            },
+            {
+              "guid": "uc81bbPU00aA",
+              "title": "cheat sheet",
+              "index": 2,
+              "dateAdded": 1655490544526000,
+              "lastModified": 1655490562390000,
+              "id": 51,
+              "typeCode": 1,
+              "iconuri": "https://devhints.io/assets/favicon.png",
+              "type": "text/x-moz-place",
+              "uri": "https://devhints.io/"
+            }
+          ]
+        },
+        {
+          "guid": "sJ9Fvjre5gxK",
+          "title": "articles👀",
+          "index": 1,
+          "dateAdded": 1655020633450000,
+          "lastModified": 1655478872478000,
+          "id": 38,
+          "typeCode": 2,
+          "type": "text/x-moz-place-container",
+          "children": [
+            {
+              "guid": "9FOl0ePJ03Fr",
+              "title": "DEV Community 👩‍💻👨‍💻",
+              "index": 0,
+              "dateAdded": 1644905161759000,
+              "lastModified": 1655020645704000,
+              "id": 18,
+              "typeCode": 1,
+              "iconuri": "https://res.cloudinary.com/practicaldev/image/fetch/s--t7tVouP9--/c_limit,f_png,fl_progressive,q_80,w_192/https://practicaldev-herokuapp-com.freetls.fastly.net/assets/devlogo-pwa-512.png",
+              "type": "text/x-moz-place",
+              "uri": "https://dev.to/"
+            },
+            {
+              "guid": "7mgckUAv2ROu",
+              "title": "daily.dev | The Homepage Developers Deserve",
+              "index": 1,
+              "dateAdded": 1655020410192000,
+              "lastModified": 1655020647947000,
+              "id": 36,
+              "typeCode": 1,
+              "iconuri": "https://app.daily.dev/apple-touch-icon.png",
+              "type": "text/x-moz-place",
+              "uri": "https://app.daily.dev/"
+            },
+            {
+              "guid": "rpXPvQw3W-wy",
+              "title": "sdmg15/Best-websites-a-programmer-should-visit: Some useful websites for programmers.",
+              "index": 2,
+              "dateAdded": 1644761493591000,
+              "lastModified": 1655020649925000,
+              "id": 22,
+              "typeCode": 1,
+              "iconuri": "https://github.com/fluidicon.png",
+              "type": "text/x-moz-place",
+              "uri": "https://github.com/sdmg15/Best-websites-a-programmer-should-visit"
+            },
+            {
+              "guid": "KfTbpp0EsDAZ",
+              "title": "XDA Portal & Forums",
+              "index": 3,
+              "dateAdded": 1645010720436000,
+              "lastModified": 1655020671874000,
+              "id": 19,
+              "typeCode": 1,
+              "iconuri": "https://www.xda-developers.com/apple-touch-icon.png",
+              "type": "text/x-moz-place",
+              "uri": "https://www.xda-developers.com/"
+            },
+            {
+              "guid": "OPsPFocvObvd",
+              "title": "It's FOSS - World's Leading Linux & Open Source Web Portal",
+              "index": 4,
+              "dateAdded": 1655400322583000,
+              "lastModified": 1655403548777000,
+              "id": 47,
+              "typeCode": 1,
+              "iconuri": "https://itsfoss.com/wp-content/uploads/2017/06/cropped-Logo-redsigned-without-name-192x192.png",
+              "type": "text/x-moz-place",
+              "uri": "https://itsfoss.com/"
+            },
+            {
+              "guid": "ZT9Nddb4QVnX",
+              "title": "Better Programming",
+              "index": 5,
+              "dateAdded": 1655477033864000,
+              "lastModified": 1655477039574000,
+              "id": 48,
+              "typeCode": 1,
+              "iconuri": "https://miro.medium.com/fit/c/152/152/1*sHhtYhaCe2Uc3IU0IgKwIQ.png",
+              "type": "text/x-moz-place",
+              "uri": "https://medium.com/better-programming"
+            },
+            {
+              "guid": "rZrkzbfLEAQ0",
+              "title": "FAUN",
+              "index": 6,
+              "dateAdded": 1655478866949000,
+              "lastModified": 1655478872478000,
+              "id": 49,
+              "typeCode": 1,
+              "iconuri": "https://cdn.faun.dev/prod/static/public/favicon/apple-touch-icon.png",
+              "type": "text/x-moz-place",
+              "uri": "https://www.faun.dev/c/"
+            }
+          ]
+        },
+        {
+          "guid": "v3rQptuBD1D5",
+          "title": "doc♥️",
+          "index": 2,
+          "dateAdded": 1655020659379000,
+          "lastModified": 1655020802530000,
+          "id": 39,
+          "typeCode": 2,
+          "type": "text/x-moz-place-container",
+          "children": [
+            {
+              "guid": "ug_6BQXhsk3_",
+              "title": "Google APIs Explorer  |  Google Developers",
+              "index": 0,
+              "dateAdded": 1644459544370000,
+              "lastModified": 1655020665477000,
+              "id": 25,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://developers.google.com/apis-explorer"
+            }
+          ]
+        },
+        {
+          "guid": "xNgfG6FIieha",
+          "title": "playground⚡",
+          "index": 3,
+          "dateAdded": 1655020684236000,
+          "lastModified": 1655020807553000,
+          "id": 40,
+          "typeCode": 2,
+          "type": "text/x-moz-place-container",
+          "children": [
+            {
+              "guid": "n0FAgEPF7L6w",
+              "title": "JavaScript Playground",
+              "index": 0,
+              "dateAdded": 1654799532136000,
+              "lastModified": 1655020806102000,
+              "id": 23,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://playcode.io/javascript"
+            },
+            {
+              "guid": "duXNbnK49sNC",
+              "title": "DartPad",
+              "index": 1,
+              "dateAdded": 1644396732666000,
+              "lastModified": 1655020807553000,
+              "id": 17,
+              "typeCode": 1,
+              "iconuri": "https://dartpad.dev/dart-192.png",
+              "type": "text/x-moz-place",
+              "uri": "https://dartpad.dev/"
+            }
+          ]
+        },
+        {
+          "guid": "JxnEvmE87-eB",
+          "title": "design🖌️",
+          "index": 4,
+          "dateAdded": 1655020475900000,
+          "lastModified": 1656494759087000,
+          "id": 37,
+          "typeCode": 2,
+          "type": "text/x-moz-place-container",
+          "children": [
+            {
+              "guid": "myaFm8VpZbNu",
+              "title": "Haikei",
+              "index": 0,
+              "dateAdded": 1653726225741000,
+              "lastModified": 1655020506167000,
+              "id": 21,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://app.haikei.app/"
+            },
+            {
+              "guid": "mEOzB0a_flaU",
+              "title": "MUI: The React component library you always wanted",
+              "index": 1,
+              "dateAdded": 1650881853539000,
+              "lastModified": 1655020509782000,
+              "id": 20,
+              "typeCode": 1,
+              "iconuri": "https://mui.com/static/icons/180x180.png",
+              "type": "text/x-moz-place",
+              "uri": "https://mui.com/"
+            },
+            {
+              "guid": "yaf9F87G8Oba",
+              "title": "Paletton - The Color Scheme Designer",
+              "index": 2,
+              "dateAdded": 1654429859910000,
+              "lastModified": 1655020651690000,
+              "id": 26,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://paletton.com/#uid=1360u0kcF-c3SUy85L4hmsLlKnQ"
+            },
+            {
+              "guid": "xGl-x4NJOdz1",
+              "title": "Material UI Theme Creator",
+              "index": 3,
+              "dateAdded": 1655051917584000,
+              "lastModified": 1655051931182000,
+              "id": 41,
+              "typeCode": 1,
+              "iconuri": "https://bareynol.github.io/mui-theme-creator/icons/icon-512x512.png?v=95dc11956990a6d04bea6c9ea8298de2",
+              "type": "text/x-moz-place",
+              "uri": "https://bareynol.github.io/mui-theme-creator/"
+            },
+            {
+              "guid": "XyhszGVoGI5g",
+              "title": "React Icons",
+              "index": 4,
+              "dateAdded": 1655051949662000,
+              "lastModified": 1655051952861000,
+              "id": 42,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://react-icons.github.io/react-icons/"
+            },
+            {
+              "guid": "EQqB-4eqDV-p",
+              "title": "portfolio-ideas | A curation of awesome portfolio website ideas for developers and designers to draw inspiration from. Raise a pull request to add more. 💜",
+              "index": 5,
+              "dateAdded": 1655270769477000,
+              "lastModified": 1655270773346000,
+              "id": 43,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://evavic44.github.io/portfolio-ideas/"
+            },
+            {
+              "guid": "wJHVxypQc7Fp",
+              "title": "Dribbble - Discover the World’s Top Designers & Creative Professionals",
+              "index": 6,
+              "dateAdded": 1655357353641000,
+              "lastModified": 1655357358676000,
+              "id": 46,
+              "typeCode": 1,
+              "iconuri": "https://cdn.dribbble.com/assets/dribbble-ball-192-23ecbdf987832231e87c642bb25de821af1ba6734a626c8c259a20a0ca51a247.png",
+              "type": "text/x-moz-place",
+              "uri": "https://dribbble.com/"
+            },
+            {
+              "guid": "k_vWMLO36g_j",
+              "title": "Create beautiful images of your code",
+              "index": 7,
+              "dateAdded": 1655490611466000,
+              "lastModified": 1655490615899000,
+              "id": 52,
+              "typeCode": 1,
+              "iconuri": "https://ray.so/img/icons/favicon-32x32.png",
+              "type": "text/x-moz-place",
+              "uri": "https://ray.so/"
+            },
+            {
+              "guid": "ETYJFVxlQoCX",
+              "title": "Blush: Illustrations for everyone",
+              "index": 8,
+              "dateAdded": 1656494752994000,
+              "lastModified": 1656494759087000,
+              "id": 54,
+              "typeCode": 1,
+              "iconuri": "https://blush.design/apple-touch-icon.png",
+              "type": "text/x-moz-place",
+              "uri": "https://blush.design/"
+            }
+          ]
+        },
+        {
+          "guid": "1SxdBgeWK_J7",
+          "title": "Product Hunt – The best new products in tech.",
+          "index": 5,
+          "dateAdded": 1655490673325000,
+          "lastModified": 1655490673325000,
+          "id": 53,
+          "typeCode": 1,
+          "iconuri": "https://ph-static.imgix.net/ph-ios-icon.png?auto=format&auto=compress",
+          "type": "text/x-moz-place",
+          "uri": "https://www.producthunt.com/"
+        }
+      ]
+    },
+    {
+      "guid": "unfiled_____",
+      "title": "unfiled",
+      "index": 3,
+      "dateAdded": 1655016192456000,
+      "lastModified": 1655020457452000,
+      "id": 5,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "root": "unfiledBookmarksFolder",
+      "children": [
+        {
+          "guid": "8cwXqQLAbY-9",
+          "title": "Digital Art Wallpapers 4K HD",
+          "index": 0,
+          "dateAdded": 1637003138890000,
+          "lastModified": 1655016388000000,
+          "id": 27,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://www.uhdpaper.com/search?q=Digital+Art&by-date=true"
+        },
+        {
+          "guid": "RlflCeCqPnv4",
+          "title": "All commands",
+          "index": 1,
+          "dateAdded": 1639418346299000,
+          "lastModified": 1655016388000000,
+          "id": 28,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://www.commandlinefu.com/commands/browse"
+        },
+        {
+          "guid": "Erb_dqyV2Eeq",
+          "title": "Commands | Linux Command Library",
+          "index": 2,
+          "dateAdded": 1639418390992000,
+          "lastModified": 1655016388000000,
+          "id": 29,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://linuxcommandlibrary.com/"
+        },
+        {
+          "guid": "q-QB_VJivyEG",
+          "title": "Study plan – JetBrains Academy — Learn programming by building your own apps",
+          "index": 3,
+          "dateAdded": 1639812148842000,
+          "lastModified": 1655016388000000,
+          "id": 30,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://hyperskill.org/study-plan"
+        },
+        {
+          "guid": "GmfE3LZnCz-4",
+          "title": "narayann7 (Narayan)",
+          "index": 4,
+          "dateAdded": 1644460398082000,
+          "lastModified": 1655016388000000,
+          "id": 31,
+          "typeCode": 1,
+          "iconuri": "https://github.githubassets.com/favicons/favicon.svg",
+          "type": "text/x-moz-place",
+          "uri": "https://github.com/narayann7"
+        },
+        {
+          "guid": "WwMPRFXvJmkf",
+          "title": "(1) TutFlix - Free Education Community",
+          "index": 5,
+          "dateAdded": 1644461571323000,
+          "lastModified": 1655016388000000,
+          "id": 32,
+          "typeCode": 1,
+          "iconuri": "https://i.imgur.com/NZgWdOq.png",
+          "type": "text/x-moz-place",
+          "uri": "https://tutflix.org/"
+        },
+        {
+          "guid": "kC8riuziEvFH",
+          "title": "DesignLibz — Designer's Library | 400+ useful services and resources for the designer",
+          "index": 6,
+          "dateAdded": 1644509491213000,
+          "lastModified": 1655016388000000,
+          "id": 33,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://designlibz.com/"
+        },
+        {
+          "guid": "LvmDKKYnMR6a",
+          "title": "Access to Thousands of Awesome Free HD Wallpapers",
+          "index": 7,
+          "dateAdded": 1644571502581000,
+          "lastModified": 1655016388000000,
+          "id": 34,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://wallpaperaccess.com/"
+        },
+        {
+          "guid": "duIw1mkbv0Xx",
+          "title": "Free Coupons - Hacksnation.com - Free Courses, Tutorials, Guides, Software, Useful Methods | Community Forum",
+          "index": 8,
+          "dateAdded": 1648742280511000,
+          "lastModified": 1655016388000000,
+          "id": 35,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://hacksnation.com/t/free-coupons"
+        }
+      ]
+    },
+    {
+      "guid": "mobile______",
+      "title": "mobile",
+      "index": 4,
+      "dateAdded": 1655016192460000,
+      "lastModified": 1655016192533000,
+      "id": 6,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "root": "mobileFolder"
+    }
+  ]
+}
