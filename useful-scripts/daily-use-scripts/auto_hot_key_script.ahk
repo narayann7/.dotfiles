@@ -47,6 +47,9 @@ return
 #f::
     Run, C:\Program Files (x86)\Everything 1.5a\Everything.exe
 return
+#k::
+    Run, C:\Program Files\WindowsApps\KDEe.V.KDEConnect_22.401.986.0_x64__7vt06qxq7ptv8\bin\kdeconnect-app.exe
+return
 
 #Space::
     Send, !{F4}
