@@ -13,6 +13,7 @@ SetWorkingDir, %A_ScriptDir%
 ;paste the file on that path , it will run every time the windows start up
 
 ; -----------------------HOT STRINGS--------------------------------
+
 ::lnrg::laxminarayanreddy432@gmail.com
 return
 ::lnr::laxmi narayan reddy
@@ -21,8 +22,21 @@ return
 return
 ::uryg::ureddy.cse.2019@nist.edu
 return
-::dkg::demon432king@gmail.com
+::dkg::demon432king@gmail.com 
 return
+
+
+::phn::8249903317
+return
+::add::Nigam nagar 7th line, ankuli, 760010
+return
+::pin::760010
+return
+::city::Berhampur
+return
+
+
+
 
 ; ^ --> cntrl
 ; # --> windows
