@@ -53,6 +53,11 @@ return
     Run, wt
     WinActivate, skillz
 return
+
+^Enter::
+    Run, flute.exe new C:\Users\narayann7
+return
+
 ; for opening sublime
 #s::
     Run, C:\Program Files\Sublime Text\sublime_text.exe
