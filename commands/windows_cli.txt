@@ -16,3 +16,4 @@ get-command //to get all powershell commands
 
 --sysdm.cpl
 --shell:startup //for startup runing file
+--(gcm cmd).Path //to get path 

@@ -18,8 +18,14 @@ change mouse setting
 https://www.guidingtech.com/display-internet-speed-taskbar-windows/
 
 
---pdfSam !using
+--pdfSam !using !pdfviewer
 https://pdfsam.org/download-pdfsam-basic/
+
+--PDF24 Toolbox !edit ,compress ect
+https://tools.pdf24.org/en/
+
+--pdf master
+
 
 --bandicam screen cast
 
@@ -28,6 +34,8 @@ https://openboard.ch/download.en.html
 
 --for pdf wondershare pdf 
 getintopc
+
+--QuickLook //for qucik prewiew
 
 
 https://www.sumatrapdfreader.org/download-free-pdf-viewer // light weight pdf
