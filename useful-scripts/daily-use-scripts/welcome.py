@@ -6,7 +6,7 @@ def typingPrint(text):
   for character in text:
     sys.stdout.write(character)
     sys.stdout.flush()
-    time.sleep(0.01)
+    time.sleep(0.008)
 typingPrint(welcome_meassage)    
 
 print('\n')
