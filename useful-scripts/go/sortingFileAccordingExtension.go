@@ -11,8 +11,7 @@ func main() {
 }
 func sortFilesAccordingExt() {
 	currentPath, _ := os.Getwd()
-	files, _ := os.ReadDir(currentPath + "/dump")
-	os.Chdir(currentPath + "/dump")
+	files, _ := os.ReadDir(currentPath)
 	createFolders()
 
 	for _, file := range files {
@@ -37,7 +36,6 @@ func sortFilesAccordingExt() {
 		}
 	}
 	removeEmptyFolders()
-	os.Chdir(currentPath)
 }
 
 func createFolders() {
