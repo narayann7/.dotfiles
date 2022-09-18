@@ -10,8 +10,8 @@ func main() {
 	sortFilesAccordingExt()
 }
 func sortFilesAccordingExt() {
-	currentPath, _ := os.Getwd()
-	files, _ := os.ReadDir(currentPath)
+	
+	files, _ := os.ReadDir(".")
 	createFolders()
 
 	for _, file := range files {
@@ -62,8 +62,7 @@ func moveFile(filename string, folder string) {
 }
 
 func removeEmptyFolders() {
-	currentPath, _ := os.Getwd()
-	os.Chdir(currentPath + "/dump")
+
 	files, err := os.ReadDir(".")
 	if err != nil {
 		fmt.Println(err)
