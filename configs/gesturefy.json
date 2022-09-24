@@ -146,11 +146,57 @@
           "currentWindowOnly": false
         }
       }
+    },
+    {
+      "pattern": [
+        [
+          -135,
+          53
+        ],
+        [
+          -82,
+          29
+        ],
+        [
+          -3,
+          10
+        ],
+        [
+          223,
+          25
+        ],
+        [
+          -23,
+          13
+        ],
+        [
+          -211,
+          83
+        ]
+      ],
+      "command": {
+        "name": "SaveScreenshot"
+      }
     }
   ],
   "Settings": {
     "General": {
       "theme": "dark"
+    },
+    "Gesture": {
+      "Trace": {
+        "Style": {
+          "strokeStyle": "#396865db",
+          "lineWidth": 8
+        }
+      }
+    },
+    "Rocker": {
+      "active": true
+    },
+    "Wheel": {
+      "active": true,
+      "mouseButton": "2"
     }
   }
 }
