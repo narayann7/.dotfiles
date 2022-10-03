@@ -3,37 +3,57 @@ package main
 import (
 	"fmt"
 	"os"
+	"regexp"
 	"strconv"
 	"strings"
 )
 
 func main() {
-	// in := bufio.NewReader(os.Stdin)
-	// fmt.Println("Enter the path to rename the files")
-	// var path string
-	// path, _ = in.ReadString('\n')
 
-	fmt.Println("Enter the new name for the files")
-	var renameTo string
-	fmt.Scanln(&renameTo)
+	listArg := os.Args[1:]
+	renameTo := ""
 
-	// os.Chdir(path)
-	files, err := os.ReadDir(".")
-	path, _ := os.Getwd()
-
-	if err != nil {
-		fmt.Println(err)
+	for _, args := range listArg {
+		renameTo += "_" + args
 	}
-	count := 0
-	for _, file := range files {
-		if file.Type().IsRegular() {
+	renameTo = renameTo[1:]
 
-			oldPath := path + "\\" + file.Name()
-			extension := file.Name()[strings.LastIndex(file.Name(), "."):]
-			newPath := path + "\\" + renameTo + "_" + strconv.Itoa(count) + extension
+	if checkVaildFileName(renameTo) {
 
-			os.Rename(oldPath, newPath)
-			count++
+		files, err := os.ReadDir(".")
+		path, _ := os.Getwd()
+
+		if err != nil {
+			fmt.Println(err)
+		}
+		count := 0
+		for _, file := range files {
+			if file.Type().IsRegular() {
+
+				oldPath := path + "\\" + file.Name()
+				lastIndex := strings.LastIndex(file.Name(), ".")
+				if lastIndex == -1 {
+					newPath := path + "\\" + renameTo + "_" + strconv.Itoa(count)
+					os.Rename(oldPath, newPath)
+
+				} else {
+
+					extension := file.Name()[lastIndex:]
+					newPath := path + "\\" + renameTo + "_" + strconv.Itoa(count) + extension
+					os.Rename(oldPath, newPath)
+
+				}
+
+				count++
+			}
 		}
 	}
+
+}
+
+func checkVaildFileName(fileName string) bool {
+	regex := `^([a-zA-Z0-9\s\._-]+)$`
+	match, _ := regexp.MatchString(regex, fileName)
+
+	return match
 }

@@ -71,61 +71,63 @@ func getContent(fileName string) string {
 
 	content := map[string]string{
 		"App.css": `* {
-	padding: 0;
-	margin: 0;
-	scroll-behavior: smooth;
-	box-sizing: border-box;
-  }
-  
-  #root {
-	padding: 0px;
-	margin: 0px;
-  }
-  `,
+			padding: 0;
+			margin: 0;
+			scroll-behavior: smooth;
+			box-sizing: border-box;
+		}
+		
+		#root {
+			padding: 0px;
+			margin: 0px;
+		}
+		`,
 
 		"index.html": `<!DOCTYPE html>
-  <html lang="en">
-	<head>
-	  <meta charset="UTF-8" />
-	  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	  <title>Title</title>
-	</head>
-	<body id="root"></body>
-  </html>
-`,
+		<html lang="en">
+		<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Title</title>
+		</head>
+		<body>
+		<div id="root"></div>
+		</body>
+		</html>
+		`,
 		"App.js": `import React from "react";
-import "./App.css";
+		import "./App.css";
 
-function App() {
-  return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        height: "100vh",
-        width: "100vw",
-      }}
-    >
-      Happy coding!
-    </div>
-  );
-}
+		function App() {
+			return (
+				<div
+				style={{
+					display: "flex",
+					justifyContent: "center",
+					alignItems: "center",
+					height: "100vh",
+					width: "100vw",
+				}}
+				>
+				Happy coding!
+				</div>
+			);
+		}
 
-export default App;
-`,
+		export default App;
+		`,
 		"index.js": `import React from "react";
-import ReactDOM from "react-dom";
-import App from "./App";
-const root = document.getElementById("root");
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  root
-);
-`,
+		import ReactDOM from "react-dom/client";
+		import App from "./App";
+		const root = ReactDOM.createRoot(document.querySelector("#root"));
+		root.render(
+			<React.StrictMode>
+			<App />
+			</React.StrictMode>
+		);
+
+		`,
 	}
 
 	return content[fileName]
