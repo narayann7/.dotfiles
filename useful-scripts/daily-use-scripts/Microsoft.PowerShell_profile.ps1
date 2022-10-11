@@ -1,9 +1,11 @@
 
+
 Clear-Host
-python C:\Users\narayann7\Documents\love\GitHubRepos\scripts-n-files\useful-scripts\daily-use-scripts\welcome.py
+#python #C:\Users\narayann7\Documents\love\GitHubRepos\scripts-n-files\useful-scripts\daily-use-scripts\welcome.py
 
 
 
+#theme shell 
 Import-Module posh-git
 Import-Module oh-my-posh
 Set-PoshPrompt darkblood
@@ -11,6 +13,7 @@ Set-PoshPrompt darkblood
 
 set-alias -name c -value clear
 set-alias -name ec -value echo
+set-alias -name dk -value docker
 set-alias -name l -value ls
 set-alias -name pp -value python
 
@@ -52,7 +55,7 @@ Function dumpl { Set-Location "C:\Users\narayann7\dumpl" }
 Function scripts { Set-Location "C:\Users\narayann7\Documents\love\GitHubRepos\scripts-n-files" }
 Function test { Set-Location "C:\Users\narayann7\Documents\love\GitHubRepos\dump\testing" }
 Function testl { Set-Location "C:\Users\narayann7\testing" }
-Function gb { Set-Location "C:\Users\narayann7\Documents\love\GitHubRepos" }
+Function gr { Set-Location "C:\Users\narayann7\Documents\love\GitHubRepos" }
 
 Function sub {
     Param(
@@ -174,8 +177,41 @@ function envop{
     sysdm.cpl
 }
 
-Set-PSReadLineOption -PredictionSource History
+Function whereis {
+    Param(
+        [Parameter(Mandatory = $true,
+            ValueFromPipeline = $true)]
+        [string[]]
+        $command
+    )
+    (gcm $command).Path
+}
+
+Function idraw {
+    Param(
+        [Parameter(Mandatory = $true,
+            ValueFromPipeline = $true)]
+        [string[]]
+        $name
+    )
+   $filename ="$name.drawio"
+   New-Item $filename
+}
+
+Function edraw {
+    Param(
+        [Parameter(Mandatory = $true,
+            ValueFromPipeline = $true)]
+        [string[]]
+        $name
+    )
+   $filename ="$name.excalidraw"
+   New-Item $filename
+}
+
 Set-PSReadLineOption -PredictionViewStyle ListView
+
+Set-PSReadLineOption -PredictionSource History
 
 
 
