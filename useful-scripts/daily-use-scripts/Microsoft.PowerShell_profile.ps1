@@ -1,7 +1,7 @@
 
 
 Clear-Host
-#python #C:\Users\narayann7\Documents\love\GitHubRepos\scripts-n-files\useful-scripts\daily-use-scripts\welcome.py
+#python #C:\Users\narayann7\Documents\GitHubRepos\scripts-n-files\useful-scripts\daily-use-scripts\welcome.py
 
 
 
@@ -16,6 +16,8 @@ set-alias -name ec -value echo
 set-alias -name dk -value docker
 set-alias -name l -value ls
 set-alias -name pp -value python
+set-alias -name run -value  Invoke-Expression
+
 
 Function e { exit }
 Function pg { flutter pub get }
@@ -50,12 +52,12 @@ Function epvc { code $Profile }
 Function hm { Set-Location ~ }
 Function down { Set-Location "~/Downloads" }
 Function doc { Set-Location "~/Documents" }
-Function dump { Set-Location "C:\Users\narayann7\Documents\love\GitHubRepos\dump" }
+Function dump { Set-Location "C:\Users\narayann7\Documents\GitHubRepos\dump" }
 Function dumpl { Set-Location "C:\Users\narayann7\dumpl" }
-Function scripts { Set-Location "C:\Users\narayann7\Documents\love\GitHubRepos\scripts-n-files" }
-Function test { Set-Location "C:\Users\narayann7\Documents\love\GitHubRepos\dump\testing" }
+Function scripts { Set-Location "C:\Users\narayann7\Documents\GitHubRepos\scripts-n-files" }
+Function test { Set-Location "C:\Users\narayann7\Documents\GitHubRepos\dump\testing" }
 Function testl { Set-Location "C:\Users\narayann7\testing" }
-Function gr { Set-Location "C:\Users\narayann7\Documents\love\GitHubRepos" }
+Function gr { Set-Location "C:\Users\narayann7\Documents\GitHubRepos" }
 
 Function sub {
     Param(
@@ -136,11 +138,11 @@ Function gcp {
 }
 
 Function pushall {
-    $command = "python C:\Users\narayann7\Documents\love\GitHubRepos\scripts-n-files\useful-scripts\daily-use-scripts\pushAllGitHubRepo.py 0"
+    $command = "python C:\Users\narayann7\Documents\GitHubRepos\scripts-n-files\useful-scripts\daily-use-scripts\pushAllGitHubRepo.py 0"
     Invoke-Expression $command
 }
 Function pushallm {
-    $command = "python C:\Users\narayann7\Documents\love\GitHubRepos\scripts-n-files\useful-scripts\daily-use-scripts\pushAllGitHubRepo.py 1"
+    $command = "python C:\Users\narayann7\Documents\GitHubRepos\scripts-n-files\useful-scripts\daily-use-scripts\pushAllGitHubRepo.py 1"
     Invoke-Expression $command
 }
 
@@ -156,6 +158,8 @@ Function hispath {
 Function vs {
     $path = "code $pwd"
     Invoke-Expression $path
+}Function getenv {
+Get-ChildItem Env: | Format-Table -Wrap -AutoSize
 }
 
 Function op7 {
@@ -165,7 +169,7 @@ Function op7 {
         [string[]]
         $port
     )
-    $path = "python C:\Users\narayann7\Documents\love\GitHubRepos\scripts-n-files\useful-scripts\daily-use-scripts\adb_connect_wireless.py $port"
+    $path = "python C:\Users\narayann7\Documents\GitHubRepos\scripts-n-files\useful-scripts\daily-use-scripts\adb_connect_wireless.py $port"
     Invoke-Expression $path
 }
 
