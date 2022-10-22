@@ -1,7 +1,12 @@
 {
+    "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
     "actions": 
     [
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
         {
             "command": 
             {
@@ -15,10 +20,6 @@
             "keys": "ctrl+shift+f"
         },
         {
-            "command": "paste",
-            "keys": "ctrl+v"
-        },
-        {
             "command": 
             {
                 "action": "splitPane",
@@ -28,6 +29,7 @@
             "keys": "alt+shift+d"
         }
     ],
+    "alwaysShowNotificationIcon": true,
     "copyFormatting": "none",
     "copyOnSelect": true,
     "defaultProfile": "{1ae0dd50-d7c1-4fcf-adac-03a086cab1fc}",
@@ -35,12 +37,12 @@
     {
         "defaults": 
         {
-            "acrylicOpacity": 0.48999999999999999,
             "colorScheme": "Campbell",
             "font": 
             {
                 "face": "Century Gothic"
             },
+            "opacity": 49,
             "startingDirectory": "C:\\Users\\narayann7\\Documents\\love",
             "useAcrylic": true
         },
@@ -50,42 +52,47 @@
                 "backgroundImage": "C:\\Users\\narayann7\\Pictures\\coredump\\newcore\\tgbg.png",
                 "backgroundImageOpacity": 1.0,
                 "colorScheme": "Campbell",
-                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "commandline": "C:\\Program Files (x86)\\PowerShell\\7\\pwsh.exe -nologo",
+                "elevate": false,
                 "experimental.retroTerminalEffect": false,
                 "font": 
                 {
-                    "face": "Lucida Sans Typewriter",
+                    "face": "Cascadia Mono",
                     "size": 12,
                     "weight": "normal"
                 },
                 "guid": "{1ae0dd50-d7c1-4fcf-adac-03a086cab1fc}",
-                "historySize": 999999999,
-                "icon": "C:\\Users\\narayann7\\Pictures\\icons\\bash.png",
+                "hidden": false,
+                "historySize": 1900000309,
+                "icon": "C:\\Users\\narayann7\\Pictures\\icons\\setting.png",
                 "name": "Fate",
+                "opacity": 100,
                 "padding": "26",
-                "scrollbarState": "visible",
+                "scrollbarState": "hidden",
                 "startingDirectory": "C:\\Users\\narayann7",
+                "tabTitle": "Fate",
                 "useAcrylic": false
             },
             {
-                "acrylicOpacity": 0.17999999999999999,
                 "backgroundImage": "C:\\Users\\narayann7\\Pictures\\coredump\\newcore\\wallpapersden.com_abstract-gradient-hd-shapes_1920x1080.jpg",
                 "backgroundImageOpacity": 0.20000000000000001,
                 "colorScheme": "Campbell",
-                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "commandline": "C:\\Program Files (x86)\\PowerShell\\7\\pwsh.exe -nologo",
+                "elevate": false,
                 "experimental.retroTerminalEffect": false,
                 "font": 
                 {
-                    "face": "Consolas",
+                    "face": "Cascadia Code",
                     "size": 12,
                     "weight": "normal"
                 },
                 "guid": "{cecdee01-6255-47cd-a38e-90a022751520}",
                 "historySize": 999999999,
-                "icon": "C:\\Users\\narayann7\\Pictures\\icons\\bash.png",
+                "icon": "C:\\Users\\narayann7\\Pictures\\icons\\lp_logo_circle.png",
                 "name": "coreX",
+                "opacity": 87,
                 "padding": "26",
-                "scrollbarState": "visible",
+                "scrollbarState": "hidden",
                 "startingDirectory": "C:\\Users\\narayann7",
                 "tabTitle": "core",
                 "useAcrylic": false
@@ -100,6 +107,31 @@
                 },
                 "guid": "{ae834b25-c41f-4297-acee-d67a848f42ed}",
                 "name": "cmd"
+            },
+            {
+                "backgroundImage": "C:\\Users\\narayann7\\Pictures\\coredump\\newcore\\tgbg.png",
+                "backgroundImageOpacity": 1.0,
+                "colorScheme": "Campbell",
+                "commandline": "C:\\Program Files (x86)\\PowerShell\\7\\pwsh.exe -nologo",
+                "elevate": true,
+                "experimental.retroTerminalEffect": false,
+                "font": 
+                {
+                    "face": "Cascadia Mono",
+                    "size": 12,
+                    "weight": "normal"
+                },
+                "guid": "{61fa27a5-073a-435f-ba16-369b77af20c4}",
+                "hidden": false,
+                "historySize": 1900000309,
+                "icon": "C:\\Users\\narayann7\\Pictures\\icons\\bash.png",
+                "name": "Fate (Admin)",
+                "opacity": 100,
+                "padding": "26",
+                "scrollbarState": "hidden",
+                "startingDirectory": "C:\\Users\\narayann7",
+                "tabTitle": "Fate",
+                "useAcrylic": false
             }
         ]
     },
@@ -288,6 +320,29 @@
             "selectionBackground": "#FFFFFF",
             "white": "#D3D7CF",
             "yellow": "#C4A000"
+        },
+        {
+            "background": "#300A24",
+            "black": "#171421",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#08458F",
+            "brightCyan": "#2C9FB3",
+            "brightGreen": "#26A269",
+            "brightPurple": "#A347BA",
+            "brightRed": "#C01C28",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#A2734C",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#FFFFFF",
+            "green": "#26A269",
+            "name": "Ubuntu-ColorScheme",
+            "purple": "#881798",
+            "red": "#C21A23",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#A2734C"
         },
         {
             "background": "#000000",

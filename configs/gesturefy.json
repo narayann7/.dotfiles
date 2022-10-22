@@ -3,8 +3,8 @@
     {
       "pattern": [
         [
-          171,
-          0
+          209,
+          -215
         ]
       ],
       "command": {
@@ -141,10 +141,7 @@
         ]
       ],
       "command": {
-        "name": "RestoreTab",
-        "settings": {
-          "currentWindowOnly": false
-        }
+        "name": "PageBack"
       }
     },
     {
@@ -176,6 +173,31 @@
       ],
       "command": {
         "name": "SaveScreenshot"
+      }
+    },
+    {
+      "pattern": [
+        [
+          284,
+          -3
+        ]
+      ],
+      "command": {
+        "name": "PageForth"
+      }
+    },
+    {
+      "pattern": [
+        [
+          -150,
+          -238
+        ]
+      ],
+      "command": {
+        "name": "RestoreTab",
+        "settings": {
+          "currentWindowOnly": false
+        }
       }
     }
   ],
