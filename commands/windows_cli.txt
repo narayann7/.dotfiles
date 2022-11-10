@@ -13,3 +13,11 @@ get-command //to get all powershell commands
 --sysdm.cpl
 --shell:startup //for startup runing file
 --(gcm cmd).Path //to get path 
+
+
+myWindows config
+
+ctrl + 1 : gmail //auto hotkey
+ctrl + 2 : layer 1 //mouse key
+ctrl + 3 : layer 2 //mouse key
+

@@ -88,11 +88,16 @@
   "ShouldUsePinyin": false,
   "QuerySearchPrecision": "Regular",
   "AutoUpdates": false,
-  "WindowLeft": 433,
+  "WindowLeft": 432.8,
   "WindowTop": 192,
   "MaxResultsToShow": 10,
-  "ActivateTimes": 124,
-  "CustomPluginHotkeys": [],
+  "ActivateTimes": 328,
+  "CustomPluginHotkeys": [
+    {
+      "Hotkey": "Pause",
+      "ActionKeyword": "g "
+    }
+  ],
   "DontPromptUpdateMsg": false,
   "EnableUpdateLog": false,
   "StartFlowLauncherOnSystemStartup": true,
@@ -184,7 +189,7 @@
         "ActionKeywords": [
           "*"
         ],
-        "Priority": 0,
+        "Priority": 5,
         "Disabled": false
       },
       "D409510CD0D2481F853690A07E6DC426": {
@@ -202,9 +207,9 @@
         "Name": "System Commands",
         "Version": "1.6.2",
         "ActionKeywords": [
-          "*"
+          "f"
         ],
-        "Priority": 0,
+        "Priority": 5,
         "Disabled": false
       },
       "0308FD86DE0A4DEE8D62B9B535370992": {
@@ -222,27 +227,22 @@
         "Name": "Web Searches",
         "Version": "1.5.3",
         "ActionKeywords": [
-          "sc",
           "wiki",
-          "findicon",
-          "facebook",
-          "twitter",
-          "maps",
           "translate",
           "duckduckgo",
           "github",
           "gist",
           "gmail",
           "drive",
-          "wolframalpha",
-          "stackoverflow",
           "lucky",
           "image",
-          "youtube",
           "bing",
           "yahoo",
           "bd",
-          "g"
+          "g",
+          "st",
+          "yt",
+          "icon"
         ],
         "Priority": 0,
         "Disabled": false
