@@ -8,6 +8,7 @@ Clear-Host
 #theme shell 
 Import-Module posh-git
 Import-Module oh-my-posh
+
 Set-PoshPrompt darkblood
 
 
@@ -23,28 +24,28 @@ Function e { exit }
 Function pg { flutter pub get }
 Function ep { sub $Profile }
 
-Function his { sub C:\Users\narayann7\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline\ConsoleHost_history.txt}
+Function his { sub C:\Users\narayann7\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline\ConsoleHost_history.txt }
 
 
 Function touch {
-    Param(
-        [Parameter(Mandatory = $true,
-            ValueFromPipeline = $true)]
-        [string[]]
-        $file_name
-    ) New-Item $file_name
+   Param(
+      [Parameter(Mandatory = $true,
+         ValueFromPipeline = $true)]
+      [string[]]
+      $file_name
+   ) New-Item $file_name
 
 
 }
 
 Function file {
-    Param(
-        [Parameter(Mandatory = $true,
-            ValueFromPipeline = $true)]
-        [string[]]
-        $file_name
-    ) 
-   $command="explorer $file_name"
+   Param(
+      [Parameter(Mandatory = $true,
+         ValueFromPipeline = $true)]
+      [string[]]
+      $file_name
+   ) 
+   $command = "explorer $file_name"
    Invoke-Expression $command
 }
 
@@ -60,156 +61,175 @@ Function testl { Set-Location "C:\Users\narayann7\testing" }
 Function gr { Set-Location "C:\Users\narayann7\Documents\GitHubRepos" }
 
 Function sub {
-    Param(
-        [Parameter(Mandatory = $true,
-            ValueFromPipeline = $true)]
-        [string[]]
-        $message
-    )
-    if ($message -eq "1") {
-        C:\"Program Files"\"Sublime Text"\sublime_text.exe
-    }
-    elseif ($message -eq ".") {
-        C:\"Program Files"\"Sublime Text"\sublime_text.exe $pwd
-    } else {
-        C:\"Program Files"\"Sublime Text"\sublime_text.exe $message
-    }
+   Param(
+      [Parameter(Mandatory = $true,
+         ValueFromPipeline = $true)]
+      [string[]]
+      $message
+   )
+   if ($message -eq "1") {
+      C:\"Program Files"\"Sublime Text"\sublime_text.exe
+   }
+   elseif ($message -eq ".") {
+      C:\"Program Files"\"Sublime Text"\sublime_text.exe $pwd
+   }
+   else {
+      C:\"Program Files"\"Sublime Text"\sublime_text.exe $message
+   }
 
 }
 Function ghinit {
-    Param(
-        [Parameter(Mandatory = $true,
-            ValueFromPipeline = $true)]
-        [string[]]
-        $repo_name,
-          [Parameter(Mandatory = $false,
-            ValueFromPipeline = $true)]
-        [string[]]
-        $type
-   
-    )
+   Param(
+      [Parameter(Mandatory = $true,
+         ValueFromPipeline = $true)]
+      [string[]]
+      $repo_name,
+      [Parameter(Mandatory = $false,
+         ValueFromPipeline = $true)]
+      [string[]]
+      $type
 
-    if($type){  gh repo create   $repo_name --private }
-         else{    gh repo create   $repo_name --public }
+   )
 
-    git init
-    git add .
-    git commit -m "initial commit"
-    git branch -M main
-    git remote add origin https://github.com/narayann7/$repo_name.git
-    git push -u origin main
+   if ($type) { gh repo create   $repo_name --private }
+   else { gh repo create   $repo_name --public }
+
+   git init
+   git add .
+   git commit -m "initial commit"
+   git branch -M main
+   git remote add origin https://github.com/narayann7/$repo_name.git
+   git push -u origin main
 
 
 
 }
 
-
-
+function ffile($name) {
+   Get-ChildItem -recurse -filter "*${name}*" -ErrorAction SilentlyContinue | ForEach-Object {
+      $place_path = $_.directory
+      Write-Output "${place_path}\${_}"
+   }
+}
+function unzip ($file) {
+   Write-Output("Extracting", $file, "to", $pwd)
+   $fullFile = Get-ChildItem -Path $pwd -Filter .\cove.zip | ForEach-Object { $_.FullName }
+   Expand-Archive -Path $fullFile -DestinationPath $pwd
+}
 Function gac {
-    Param(
-        [Parameter(Mandatory = $true,
-            ValueFromPipeline = $true)]
-        [string[]]
-        $message
-    )
-    git add .
-    git commit -m "$message"
+   Param(
+      [Parameter(Mandatory = $true,
+         ValueFromPipeline = $true)]
+      [string[]]
+      $message
+   )
+   git add .
+   git commit -m "$message"
 }
 Function op {
-    Param(
-        [Parameter(Mandatory = $true,
-            ValueFromPipeline = $true)]
-        [string[]]
-        $message
-    )
-  g++ $message
-  .\a.exe
+   Param(
+      [Parameter(Mandatory = $true,
+         ValueFromPipeline = $true)]
+      [string[]]
+      $message
+   )
+   g++ $message
+   .\a.exe
 }
 Function gcp {
-    Param(
-        [Parameter(Mandatory = $true,
-            ValueFromPipeline = $true)]
-        [string[]]
-        $message
-    )
-    git add .
-    git commit -m "$message"
-    git push origin -u main
+   Param(
+      [Parameter(Mandatory = $true,
+         ValueFromPipeline = $true)]
+      [string[]]
+      $message
+   )
+   git add .
+   git commit -m "$message"
+   git push origin -u main
 }
 
 Function pushall {
-    $command = "python C:\Users\narayann7\Documents\GitHubRepos\scripts-n-files\useful-scripts\daily-use-scripts\pushAllGitHubRepo.py 0"
-    Invoke-Expression $command
+   $command = "python C:\Users\narayann7\Documents\GitHubRepos\scripts-n-files\useful-scripts\daily-use-scripts\pushAllGitHubRepo.py 0"
+   Invoke-Expression $command
 }
 Function pushallm {
-    $command = "python C:\Users\narayann7\Documents\GitHubRepos\scripts-n-files\useful-scripts\daily-use-scripts\pushAllGitHubRepo.py 1"
-    Invoke-Expression $command
+   $command = "python C:\Users\narayann7\Documents\GitHubRepos\scripts-n-files\useful-scripts\daily-use-scripts\pushAllGitHubRepo.py 1"
+   Invoke-Expression $command
 }
-
+function pkill($name) {
+   Get-Process $name -ErrorAction SilentlyContinue | Stop-Process
+}
 Function gethis {
-    $path = (Get-PSReadlineOption).HistorySavePath
-    Get-Content $path
+   $path = (Get-PSReadlineOption).HistorySavePath
+   Get-Content $path
 }
 Function hispath {
-    $path = (Get-PSReadlineOption).HistorySavePath
-    Write-Output $path
+   $path = (Get-PSReadlineOption).HistorySavePath
+   Write-Output $path
+}
+Function tr {
+
+   $path1 = "code C:\Users\narayann7\Documents\'node projects'\TrendRooms-client-"
+   $path2 = "code C:\Users\narayann7\Documents\'node projects'\TrendRooms-server-"
+   Invoke-Expression $path1
+   Invoke-Expression $path2
 }
 
 Function vs {
-    $path = "code $pwd"
-    Invoke-Expression $path
+   $path = "code $pwd"
+   Invoke-Expression $path
 }Function getenv {
-Get-ChildItem Env: | Format-Table -Wrap -AutoSize
+   Get-ChildItem Env: | Format-Table -Wrap -AutoSize
 }
 
 Function op7 {
- Param(
-        [Parameter(Mandatory = $true,
-            ValueFromPipeline = $true)]
-        [string[]]
-        $port
-    )
-    $path = "python C:\Users\narayann7\Documents\GitHubRepos\scripts-n-files\useful-scripts\daily-use-scripts\adb_connect_wireless.py $port"
-    Invoke-Expression $path
+   Param(
+      [Parameter(Mandatory = $true,
+         ValueFromPipeline = $true)]
+      [string[]]
+      $port
+   )
+   $path = "python C:\Users\narayann7\Documents\GitHubRepos\scripts-n-files\useful-scripts\daily-use-scripts\adb_connect_wireless.py $port"
+   Invoke-Expression $path
 }
 
 function sudo {
-    Start-Process @args -verb runas
+   Start-Process @args -verb runas
 }
 
-function envop{
-    sysdm.cpl
+function envop {
+   sysdm.cpl
 }
 
 Function whereis {
-    Param(
-        [Parameter(Mandatory = $true,
-            ValueFromPipeline = $true)]
-        [string[]]
-        $command
-    )
-    (gcm $command).Path
+   Param(
+      [Parameter(Mandatory = $true,
+         ValueFromPipeline = $true)]
+      [string[]]
+      $command
+   )
+(gcm $command).Path
 }
 
 Function idraw {
-    Param(
-        [Parameter(Mandatory = $true,
-            ValueFromPipeline = $true)]
-        [string[]]
-        $name
-    )
-   $filename ="$name.drawio"
+   Param(
+      [Parameter(Mandatory = $true,
+         ValueFromPipeline = $true)]
+      [string[]]
+      $name
+   )
+   $filename = "$name.drawio"
    New-Item $filename
 }
 
 Function edraw {
-    Param(
-        [Parameter(Mandatory = $true,
-            ValueFromPipeline = $true)]
-        [string[]]
-        $name
-    )
-   $filename ="$name.excalidraw"
+   Param(
+      [Parameter(Mandatory = $true,
+         ValueFromPipeline = $true)]
+      [string[]]
+      $name
+   )
+   $filename = "$name.excalidraw"
    New-Item $filename
 }
 
