@@ -1,0 +1,15 @@
+[
+	{"keys": ["shift+enter"], "command": "reindent", "args": {"single_line": false}},
+	
+	{ "keys": ["ctrl+down"], "command": "duplicate_line" },
+
+
+  {
+    "keys": ["ctrl+t"],
+    "command": "open_terminal",
+    "args": {
+      "parameters": ["-T", "Custom Window Title"]
+    }
+  },
+  { "keys": ["ctrl+shift+t"], "command": "open_recent_file", "args": {"index" : 0} }
+]
