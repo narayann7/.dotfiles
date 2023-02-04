@@ -1,211 +1,258 @@
 {
-    "C_Cpp.updateChannel": "Insiders",
-    "code-runner.saveFileBeforeRun": true,
-    "code-runner.saveAllFilesBeforeRun": true,
-    "workbench.iconTheme": "material-icon-theme",
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "editor.mouseWheelZoom": true,
-    "code-runner.clearPreviousOutput": true,
-    "code-runner.runInTerminal": true,
-    "liveServer.settings.donotShowInfoMsg": true,
-    "java.semanticHighlighting.enabled": true,
-    "java.configuration.checkProjectSettingsExclusions": false,
-  
-  
-    "dart.openDevTools": "flutter",
-    "dart.debugExternalLibraries": true,
-    "dart.debugSdkLibraries": false,
-    "explorer.confirmDelete": false,
-    "git.autofetch": true,
-    "editor.cursorBlinking": "smooth",
-    "editor.selectionHighlight": true,
-    "editor.suggest.snippetsPreventQuickSuggestions": true,
-    "editor.tabCompletion": "onlySnippets",
-    "editor.wordBasedSuggestions": true,
-    "editor.fontFamily": "",
-    "editor.fontLigatures": true,
-    "editor.letterSpacing": 1.4, 
-    "editor.tabSize": 4,
-    "editor.cursorStyle": "line",
-    "editor.fontWeight": "400",
-    "editor.autoIndent": "full",
-    "editor.lineHeight": 26,
-    "editor.fontSize": 17,
-    "dart.previewFlutterUiGuidesCustomTracking": false,
-    "terminal.integrated.rendererType": "dom",
-    "sync.gist": "fad3b8e7eddf8b2deeb79ddeef2fd47a",
-    "markdown.preview.lineHeight": 2,
-    "workbench.colorCustomizations": {
-        "activityBar.background": "#000000",
-        "activityBar.dropBackground": "#000000",
-        "editor.background": "#060608",
-        "statusBar.background" : "#000000",
-        "sideBar.foreground": "#cbd9dc",
-        "editor.selectionBackground": "#ffffff0e",
-        "toolbar.activeBackground:" : "#000000",
-        "sideBar.background:" : "#000000",
-        "editorCursor.background" : "#000000",
-        "editor.wordHighlightBorder: " : "#000000",
-        "editor.wordHighlightBackground" : "#000000",
-        "editorLineNumber.foreground" : "#525252",
-        "editorGroupHeader.tabsBackground" : "#000000",
-        "window.activeBorder" : "#000000",
-        "editor.wordHighlightStrongBackground" : "#0A0D14",
-        "editor.wordHighlightStrongBorder:": "#000000",
-        "tab.inactiveBackground": "#000000",
-        "tab.activeBackground": "#19181a",
-        "terminal.foreground" : "#ffffff",
-        "terminal.background" : "#060608",
-        "editor.autoClosingBrackets":"always"
-     
-    },
-    "cSpell.userWords": [
-     
-    ],
-    "explorer.confirmDragAndDrop": false,
-  
-    "bracketPairColorizer.activeScopeCSS": [
+  "C_Cpp.updateChannel": "Insiders",
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "workbench.iconTheme": "office-material-icon-theme",
+  "editor.suggestSelection": "first",
+  "editor.mouseWheelZoom": true,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.runInTerminal": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "dart.openDevTools": "flutter",
+  "dart.debugSdkLibraries": false,
+  "explorer.confirmDelete": false,
+  "git.autofetch": true,
+  "editor.cursorBlinking": "expand",
+  "editor.selectionHighlight": true,
+  "editor.suggest.snippetsPreventQuickSuggestions": true,
+  "editor.tabCompletion": "onlySnippets",
+  "editor.wordBasedSuggestions": true,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.letterSpacing": 0.5,
+  "editor.tabSize": 3,
+  "editor.cursorStyle": "line",
+  "editor.fontWeight": "400",
+  "editor.autoIndent": "full",
+  "editor.lineHeight": 26,
+  "editor.fontSize": 15,
+  "dart.previewFlutterUiGuidesCustomTracking": false,
+  "markdown.preview.lineHeight": 2,
+  "cSpell.userWords": [],
+  "explorer.confirmDragAndDrop": false,
 
-        "borderStyle : solid",
-        "borderWidth : 1px",
-        "borderColor : {color}; opacity: 0.5"
-    ],
-    "bracketPairColorizer.consecutivePairColors": [
-
-        "()",
-        "[]",
-        "{}",
-        [
-            "#FFA400",
-            "#FFBF3B",
-            "#21A0A0",
-        ],
-        "Red"
-    ],
-
-
-    "editor.tokenColorCustomizations":{
-      
-        "comments": "#5c5858",
-        "functions": "#EABB44",
-        "keywords": "#21A0A0",
-        "numbers": "#FFFFFF",
-        "strings": "#ffffff",
-        "variables": "#FFFFFF",
-        "types": "#D0CD94",
-        "textMateRules": [
-          
-            {
-                "scope": "constant",
-                "settings": {
-                    "foreground": "#ffffff"
-                },
-            },
-            {
-                "scope": "entity.name.class",
-                "settings": {
-                    "foreground": "#FFE900"
-                },
-            },
-        
-            {
-                "scope": "variable",
-                "settings": {
-                    "foreground": "#ffffff"                },
-            },
-            {
-                "scope": "keyword",
-                "settings": {
-                    "foreground": "#c2c2c2"                },
-            },
-            {
-                "scope": "string",
-                "settings": {
-                    "foreground": "#ffffff"                },
-            },
-            {
-                "scope": "support",
-                "settings": {
-                    "foreground": "#ffffff"                },
-            },
-            {
-                "scope": "meta",
-                "settings": {
-                    "foreground": "#ffffff"                },
-            },
-            {
-                "scope": "markup",
-                "settings": {
-                    "foreground": "#ffffff"                },
-            },
-        ]
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-            "editor.autoClosingBrackets":"always"
-    },
-
-    "editor.quickSuggestions": {
-        "other": true,
-        "comments": false,
-        "strings": false
-      },
-
-    "editor.quickSuggestionsDelay": 1,
-    "workbench.productIconTheme": "fluent-icons",
-    "editor.autoClosingQuotes": "always",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.autoClosingBrackets": "always",
-    "security.workspace.trust.untrustedFiles": "open",
-    "[dart]": {
-        "editor.formatOnSave": true,
-        "editor.formatOnType": true,
-        "editor.rulers": [
-            80
-        ],
-        "editor.selectionHighlight": false,
-        "editor.suggest.snippetsPreventQuickSuggestions": false,
-        "editor.suggestSelection": "first",
-        "editor.tabCompletion": "onlySnippets",
-        "editor.wordBasedSuggestions": false,
-        "editor.defaultFormatter": "Dart-Code.dart-code"
-    },
-    "terminal.integrated.defaultProfile.windows": "PowerShell",
-    "workbench.startupEditor": "none",
-    "terminal.integrated.gpuAcceleration": "off",
-    "workbench.colorTheme": "Ayu Dark",
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "dart.showInspectorNotificationsForWidgetErrors": false,
-    "github.copilot.enable": {
-        "*": true,
-        "yaml": false,
-        "plaintext": false,
-        "markdown": false
-    },
-    "editor.inlineSuggest.enabled": true,
-    "powershell.powerShellDefaultVersion": "Windows PowerShell (x86)",
-    "bracketPairColorizer.depreciation-notice": false,
-    "[javascriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[css]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
+    "editor.tabSize": 1
+  },
 
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
 
-    "editor.codeActionsOnSave":{
-    
-        "source.fixAll": true
+  "editor.quickSuggestionsDelay": 1,
+  "editor.autoClosingQuotes": "always",
+  "editor.autoClosingBrackets": "always",
+  "security.workspace.trust.untrustedFiles": "open",
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    // "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.defaultFormatter": "Dart-Code.dart-code",
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false,
+    "editor.defaultFormatter": "Dart-Code.dart-code"
+  },
+
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "workbench.startupEditor": "none",
+  "terminal.integrated.gpuAcceleration": "off",
+  "workbench.colorTheme": "VSLook",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": true,
+    "markdown": true,
+    "go": false,
+    "javascript": true,
+    "html": true,
+    "cpp": true
+  },
+  "editor.inlineSuggest.enabled": true,
+  "powershell.powerShellDefaultVersion": "Windows PowerShell (x86)",
+  "bracketPairColorizer.depreciation-notice": false,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 6
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  //auto use fixes
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "material-ui-snippets.showNotesOnStartup": false,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.productIconTheme": "material-product-icons",
+  "editor.accessibilitySupport": "off",
+  "explorer.autoReveal": true,
+  "[ahk]": {
+    "editor.defaultFormatter": "mark-wiemer.vscode-autohotkey-plus-plus"
+  },
+
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "go.toolsManagement.autoUpdate": true,
+  "vslook.palette.type": "Material",
+  "settingsSync.ignoredSettings": [],
+  "vslook.palette.colors": {
+    "base": {
+      "1": "#101315"
     }
-    ,
-    "emmet.triggerExpansionOnTab": true,
-    "emmet.includeLanguages": {
-      "javascript": "javascriptreact"
+  },
+  "dart.debugExternalPackageLibraries": false,
+  "[go]": {
+    "editor.defaultFormatter": "golang.go",
+
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "editor.formatOnSave": true,
+  "go.autocompleteUnimportedPackages": true,
+  "go.useCodeSnippetsOnFunctionSuggest": true,
+  "go.useCodeSnippetsOnFunctionSuggestWithoutType": true,
+  "go.formatTool": "default",
+  "vsicons.dontShowNewVersionMessage": true,
+  "excalidraw.theme": "dark",
+  "workbench.editorAssociations": {
+    "*.edraw": "editor.excalidraw",
+    "*.excalidraw": "editor.excalidraw"
+  },
+  "DockerRun.DisableAutoGenerateConfig": true,
+  "editor.inlayHints.fontFamily": "Sen",
+  "terminal.integrated.fontFamily": "Cascadia Mono",
+  "terminal.integrated.fontWeight": "normal",
+  "editor.codeLensFontFamily": "Sen",
+  "scm.inputFontFamily": "Sen",
+  "debug.console.fontFamily": "Sen",
+  "notebook.outputFontFamily": "Sen",
+  "errorLens.fontFamily": "Sen",
+  "errorLens.fontSize": "Sen",
+  "dart.devToolsBrowser": "default",
+  "dart.customDevTools": {},
+  "vscode-office.openOutline": false,
+  "files.associations": {
+    "*.cpp": "cpp"
+  },
+
+  //todo tree
+  "todo-tree.general.tags": [
+    "BUG",
+    "bug",
+    "HACK",
+    "FIX",
+    "fix",
+    "TODO",
+    "todo",
+    "test",
+    "TEST",
+    "NOTE",
+    "note",
+    "DONE",
+    "done",
+    "REVIEW",
+    "review",
+    "remove",
+    "REMOVE"
+  ],
+
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "icon": "check",
+      "type": "line",
+      "foreground": "#ff8c00"
     },
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "todo": {
+      "icon": "check",
+      "type": "line",
+      "foreground": "#ff8c00"
     },
-    "material-ui-snippets.showNotesOnStartup": false
+
+    "FIX": {
+      "foreground": "red",
+      "icon": "alert",
+      "type": "line"
+    },
+    "fix": {
+      "foreground": "red",
+      "icon": "alert",
+      "type": "line"
+    },
+    "TEST": {
+      "foreground": "skyblue",
+      "icon": "check",
+      "type": "line"
+    },
+    "test": {
+      "foreground": "skyblue",
+      "icon": "check",
+      "type": "line"
+    },
+    "NOTE": {
+      "foreground": "lightgreen",
+      "icon": "note",
+      "type": "line"
+    },
+    "note": {
+      "foreground": "lightgreen",
+      "icon": "note",
+      "type": "line"
+    },
+    "DONE": {
+      "foreground": "lightgreen",
+      "icon": "check",
+      "type": "line"
+    },
+    "done": {
+      "foreground": "lightgreen",
+      "icon": "check",
+      "type": "line"
+    },
+    "REVIEW": {
+      "foreground": "green",
+      "icon": "eye",
+      "type": "line"
+    },
+    "review": {
+      "foreground": "green",
+      "icon": "eye",
+      "type": "line"
+    },
+    "REMOVE": {
+      "foreground": "red",
+      "icon": "alert",
+      "type": "line"
+    },
+    "remove": {
+      "foreground": "red",
+      "icon": "alert",
+      "type": "line"
+    }
+  }
 }
