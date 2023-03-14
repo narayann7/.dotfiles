@@ -3,22 +3,20 @@
 export ZSH="$HOME/.oh-my-zsh"
 
 
-ZSH_THEME="robbyrussell"
+# custom zsh PROMPT
+source /home/skillz/myscripts/my_zsh_prompt.zsh
 
 
 plugins=(
-	git
+    git
     zsh-autosuggestions
     # zsh-autocomplete
     fzf-tab
-	)
+    )
 
 
 source $ZSH/oh-my-zsh.sh
 
-# prompt name
-PS1="┌──[ ꜱᴋɪʟʟZ ]
-└──╼ %F{green} $PROMPT%f ➤➤ "
 
 # list of alias
 alias c='clear'
@@ -29,10 +27,13 @@ alias e='exit'
 alias nf='mkdir'
 alias df='rm -r'
 alias sub="/opt/sublime_text/sublime_text"
-alias bc="sub /home/skillz/.bashrc"
+alias rc="sub /home/skillz/.zshrc"
 alias gc="git clone"
 alias pg="flutter pub get"
 alias e="exit"
+alias nf='mkdir'
+alias df='rm -r'
+alias btime='systemd-analyze'
 
 
 export HISTFILESIZE=1000000000
