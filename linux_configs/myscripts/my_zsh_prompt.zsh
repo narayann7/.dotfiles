@@ -3,7 +3,7 @@ setopt prompt_subst
 
 () {
 
-	local PR_USER PR_USER_OP PR_PROMPT PR_HOST
+local PR_USER PR_USER_OP PR_PROMPT PR_HOST
 
 # Check the UID
 if [[ $UID -ne 0 ]]; then # normal user
