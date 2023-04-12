@@ -2,14 +2,11 @@
 HISTFILE=~/.zsh_history
 tmp=$(mktemp)
 
-# Remove duplicate lines from the history file
-awk '!seen[$0]++' "$HISTFILE" > "$tmp"
+# Reverse the order of the history file and remove duplicate lines
+tac "$HISTFILE" | awk '!seen[$0]++' | tac > "$tmp"
 
 # Overwrite the original history file with the deduplicated contents
 mv "$tmp" "$HISTFILE"
 
-# Reload the current Bash session's history from the updated file
+# Reload the current zsh session's history from the updated file
 history -r
-
-
- 

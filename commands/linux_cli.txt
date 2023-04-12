@@ -77,3 +77,4 @@ $ sudo shutdown +15
 //when you are in / dir it will locate all files in the os
 //but when you are in normal dir it will list all file in currrent dir
 
+sudo alternatives --config java to change version
