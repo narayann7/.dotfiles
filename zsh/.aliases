@@ -19,6 +19,9 @@ alias pg="flutter pub get"
 alias push="git push"
 alias pull="git pull"
 alias matrix="cmatrix -C cyan -b -s -u 5"
+alias dk="docker"
+alias dkc="docker-compose"
+alias pp="python3"
 
 #functions alias
 alias e64=encode64

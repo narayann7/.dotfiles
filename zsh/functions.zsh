@@ -1,17 +1,4 @@
-# useful function's
-function gac() {
-    git add .
-    git commit -m $1
-}
-
-function gacp() {
-    # Get the name of the current branch and store it in a variable
-    branch=$(git rev-parse --abbrev-ref HEAD)
-
-    git add .
-    git commit -m $1
-    git push origin $branch
-}
+source "$DOTFILES/scripts/shell/git_and_gh.zsh"
 
 function down() {
     sudo brew install $1
@@ -21,19 +8,6 @@ function remove() {
 }
 function update() {
     sudo brew update
-}
-
-#download single file from github
-function githubFile() {
-
-    GITHUB_URL=$1
-    # change github.com to raw.githubusercontent.com
-    RAW_URL=$(echo $GITHUB_URL | sed 's/github.com/raw.githubusercontent.com/g')
-    #remove /blob from url
-    RAW_URL=$(echo $RAW_URL | sed 's/\/blob//g')
-    #download file
-    wget $RAW_URL
-
 }
 
 encode64() {
