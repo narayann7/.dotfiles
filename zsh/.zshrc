@@ -12,7 +12,6 @@ plugins=(
     zsh-autosuggestions
     zsh-syntax-highlighting
     zsh-autocomplete
-
 )
 
 # all scouces
