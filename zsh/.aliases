@@ -1,0 +1,40 @@
+# list of alias
+alias c="clear"
+alias cc='clear'
+alias ccc='clear'
+alias C='clear'
+alias l='ls -a'
+alias ls='ls -a'
+alias ll='ls -l'
+alias e='exit'
+alias nf='mkdir'
+alias df='rm -r'
+alias e="exit"
+alias nf='mkdir'
+alias df='rm -r'
+
+#apps alias
+alias gc="git clone"
+alias pg="flutter pub get"
+alias push="git push"
+alias pull="git pull"
+alias matrix="cmatrix -C cyan -b -s -u 5"
+
+#functions alias
+alias e64=encode64
+alias ef64=encodefile64
+alias d64=decode64
+
+# alias size="du -sh"
+alias rc="subl ~/.zshrc"
+alias ohmyzsh="open ~/.oh-my-zsh"
+alias historys="subl ~/.zsh_history"
+
+#local dir alias
+alias test="cd ~/testing"
+alias dump="cd ~/dump"
+alias nymble="cd ~/projects/nymble"
+alias repos="cd ~/github:narayann7"
+
+#custom
+alias iphone=" open -a Simulator --args -CurrentDeviceUDID EAF17EE7-1CFE-48D8-8055-383D21160A37"

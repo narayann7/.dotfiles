@@ -1,5 +1,5 @@
 {
-  "version": "2.0.117.3",
+  "version": "2.0.119.1",
   "settings": {
     "blur": 2,
     "brightness": 57,
@@ -50,7 +50,7 @@
     "controlvolumemousebutton": false,
     "convertshorts": true,
     "customcolors": {
-      "--main-color": "#d69101",
+      "--main-color": "#a6a8a0",
       "--main-background": "#000000",
       "--second-background": "#000000",
       "--hover-background": "#000000",
@@ -102,10 +102,10 @@
     "stopvideos": false,
     "theatermode": false,
     "theme": "youtube-deep-dark-custom",
-    "themevariant": "youtube-deep-dark-orange.css",
+    "themevariant": "youtube-deep-dark-firefox-quantum-dark.css",
     "update": 1666199493583,
     "volume": 100,
-    "volumemultiplier": 6,
+    "volumemultiplier": 4,
     "volumevariation": 5,
     "whitelist": "",
     "wideplayer": false,

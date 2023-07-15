@@ -4,7 +4,7 @@ ls *.cpp
 
 --
 ls *.!(cpp)
-#list all file with dont ends with cpp
+#list all file with don't ends with cpp
 
 --
 cp -copy
@@ -75,6 +75,6 @@ $ sudo shutdown +15
 6.locate filename 
 //will locate all files with above filename
 //when you are in / dir it will locate all files in the os
-//but when you are in normal dir it will list all file in currrent dir
+//but when you are in normal dir it will list all file in current dir
 
 sudo alternatives --config java to change version

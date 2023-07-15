@@ -2,7 +2,7 @@
   "C_Cpp.updateChannel": "Insiders",
   "code-runner.saveFileBeforeRun": true,
   "code-runner.saveAllFilesBeforeRun": true,
-  "workbench.iconTheme": "office-material-icon-theme",
+  "workbench.iconTheme": "vscode-icons",
   "editor.suggestSelection": "first",
   "editor.mouseWheelZoom": true,
   "code-runner.clearPreviousOutput": true,
@@ -28,9 +28,11 @@
   "editor.fontSize": 15,
   "dart.previewFlutterUiGuidesCustomTracking": false,
   "markdown.preview.lineHeight": 2,
-  "cSpell.userWords": [],
+  "cSpell.userWords": ["Pallete"],
   "explorer.confirmDragAndDrop": false,
-
+  "editor.maxTokenizationLineLength": 100000,
+  //log line more than 1000
+  "terminal.integrated.scrollback": 100000000,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.autoClosingBrackets": "always",
@@ -101,7 +103,8 @@
   },
   "material-ui-snippets.showNotesOnStartup": false,
   "[python]": {
-    "editor.defaultFormatter": "ms-python.python"
+    "editor.defaultFormatter": "ms-python.python",
+    "editor.formatOnType": true
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "workbench.productIconTheme": "material-product-icons",
@@ -155,7 +158,6 @@
   "errorLens.fontFamily": "Sen",
   "errorLens.fontSize": "Sen",
   "dart.devToolsBrowser": "default",
-  "dart.customDevTools": {},
   "vscode-office.openOutline": false,
   "files.associations": {
     "*.cpp": "cpp"
@@ -254,5 +256,17 @@
       "icon": "alert",
       "type": "line"
     }
-  }
+  },
+  "dart.showInspectorNotificationsForWidgetErrors": false,
+  "dart.cliConsole": "terminal",
+  "debug.console.lineHeight": 20,
+  "intellicodeApiExamples.loggingLevel": "ALL",
+  "terminal.integrated.fontSize": 14,
+  "debug.console.wordWrap": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "dart.warnWhenEditingFilesOutsideWorkspace": false,
+  "workbench.colorCustomizations": {}
 }
