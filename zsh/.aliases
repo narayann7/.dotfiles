@@ -22,6 +22,8 @@ alias matrix="cmatrix -C cyan -b -s -u 5"
 alias dk="docker"
 alias dkc="docker-compose"
 alias pp="python3"
+alias hh=hstr   
+alias ,,="open"
 
 #functions alias
 alias e64=encode64
@@ -35,9 +37,10 @@ alias historys="subl ~/.zsh_history"
 
 #local dir alias
 alias test="cd ~/testing"
-alias dump="cd ~/dump"
+alias dm="cd ~/dump"
 alias nymble="cd ~/projects/nymble"
 alias repos="cd ~/github:narayann7"
+alias brain="cd /Users/narayan/Documents/brainy"
 
 #custom
 alias iphone=" open -a Simulator --args -CurrentDeviceUDID EAF17EE7-1CFE-48D8-8055-383D21160A37"

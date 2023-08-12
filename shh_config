@@ -1,0 +1,9 @@
+Host gitlab.com-work
+HostName gitlab.com
+User git
+IdentityFile /Users/narayan/.ssh/work
+
+Host github.com-null
+HostName github.com
+User git
+IdentityFile /Users/narayan/.ssh/null

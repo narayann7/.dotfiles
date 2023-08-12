@@ -1,7 +1,7 @@
 [
-	{"keys": ["shift+enter"], "command": "reindent", "args": {"single_line": false}},
-	
-	{ "keys": ["ctrl+down"], "command": "duplicate_line" },
+  {"keys": ["shift+enter"], "command": "reindent", "args": {"single_line": false}},
+  
+  { "keys": ["ctrl+down"], "command": "duplicate_line" },
 
 
   {

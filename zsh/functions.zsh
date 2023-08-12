@@ -1,13 +1,13 @@
 source "$DOTFILES/scripts/shell/git_and_gh.zsh"
 
 function down() {
-    sudo brew install $1
+     brew install $1
 }
 function remove() {
-    sudo brew remove $1
+    brew remove $1
 }
 function update() {
-    sudo brew update
+     brew update
 }
 
 encode64() {
@@ -44,4 +44,12 @@ function gpt() {
 
     curl -s -H "$headers" -H "$auth" -d "$body" "$url" |
         jq -r '.choices[0].message.content'
+}
+
+# open local directorys
+srepos() {
+    subl "/Users/narayan/github:narayann7/dotfiles" "/Users/narayan/github:narayann7/dump"
+}
+crepos() {
+    code "/Users/narayan/github:narayann7/dotfiles" "/Users/narayan/github:narayann7/dump"
 }
