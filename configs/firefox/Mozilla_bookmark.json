@@ -1,0 +1,3366 @@
+{
+  "guid": "root________",
+  "title": "",
+  "index": 0,
+  "dateAdded": 1688144281262000,
+  "lastModified": 1692176844573000,
+  "id": 1,
+  "typeCode": 2,
+  "type": "text/x-moz-place-container",
+  "root": "placesRoot",
+  "children": [
+    {
+      "guid": "menu________",
+      "title": "menu",
+      "index": 0,
+      "dateAdded": 1688144281262000,
+      "lastModified": 1688144281360000,
+      "id": 2,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "root": "bookmarksMenuFolder",
+      "children": [
+        {
+          "guid": "6doLoA5yFRir",
+          "title": "Mozilla Firefox",
+          "index": 0,
+          "dateAdded": 1688144281360000,
+          "lastModified": 1691490891000000,
+          "id": 7,
+          "typeCode": 2,
+          "type": "text/x-moz-place-container",
+          "children": [
+            {
+              "guid": "dhuy8rqK2EKq",
+              "title": "Get Help",
+              "index": 0,
+              "dateAdded": 1688144281360000,
+              "lastModified": 1691490891000000,
+              "id": 8,
+              "typeCode": 1,
+              "iconUri": "fake-favicon-uri:https://support.mozilla.org/products/firefox",
+              "type": "text/x-moz-place",
+              "uri": "https://support.mozilla.org/products/firefox"
+            },
+            {
+              "guid": "1Ny_FsxesiPn",
+              "title": "Customize Firefox",
+              "index": 1,
+              "dateAdded": 1688144281360000,
+              "lastModified": 1691490891000000,
+              "id": 9,
+              "typeCode": 1,
+              "iconUri": "fake-favicon-uri:https://support.mozilla.org/kb/customize-firefox-controls-buttons-and-toolbars?utm_source=firefox-browser&utm_medium=default-bookmarks&utm_campaign=customize",
+              "type": "text/x-moz-place",
+              "uri": "https://support.mozilla.org/kb/customize-firefox-controls-buttons-and-toolbars?utm_source=firefox-browser&utm_medium=default-bookmarks&utm_campaign=customize"
+            },
+            {
+              "guid": "XkNgCe2MO6M6",
+              "title": "Get Involved",
+              "index": 2,
+              "dateAdded": 1688144281360000,
+              "lastModified": 1691490891000000,
+              "id": 10,
+              "typeCode": 1,
+              "iconUri": "fake-favicon-uri:https://www.mozilla.org/contribute/",
+              "type": "text/x-moz-place",
+              "uri": "https://www.mozilla.org/contribute/"
+            },
+            {
+              "guid": "eXfKPD1f10oL",
+              "title": "About Us",
+              "index": 3,
+              "dateAdded": 1688144281360000,
+              "lastModified": 1691490891000000,
+              "id": 11,
+              "typeCode": 1,
+              "iconUri": "fake-favicon-uri:https://www.mozilla.org/about/",
+              "type": "text/x-moz-place",
+              "uri": "https://www.mozilla.org/about/"
+            }
+          ]
+        },
+        {
+          "guid": "q9X-WIrHLh70",
+          "title": "19416 Black Color Schemes | Hexcolorpedia",
+          "index": 1,
+          "dateAdded": 1664391238008000,
+          "lastModified": 1688149415000000,
+          "id": 13,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://hexcolorpedia.com/colorschemes/black/"
+        },
+        {
+          "guid": "JoeS3O9hQTeP",
+          "title": "Recent Tags",
+          "index": 2,
+          "dateAdded": 1503756599000000,
+          "lastModified": 1688149415000000,
+          "id": 14,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "place:type=6&sort=14&maxResults=10"
+        }
+      ]
+    },
+    {
+      "guid": "toolbar_____",
+      "title": "toolbar",
+      "index": 1,
+      "dateAdded": 1688144281262000,
+      "lastModified": 1692176844573000,
+      "id": 3,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "root": "toolbarFolder",
+      "children": [
+        {
+          "guid": "weQiU4OwAuin",
+          "title": "random😴",
+          "index": 0,
+          "dateAdded": 1656591077887000,
+          "lastModified": 1691987490029000,
+          "id": 15,
+          "typeCode": 2,
+          "type": "text/x-moz-place-container",
+          "children": [
+            {
+              "guid": "m3iCpKSKZf1u",
+              "title": "profile ",
+              "index": 0,
+              "dateAdded": 1665424843959000,
+              "lastModified": 1691986156199000,
+              "id": 16,
+              "typeCode": 1,
+              "iconUri": "chrome://branding/content/icon32.png",
+              "type": "text/x-moz-place",
+              "uri": "about:profiles"
+            },
+            {
+              "guid": "kSsqNJJo9uLt",
+              "title": "dump",
+              "index": 1,
+              "dateAdded": 1665086474185000,
+              "lastModified": 1691986169491000,
+              "id": 18,
+              "typeCode": 2,
+              "type": "text/x-moz-place-container"
+            },
+            {
+              "guid": "k6ZOX6w4qRfF",
+              "title": "portfolio ",
+              "index": 2,
+              "dateAdded": 1664786644925000,
+              "lastModified": 1691986673176000,
+              "id": 21,
+              "typeCode": 2,
+              "type": "text/x-moz-place-container",
+              "children": [
+                {
+                  "guid": "bu0Hk5omARCA",
+                  "title": "Sunny",
+                  "index": 0,
+                  "dateAdded": 1656591049428000,
+                  "lastModified": 1688149415000000,
+                  "id": 22,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://www.kumarsunny.me/#intro"
+                },
+                {
+                  "guid": "QQeisKTBCOYe",
+                  "title": "Braydon Coyer – full-stack engineer, writer, creative developer.",
+                  "index": 1,
+                  "dateAdded": 1656667780900000,
+                  "lastModified": 1688149415000000,
+                  "id": 23,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://braydoncoyer.dev/"
+                },
+                {
+                  "guid": "qY4d_5SswAHS",
+                  "title": "Lee Robinson – Developer, writer, creator.",
+                  "index": 2,
+                  "dateAdded": 1663414077069000,
+                  "lastModified": 1688149415000000,
+                  "id": 24,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://leerob.io/"
+                },
+                {
+                  "guid": "8RHi2yvDoNsg",
+                  "title": "Brittany Chiang",
+                  "index": 3,
+                  "dateAdded": 1665087387514000,
+                  "lastModified": 1688149415000000,
+                  "id": 25,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://brittanychiang.com/"
+                },
+                {
+                  "guid": "zS9aKtV1XEqB",
+                  "title": "Mano Sriram | Software Engineer",
+                  "index": 4,
+                  "dateAdded": 1667571130699000,
+                  "lastModified": 1688149415000000,
+                  "id": 26,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://www.manosriram.com/"
+                },
+                {
+                  "guid": "o16Rw3ZbGxu3",
+                  "title": "Dale Larroder",
+                  "index": 5,
+                  "dateAdded": 1675584341303000,
+                  "lastModified": 1688149415000000,
+                  "id": 27,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://www.dalelarroder.com/"
+                },
+                {
+                  "guid": "ayyjcPRaFY3O",
+                  "title": "Jo Lienhoop | Bremen, Germany",
+                  "index": 6,
+                  "dateAdded": 1675585393914000,
+                  "lastModified": 1688149415000000,
+                  "id": 28,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://jolienhoop.com/"
+                },
+                {
+                  "guid": "4HZ_bsyVoltj",
+                  "title": "Hasan Basri Bayat",
+                  "index": 7,
+                  "dateAdded": 1681650021771000,
+                  "lastModified": 1688149415000000,
+                  "id": 29,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://rei.codes/"
+                },
+                {
+                  "guid": "p886n1R9X_vr",
+                  "title": "Abdul Rahman - Software Engineer",
+                  "index": 8,
+                  "dateAdded": 1690830025165000,
+                  "lastModified": 1691490891000000,
+                  "id": 311,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://abdulrahman.id/"
+                },
+                {
+                  "guid": "XPF1Q4WLbyGI",
+                  "title": "https://sekharjha.com/",
+                  "index": 9,
+                  "dateAdded": 1690127044716000,
+                  "lastModified": 1691985924032000,
+                  "id": 305,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://sekharjha.com/"
+                },
+                {
+                  "guid": "3lbaCt4OqShh",
+                  "title": "About / Saheb Giri",
+                  "index": 10,
+                  "dateAdded": 1680805833518000,
+                  "lastModified": 1691986619356000,
+                  "id": 38,
+                  "typeCode": 1,
+                  "iconUri": "https://iamsahebgiri.vercel.app/favicon/apple-touch-icon.png",
+                  "type": "text/x-moz-place",
+                  "uri": "https://iamsahebgiri.vercel.app/about"
+                },
+                {
+                  "guid": "frdK-TS7RePy",
+                  "title": "Abarajithan Lv",
+                  "index": 11,
+                  "dateAdded": 1680899078382000,
+                  "lastModified": 1691986673176000,
+                  "id": 39,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://abarajithan.com/"
+                }
+              ]
+            },
+            {
+              "guid": "YLyOhKD4hb-d",
+              "title": "Holopin",
+              "index": 3,
+              "dateAdded": 1665164977637000,
+              "lastModified": 1691987385660000,
+              "id": 36,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://www.holopin.io/"
+            },
+            {
+              "guid": "HsLxvokAbLNe",
+              "title": "Obsidian | Everything I know",
+              "index": 4,
+              "dateAdded": 1680900778341000,
+              "lastModified": 1691986154190000,
+              "id": 17,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://wiki.nikiv.dev/tools/obsidian"
+            }
+          ]
+        },
+        {
+          "guid": "Mji69rhcwIOp",
+          "title": "get it 🔎",
+          "index": 1,
+          "dateAdded": 1661088348582000,
+          "lastModified": 1691916522183000,
+          "id": 45,
+          "typeCode": 2,
+          "type": "text/x-moz-place-container",
+          "children": [
+            {
+              "guid": "5aoLehhqA2rV",
+              "title": "movies",
+              "index": 0,
+              "dateAdded": 1667047403824000,
+              "lastModified": 1688149415000000,
+              "id": 47,
+              "typeCode": 2,
+              "type": "text/x-moz-place-container",
+              "children": [
+                {
+                  "guid": "gHHE4qbQMh-I",
+                  "title": "123Movies - Watch HD Movies Online Free |123movie |123 movies",
+                  "index": 0,
+                  "dateAdded": 1667047088905000,
+                  "lastModified": 1688149415000000,
+                  "id": 48,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://ww1.123moviesfree.net/"
+                },
+                {
+                  "guid": "CzSJHedw80zQ",
+                  "title": "Soap2day - Movies and TV Shows at Soap2day.to - Soaptoday",
+                  "index": 1,
+                  "dateAdded": 1667045746603000,
+                  "lastModified": 1688149415000000,
+                  "id": 49,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://wu.thesoap2day.com/"
+                },
+                {
+                  "guid": "23-n9S2HUFfg",
+                  "title": "Pubfilm view/down",
+                  "index": 2,
+                  "dateAdded": 1667047365179000,
+                  "lastModified": 1688149415000000,
+                  "id": 50,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://pubfilm.one/"
+                },
+                {
+                  "guid": "p8GRngH3D15B",
+                  "title": "Mkvking - Mkvking.com Official",
+                  "index": 3,
+                  "dateAdded": 1661680399160000,
+                  "lastModified": 1688149415000000,
+                  "id": 51,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://111.90.158.128/"
+                },
+                {
+                  "guid": "xcDDSb8J2sua",
+                  "title": "PrimeWire | LetMeWatchThis | 1Channel | Watch Movies Online Free",
+                  "index": 4,
+                  "dateAdded": 1667047779437000,
+                  "lastModified": 1688149415000000,
+                  "id": 52,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://primewire.id/"
+                },
+                {
+                  "guid": "uChUNY3M4kqk",
+                  "title": "Cmovies | Watch Free Movies Online",
+                  "index": 5,
+                  "dateAdded": 1667047583792000,
+                  "lastModified": 1688149415000000,
+                  "id": 53,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "http://cmovies.so/"
+                },
+                {
+                  "guid": "aiqtUoPdXYYb",
+                  "title": "LosMovies | Watch HD Movies Online Free | TV Series",
+                  "index": 6,
+                  "dateAdded": 1667047834613000,
+                  "lastModified": 1688149415000000,
+                  "id": 54,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://losmovies.ru/"
+                },
+                {
+                  "guid": "NnMR8BRXPyD0",
+                  "title": "FMovies Official Website | F movies | Fmovie | Fmovies.to",
+                  "index": 7,
+                  "dateAdded": 1667047904984000,
+                  "lastModified": 1688149415000000,
+                  "id": 55,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://fmoviesto.site/"
+                },
+                {
+                  "guid": "KJr502TFPrAn",
+                  "title": "Rainierland Official Site - Watch Movies Online Free on Rainierland",
+                  "index": 8,
+                  "dateAdded": 1667047984777000,
+                  "lastModified": 1688149415000000,
+                  "id": 56,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://rainierland.to/"
+                },
+                {
+                  "guid": "ooES50XgH74o",
+                  "title": "Watch Movies and Tv Shows Online For Free on Gomovies",
+                  "index": 9,
+                  "dateAdded": 1667048081283000,
+                  "lastModified": 1688149415000000,
+                  "id": 57,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://gomovies.sx/"
+                },
+                {
+                  "guid": "EnB-bFvacZ1T",
+                  "title": "Vegamovies.NL - 300mb 480p 720p and 1080p Movies Download",
+                  "index": 10,
+                  "dateAdded": 1670256654112000,
+                  "lastModified": 1688149415000000,
+                  "id": 58,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://my.vegamovies.fyi/"
+                }
+              ]
+            },
+            {
+              "guid": "GkMpZjX_prX0",
+              "title": "torrents💰",
+              "index": 1,
+              "dateAdded": 1667048783296000,
+              "lastModified": 1691846039780000,
+              "id": 59,
+              "typeCode": 2,
+              "type": "text/x-moz-place-container",
+              "children": [
+                {
+                  "guid": "14Eo8zr5PO2q",
+                  "title": "piratebay",
+                  "index": 0,
+                  "dateAdded": 1667048767292000,
+                  "lastModified": 1688149415000000,
+                  "id": 60,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://thepiratebay.org/index.html"
+                },
+                {
+                  "guid": "g29EX7Ahrgfx",
+                  "title": "Kickass - KAT - Kickasstorrents - Site Status",
+                  "index": 1,
+                  "dateAdded": 1667488566667000,
+                  "lastModified": 1688149415000000,
+                  "id": 61,
+                  "typeCode": 1,
+                  "iconUri": "https://cached1.kickass.help/favicon.ico",
+                  "type": "text/x-moz-place",
+                  "uri": "https://ww1.kickass.help/"
+                },
+                {
+                  "guid": "gGEdbqdaAdHN",
+                  "title": "YTS YIFY MX : The Official Home of YIFY Movies Torrent Download",
+                  "index": 2,
+                  "dateAdded": 1667044898500000,
+                  "lastModified": 1688149415000000,
+                  "id": 62,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://z81z9.com/"
+                },
+                {
+                  "guid": "VQRUoD4IJ6AE",
+                  "title": "1337x",
+                  "index": 3,
+                  "dateAdded": 1667048934698000,
+                  "lastModified": 1688149415000000,
+                  "id": 63,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://1337x.to/home/"
+                },
+                {
+                  "guid": "1o74oZ-2Fb3s",
+                  "title": "KickassTorrents - Download torrents from Kickass Torrents",
+                  "index": 4,
+                  "dateAdded": 1667049175106000,
+                  "lastModified": 1688149415000000,
+                  "id": 64,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://kickasstorrents.to/"
+                },
+                {
+                  "guid": "yJQ0FaMC9R_y",
+                  "title": "Mac Torrents | Torrent Download Apple, Mac OSX Apps & Games Download",
+                  "index": 5,
+                  "dateAdded": 1688886114489000,
+                  "lastModified": 1691490891000000,
+                  "id": 292,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://www.torrentmac.net/"
+                },
+                {
+                  "guid": "VakYQ-491AKE",
+                  "title": "AllMacWorld - MAC Apps One Click Away - All Mac World",
+                  "index": 6,
+                  "dateAdded": 1688889278998000,
+                  "lastModified": 1691490891000000,
+                  "id": 294,
+                  "typeCode": 1,
+                  "iconUri": "https://allmacworld.co/wp-content/uploads/2021/04/cropped-download-192x192.jpg",
+                  "type": "text/x-moz-place",
+                  "uri": "https://allmacworld.co/"
+                },
+                {
+                  "guid": "7TZROHXzWH8X",
+                  "title": "FileCR - THE BIGGEST SOFTWARE STORE",
+                  "index": 7,
+                  "dateAdded": 1689675444773000,
+                  "lastModified": 1691490891000000,
+                  "id": 304,
+                  "typeCode": 1,
+                  "iconUri": "https://filecr.com/favicon.png",
+                  "type": "text/x-moz-place",
+                  "uri": "https://filecr.com/en/?id=962716648000"
+                },
+                {
+                  "guid": "BIJpBlQZ64RL",
+                  "title": "Pure Mac: Software for Mac",
+                  "index": 8,
+                  "dateAdded": 1688886299949000,
+                  "lastModified": 1691846023336000,
+                  "id": 293,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://www.pure-mac.com/"
+                },
+                {
+                  "guid": "wEY2KjtTHRIe",
+                  "title": "Download and sideload Cracked iOS Games and Apps for Free Without Jailbreak with signing service. Cracked macOS Games, Apps. Books for iPhone, iPad and macOS - AppAddict",
+                  "index": 9,
+                  "dateAdded": 1688889789982000,
+                  "lastModified": 1691846039780000,
+                  "id": 295,
+                  "typeCode": 1,
+                  "iconUri": "https://appaddict.org/favicon-appaddict.png",
+                  "type": "text/x-moz-place",
+                  "uri": "https://appaddict.org/"
+                }
+              ]
+            },
+            {
+              "guid": "Wh2lHN-iHwn-",
+              "title": "courses 🤑",
+              "index": 2,
+              "dateAdded": 1667490077268000,
+              "lastModified": 1691916522183000,
+              "id": 65,
+              "typeCode": 2,
+              "type": "text/x-moz-place-container",
+              "children": [
+                {
+                  "guid": "xxJCpsiNwyC_",
+                  "title": "Home - FreetutsDownload.com",
+                  "index": 0,
+                  "dateAdded": 1667490067716000,
+                  "lastModified": 1688149415000000,
+                  "id": 66,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://freetutsdownload.com/"
+                },
+                {
+                  "guid": "sRHMLw6b3Gny",
+                  "title": "TutsNode",
+                  "index": 1,
+                  "dateAdded": 1667487869928000,
+                  "lastModified": 1688149415000000,
+                  "id": 67,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://tutsnode.net/"
+                },
+                {
+                  "guid": "duIw1mkbv0Xx",
+                  "title": "Free Coupons - Hacksnation.com - Free Courses, Tutorials, Guides, Software, Useful Methods | Community Forum",
+                  "index": 2,
+                  "dateAdded": 1648742280511000,
+                  "lastModified": 1688149415000000,
+                  "id": 68,
+                  "typeCode": 1,
+                  "iconUri": "https://hacksnation.com/assets/favicon-wjfxgya5.png",
+                  "type": "text/x-moz-place",
+                  "uri": "https://hacksnation.com/t/free-coupons"
+                },
+                {
+                  "guid": "0Fmqma9Dn-B3",
+                  "title": "Hacksnation.com - Free Courses, Tutorials, Guides, Software, Useful Methods | Community Forum",
+                  "index": 3,
+                  "dateAdded": 1657963417022000,
+                  "lastModified": 1688149415000000,
+                  "id": 69,
+                  "typeCode": 1,
+                  "iconUri": "https://hacksnation.com/assets/favicon-wjfxgya5.png",
+                  "type": "text/x-moz-place",
+                  "uri": "https://hacksnation.com/"
+                },
+                {
+                  "guid": "1FgJ1kAfIHW2",
+                  "title": "Freesoff.com - Free Courses, Software and Useful Methods",
+                  "index": 4,
+                  "dateAdded": 1665083496567000,
+                  "lastModified": 1688149415000000,
+                  "id": 70,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://freesoff.com/"
+                },
+                {
+                  "guid": "54wW7w71efd3",
+                  "title": "Free Course Universe",
+                  "index": 5,
+                  "dateAdded": 1665085035214000,
+                  "lastModified": 1688149415000000,
+                  "id": 71,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://freecourseuniverse.tech/"
+                },
+                {
+                  "guid": "ptBdmq1aW4lk",
+                  "title": "FrontendFreck",
+                  "index": 6,
+                  "dateAdded": 1665085158423000,
+                  "lastModified": 1688149415000000,
+                  "id": 72,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://www.frontendfreck.codes/"
+                },
+                {
+                  "guid": "z0Hvo8-yeCOG",
+                  "title": "GetFreeCourses - Download Udemy Paid Courses For Free",
+                  "index": 7,
+                  "dateAdded": 1667565468484000,
+                  "lastModified": 1688149415000000,
+                  "id": 73,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://getfreecourses.co/"
+                },
+                {
+                  "guid": "UZSOnoxFAJfp",
+                  "title": "Udemy 24 - Paid Courses for Free",
+                  "index": 8,
+                  "dateAdded": 1667565559471000,
+                  "lastModified": 1688149415000000,
+                  "id": 74,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://udemy24.com/"
+                },
+                {
+                  "guid": "3yeDooblCYQj",
+                  "title": "Online Free Course – Download Udemy Paid Course Tutorials Free",
+                  "index": 9,
+                  "dateAdded": 1667565721228000,
+                  "lastModified": 1688149415000000,
+                  "id": 75,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://www.onlinefreecourse.net/"
+                },
+                {
+                  "guid": "ONeleTaQPB_z",
+                  "title": "Deep Learning Recommendation Algorithms with Python",
+                  "index": 10,
+                  "dateAdded": 1667565739192000,
+                  "lastModified": 1688149415000000,
+                  "id": 76,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://freetutsdownload.com/deep-learning-recommendation-algorithms-with-python/"
+                },
+                {
+                  "guid": "v3u6gZavHPE5",
+                  "title": "Home - freeeducationweb",
+                  "index": 11,
+                  "dateAdded": 1667565875724000,
+                  "lastModified": 1688149415000000,
+                  "id": 77,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://freeeducationweb.com/"
+                },
+                {
+                  "guid": "Opi7_XUFcJFF",
+                  "title": "Tutorials Archives | TutsGalaxy",
+                  "index": 12,
+                  "dateAdded": 1667565914390000,
+                  "lastModified": 1688149415000000,
+                  "id": 78,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://tutsgalaxy.net/category/tutorials/"
+                },
+                {
+                  "guid": "TgOth56qSs-T",
+                  "title": "DlCourse – Free Online Courses",
+                  "index": 13,
+                  "dateAdded": 1667565924122000,
+                  "lastModified": 1688149415000000,
+                  "id": 79,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://dlcourse.org/"
+                },
+                {
+                  "guid": "7OwF52Pcg78z",
+                  "title": "GigaCourse - Download Premium Udemy Courses For Free",
+                  "index": 14,
+                  "dateAdded": 1667565934378000,
+                  "lastModified": 1688149415000000,
+                  "id": 80,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://gigacourse.com/?1"
+                },
+                {
+                  "guid": "gldt1pIiLyON",
+                  "title": "[FCO] Free Courses Online Download Torrents and Google Drive Direct Links | FreeCoursesOnline.Me",
+                  "index": 15,
+                  "dateAdded": 1671128146489000,
+                  "lastModified": 1688149415000000,
+                  "id": 81,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://freecoursesonline.me/?1"
+                },
+                {
+                  "guid": "L4pTG9mSgr_M",
+                  "title": "Udemycourses - Download Udemy Courses for Free",
+                  "index": 16,
+                  "dateAdded": 1671128231289000,
+                  "lastModified": 1688149415000000,
+                  "id": 82,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://udemycourses.me/page/2/"
+                },
+                {
+                  "guid": "WwMPRFXvJmkf",
+                  "title": "(1) TutFlix - Free Education Community",
+                  "index": 17,
+                  "dateAdded": 1644461571323000,
+                  "lastModified": 1691916522183000,
+                  "id": 46,
+                  "typeCode": 1,
+                  "iconUri": "https://i.imgur.com/NZgWdOq.png",
+                  "type": "text/x-moz-place",
+                  "uri": "https://tutflix.org/"
+                }
+              ]
+            },
+            {
+              "guid": "6eNvFrJ-LyQA",
+              "title": "- FilePursuit Search",
+              "index": 3,
+              "dateAdded": 1668925842763000,
+              "lastModified": 1688149415000000,
+              "id": 83,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://filepursuit.com/pursuit?q=&type=all&sort=datedesc"
+            },
+            {
+              "guid": "8cwXqQLAbY-9",
+              "title": "Digital Art Wallpapers 4K HD",
+              "index": 4,
+              "dateAdded": 1637003138890000,
+              "lastModified": 1688149415000000,
+              "id": 84,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://www.uhdpaper.com/search?q=Digital+Art&by-date=true"
+            },
+            {
+              "guid": "jKQXZKzj60IC",
+              "title": "Premium Courses Online > Watch and Learn. Educate yourself!",
+              "index": 5,
+              "dateAdded": 1667565134508000,
+              "lastModified": 1688149415000000,
+              "id": 85,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://online-courses.club/"
+            },
+            {
+              "guid": "5AfGevXwEuuD",
+              "title": "Latest Crack or Patch Free Download links",
+              "index": 6,
+              "dateAdded": 1667503620193000,
+              "lastModified": 1688149415000000,
+              "id": 86,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://www.crackingcity.com/"
+            },
+            {
+              "guid": "pyzym2Tb0S9Q",
+              "title": "CrackingPatching | Cracked Software For You",
+              "index": 7,
+              "dateAdded": 1667502789385000,
+              "lastModified": 1688149415000000,
+              "id": 87,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://crackingpatching.org/"
+            },
+            {
+              "guid": "PImvmSo3ANtQ",
+              "title": "Audiobooks Online (Listen Free)",
+              "index": 8,
+              "dateAdded": 1667059849250000,
+              "lastModified": 1688149415000000,
+              "id": 88,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://goldenaudiobooks.com/"
+            },
+            {
+              "guid": "rMV6fGhT0nKs",
+              "title": "Get Into PC - Download Free Your Desired App",
+              "index": 9,
+              "dateAdded": 1661088406985000,
+              "lastModified": 1688149415000000,
+              "id": 89,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://getintopc.com/"
+            },
+            {
+              "guid": "7YUVYuZz9SlC",
+              "title": "FileCR - THE BIGGEST SOFTWARE STORE",
+              "index": 10,
+              "dateAdded": 1661088442289000,
+              "lastModified": 1688149415000000,
+              "id": 90,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://filecr.com/en/?id=95811486624"
+            },
+            {
+              "guid": "hDAgfNOML0kg",
+              "title": "Codemarket | App Templates - Mobile App Templates",
+              "index": 11,
+              "dateAdded": 1661153880631000,
+              "lastModified": 1688149415000000,
+              "id": 91,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://code.market/"
+            },
+            {
+              "guid": "IiLkLzUHbN-B",
+              "title": "PDF Drive - Search and download PDF files for free.",
+              "index": 12,
+              "dateAdded": 1656664648196000,
+              "lastModified": 1688149415000000,
+              "id": 92,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "http://www.pdfdrive.com/"
+            },
+            {
+              "guid": "zqLzDbHJ0rSi",
+              "title": "(6) XDA Forums",
+              "index": 13,
+              "dateAdded": 1665206816227000,
+              "lastModified": 1688149415000000,
+              "id": 93,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://forum.xda-developers.com/"
+            },
+            {
+              "guid": "IIXBmwydIg9T",
+              "title": "4K Wallpapers for Desktop & Mobile Phones",
+              "index": 14,
+              "dateAdded": 1665997138628000,
+              "lastModified": 1688149415000000,
+              "id": 94,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://4kwallpapers.com/"
+            }
+          ]
+        },
+        {
+          "guid": "vOCimPWNsUEl",
+          "title": "dev 💡",
+          "index": 2,
+          "dateAdded": 1655490487116000,
+          "lastModified": 1691986815069000,
+          "id": 95,
+          "typeCode": 2,
+          "type": "text/x-moz-place-container",
+          "children": [
+            {
+              "guid": "M45sAXFNw_GU",
+              "title": "dev tools🔮",
+              "index": 0,
+              "dateAdded": 1664392075979000,
+              "lastModified": 1691490891000000,
+              "id": 96,
+              "typeCode": 2,
+              "type": "text/x-moz-place-container",
+              "children": [
+                {
+                  "guid": "OeO2AuKdKMIq",
+                  "title": "IT Tools - Handy online tools for developers",
+                  "index": 0,
+                  "dateAdded": 1659090243334000,
+                  "lastModified": 1688149415000000,
+                  "id": 97,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://it-tools.tech/"
+                },
+                {
+                  "guid": "M37p9vhf9jVO",
+                  "title": "Home - SmallDev.tools",
+                  "index": 1,
+                  "dateAdded": 1671576068736000,
+                  "lastModified": 1688149415000000,
+                  "id": 98,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://smalldev.tools/"
+                },
+                {
+                  "guid": "U2b79bGkCra3",
+                  "title": "Flutter DevTools",
+                  "index": 2,
+                  "dateAdded": 1668063535658000,
+                  "lastModified": 1688149415000000,
+                  "id": 99,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "http://127.0.0.1:9100/inspector?uri=http%3A%2F%2F127.0.0.1%3A63886%2Ft5ZPHaU1McU%3D%2F&theme=dark&hide=debugger&ide=VSCode"
+                },
+                {
+                  "guid": "zn1XMM9I3eqH",
+                  "title": "handy tools ",
+                  "index": 3,
+                  "dateAdded": 1664607538127000,
+                  "lastModified": 1688149415000000,
+                  "id": 100,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://codebeautify.org/"
+                },
+                {
+                  "guid": "uKmwVWk_dFfH",
+                  "title": "JSON to Dart",
+                  "index": 4,
+                  "dateAdded": 1659008208269000,
+                  "lastModified": 1688149415000000,
+                  "id": 101,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://javiercbk.github.io/json_to_dart/"
+                },
+                {
+                  "guid": "gNwc34WrbVyY",
+                  "title": "Editor | JSON Crack",
+                  "index": 5,
+                  "dateAdded": 1664608156739000,
+                  "lastModified": 1688149415000000,
+                  "id": 102,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://jsoncrack.com/editor"
+                },
+                {
+                  "guid": "JXt6W8HLZilj",
+                  "title": "WebToys",
+                  "index": 6,
+                  "dateAdded": 1655292404290000,
+                  "lastModified": 1688149415000000,
+                  "id": 103,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://webtoys.ovine.xyz/"
+                },
+                {
+                  "guid": "SsrYrmjBWKpL",
+                  "title": "DevToysWeb",
+                  "index": 7,
+                  "dateAdded": 1655292933897000,
+                  "lastModified": 1688149415000000,
+                  "id": 104,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://devtoys.vercel.app/"
+                },
+                {
+                  "guid": "8JpUkvbxeJwh",
+                  "title": "CSS to JS Objects",
+                  "index": 8,
+                  "dateAdded": 1664652209522000,
+                  "lastModified": 1688149415000000,
+                  "id": 105,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://transform.tools/css-to-js"
+                },
+                {
+                  "guid": "-3SeiXPQlrEl",
+                  "title": "Transform",
+                  "index": 9,
+                  "dateAdded": 1671576155882000,
+                  "lastModified": 1688149415000000,
+                  "id": 106,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://transform.tools/"
+                },
+                {
+                  "guid": "5JRtJ3ygCUIv",
+                  "title": "CyberChef",
+                  "index": 10,
+                  "dateAdded": 1688499545554000,
+                  "lastModified": 1691490891000000,
+                  "id": 290,
+                  "typeCode": 1,
+                  "iconUri": "https://gchq.github.io/CyberChef/assets/aecc661b69309290f600.ico",
+                  "type": "text/x-moz-place",
+                  "uri": "https://gchq.github.io/CyberChef/"
+                },
+                {
+                  "guid": "7Pvs9oMcjyE0",
+                  "title": "CyberChef - local",
+                  "index": 11,
+                  "dateAdded": 1688499598965000,
+                  "lastModified": 1691490891000000,
+                  "id": 291,
+                  "typeCode": 1,
+                  "iconUri": "file:///Users/narayan/Projects/apps/CyberChef_v10.4.0/assets/aecc661b69309290f600.ico",
+                  "type": "text/x-moz-place",
+                  "uri": "file:///Users/narayan/Projects/apps/CyberChef_v10.4.0/CyberChef_v10.4.0.html"
+                }
+              ]
+            },
+            {
+              "guid": "C3NQAo8YYzei",
+              "title": "go",
+              "index": 1,
+              "dateAdded": 1668876053948000,
+              "lastModified": 1688149415000000,
+              "id": 107,
+              "typeCode": 2,
+              "type": "text/x-moz-place-container",
+              "children": [
+                {
+                  "guid": "4TqHRJ-99SNX",
+                  "title": "Learn Go: The complete course",
+                  "index": 0,
+                  "dateAdded": 1662486191622000,
+                  "lastModified": 1688149415000000,
+                  "id": 108,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://kps.hashnode.dev/learn-go-the-complete-course"
+                },
+                {
+                  "guid": "zXyMBJe70Qec",
+                  "title": "Gophercises | courses.calhoun.io",
+                  "index": 1,
+                  "dateAdded": 1667486101271000,
+                  "lastModified": 1688149415000000,
+                  "id": 109,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://courses.calhoun.io/courses/cor_gophercises"
+                },
+                {
+                  "guid": "aHl9RhfLh-bG",
+                  "title": "Learn Go",
+                  "index": 2,
+                  "dateAdded": 1664716143826000,
+                  "lastModified": 1688149415000000,
+                  "id": 110,
+                  "typeCode": 1,
+                  "iconUri": "https://www.karanpratapsingh.com/static/favicons/apple-touch-icon.png",
+                  "type": "text/x-moz-place",
+                  "uri": "https://www.karanpratapsingh.com/courses/go"
+                },
+                {
+                  "guid": "zSxYWlBSY725",
+                  "title": "📖 Go Fiber by Examples: Delving into built-in functions - DEV Community 👩‍💻👨‍💻",
+                  "index": 3,
+                  "dateAdded": 1668100703307000,
+                  "lastModified": 1688149415000000,
+                  "id": 111,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://dev.to/koddr/go-fiber-by-examples-delving-into-built-in-functions-1p3k"
+                },
+                {
+                  "guid": "ueXwqhH-kZKs",
+                  "title": "Go by Example",
+                  "index": 4,
+                  "dateAdded": 1664042964033000,
+                  "lastModified": 1688149415000000,
+                  "id": 112,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://gobyexample.com/"
+                },
+                {
+                  "guid": "oSP1uc3jeeLr",
+                  "title": "Learn Go: Top 30 Go Tutorials for Programmers Of All Levels",
+                  "index": 5,
+                  "dateAdded": 1668876133567000,
+                  "lastModified": 1688149415000000,
+                  "id": 113,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://stackify.com/learn-go-tutorials/"
+                },
+                {
+                  "guid": "RSjVaKApe-ch",
+                  "title": "Effective Go - The Go Programming Language",
+                  "index": 6,
+                  "dateAdded": 1669483273767000,
+                  "lastModified": 1688149415000000,
+                  "id": 114,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://go.dev/doc/effective_go"
+                }
+              ]
+            },
+            {
+              "guid": "v3rQptuBD1D5",
+              "title": "doc♥️",
+              "index": 2,
+              "dateAdded": 1655020659379000,
+              "lastModified": 1688149415000000,
+              "id": 115,
+              "typeCode": 2,
+              "type": "text/x-moz-place-container",
+              "children": [
+                {
+                  "guid": "ug_6BQXhsk3_",
+                  "title": "Google APIs Explorer  |  Google Developers",
+                  "index": 0,
+                  "dateAdded": 1644459544370000,
+                  "lastModified": 1688149415000000,
+                  "id": 116,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://developers.google.com/apis-explorer"
+                },
+                {
+                  "guid": "VIJjvoWKBHRc",
+                  "title": "Free for developers",
+                  "index": 1,
+                  "dateAdded": 1661689414369000,
+                  "lastModified": 1688149415000000,
+                  "id": 117,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://free-for.dev/#/"
+                },
+                {
+                  "guid": "uc81bbPU00aA",
+                  "title": "cheat sheet",
+                  "index": 2,
+                  "dateAdded": 1655490544526000,
+                  "lastModified": 1688149415000000,
+                  "id": 118,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://devhints.io/"
+                },
+                {
+                  "guid": "X-kvE71j4ORO",
+                  "title": "Awesome Cheatsheets",
+                  "index": 3,
+                  "dateAdded": 1659522405176000,
+                  "lastModified": 1688149415000000,
+                  "id": 119,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://lecoupa.github.io/awesome-cheatsheets/"
+                },
+                {
+                  "guid": "RlflCeCqPnv4",
+                  "title": "All commands linux",
+                  "index": 4,
+                  "dateAdded": 1639418346299000,
+                  "lastModified": 1688149415000000,
+                  "id": 120,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://www.commandlinefu.com/commands/browse"
+                },
+                {
+                  "guid": "Erb_dqyV2Eeq",
+                  "title": "Commands | Linux Command Library",
+                  "index": 5,
+                  "dateAdded": 1639418390992000,
+                  "lastModified": 1688149415000000,
+                  "id": 121,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://linuxcommandlibrary.com/"
+                }
+              ]
+            },
+            {
+              "guid": "xNgfG6FIieha",
+              "title": "playground⚡",
+              "index": 3,
+              "dateAdded": 1655020684236000,
+              "lastModified": 1688149415000000,
+              "id": 122,
+              "typeCode": 2,
+              "type": "text/x-moz-place-container",
+              "children": [
+                {
+                  "guid": "duXNbnK49sNC",
+                  "title": "DartPad",
+                  "index": 0,
+                  "dateAdded": 1644396732666000,
+                  "lastModified": 1688149415000000,
+                  "id": 123,
+                  "typeCode": 1,
+                  "iconUri": "https://dartpad.dev/dart-192.png",
+                  "type": "text/x-moz-place",
+                  "uri": "https://dartpad.dev/"
+                },
+                {
+                  "guid": "xbN8LkWAr3R8",
+                  "title": "Online C++ Compiler",
+                  "index": 1,
+                  "dateAdded": 1659288594381000,
+                  "lastModified": 1688149415000000,
+                  "id": 124,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://www.programiz.com/cpp-programming/online-compiler/"
+                },
+                {
+                  "guid": "n0FAgEPF7L6w",
+                  "title": "JavaScript Playground",
+                  "index": 2,
+                  "dateAdded": 1654799532136000,
+                  "lastModified": 1688149415000000,
+                  "id": 125,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://playcode.io/javascript"
+                }
+              ]
+            },
+            {
+              "guid": "3gh1zRG76LID",
+              "title": "learning",
+              "index": 4,
+              "dateAdded": 1664392177668000,
+              "lastModified": 1688149415000000,
+              "id": 126,
+              "typeCode": 2,
+              "type": "text/x-moz-place-container",
+              "children": [
+                {
+                  "guid": "loPGa8oqNuPt",
+                  "title": "Courses - Calhoun.io",
+                  "index": 0,
+                  "dateAdded": 1667408724632000,
+                  "lastModified": 1688149415000000,
+                  "id": 127,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://www.calhoun.io/courses"
+                },
+                {
+                  "guid": "sNPGEno8XglI",
+                  "title": "My Knowledge Wiki | Everything I know",
+                  "index": 1,
+                  "dateAdded": 1672558196373000,
+                  "lastModified": 1688149415000000,
+                  "id": 128,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://wiki.nikiv.dev/"
+                },
+                {
+                  "guid": "fJJQJvOgCnBu",
+                  "title": "Home - Flutter Crash Course",
+                  "index": 2,
+                  "dateAdded": 1672671421269000,
+                  "lastModified": 1688149415000000,
+                  "id": 129,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://fluttercrashcourse.com/"
+                },
+                {
+                  "guid": "kNrFPIQ4G8d1",
+                  "title": "System Design: The complete course",
+                  "index": 3,
+                  "dateAdded": 1673211917506000,
+                  "lastModified": 1688149415000000,
+                  "id": 130,
+                  "typeCode": 1,
+                  "iconUri": "https://cdn.hashnode.com/res/hashnode/image/upload/v1611242155728/W3_BYVVVh.png",
+                  "type": "text/x-moz-place",
+                  "uri": "https://kps.hashnode.dev/system-design-the-complete-course"
+                },
+                {
+                  "guid": "kPgib_V5f3k9",
+                  "title": "Home | Linux Journey",
+                  "index": 4,
+                  "dateAdded": 1680907026824000,
+                  "lastModified": 1688149415000000,
+                  "id": 131,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://linuxjourney.com/?ref=producthunt"
+                }
+              ]
+            },
+            {
+              "guid": "kpI0P9Fj9k1c",
+              "title": "How I Start.",
+              "index": 5,
+              "dateAdded": 1690169206818000,
+              "lastModified": 1691985953853000,
+              "id": 307,
+              "typeCode": 1,
+              "iconUri": "https://howistart.org/images/apple-touch-icon.png",
+              "type": "text/x-moz-place",
+              "uri": "https://howistart.org/"
+            }
+          ]
+        },
+        {
+          "guid": "sJ9Fvjre5gxK",
+          "title": "articles👀",
+          "index": 3,
+          "dateAdded": 1655020633450000,
+          "lastModified": 1691987469461000,
+          "id": 132,
+          "typeCode": 2,
+          "type": "text/x-moz-place-container",
+          "children": [
+            {
+              "guid": "Y8luNbED25go",
+              "title": "reading",
+              "index": 0,
+              "dateAdded": 1664786562981000,
+              "lastModified": 1688149415000000,
+              "id": 133,
+              "typeCode": 2,
+              "type": "text/x-moz-place-container",
+              "children": [
+                {
+                  "guid": "XGUMXsj0eNLZ",
+                  "title": "Hashnode",
+                  "index": 0,
+                  "dateAdded": 1664786538011000,
+                  "lastModified": 1688149415000000,
+                  "id": 134,
+                  "typeCode": 1,
+                  "iconUri": "https://cdn.hashnode.com/res/hashnode/image/upload/v1611242155728/W3_BYVVVh.png",
+                  "type": "text/x-moz-place",
+                  "uri": "https://hashnode.com/"
+                },
+                {
+                  "guid": "6MXporM9pjTz",
+                  "title": "DEV Community 👩‍💻👨‍💻",
+                  "index": 1,
+                  "dateAdded": 1664786604231000,
+                  "lastModified": 1688149415000000,
+                  "id": 135,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://dev.to/?signin=true"
+                },
+                {
+                  "guid": "TwfwvI55dmpD",
+                  "title": "daily.dev | The Homepage Developers Deserve",
+                  "index": 2,
+                  "dateAdded": 1664786618034000,
+                  "lastModified": 1688149415000000,
+                  "id": 136,
+                  "typeCode": 1,
+                  "iconUri": "https://app.daily.dev/apple-touch-icon.png",
+                  "type": "text/x-moz-place",
+                  "uri": "https://app.daily.dev/"
+                },
+                {
+                  "guid": "CL0NSaYQmsPO",
+                  "title": "Code With Andrea: Dart, Flutter & Firebase tutorials and courses",
+                  "index": 3,
+                  "dateAdded": 1664976863406000,
+                  "lastModified": 1688149415000000,
+                  "id": 137,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://codewithandrea.com/"
+                }
+              ]
+            },
+            {
+              "guid": "K-vdXgWk_x-h",
+              "title": "Improving Code Quality With Dart Code Metrics | by Dmitry Zhifarsky | Wrike TechClub | Medium",
+              "index": 1,
+              "dateAdded": 1680259202253000,
+              "lastModified": 1691987469461000,
+              "id": 43,
+              "typeCode": 1,
+              "iconUri": "https://miro.medium.com/v2/resize:fill:152:152/1*sHhtYhaCe2Uc3IU0IgKwIQ.png",
+              "type": "text/x-moz-place",
+              "uri": "https://medium.com/wriketechclub/improving-code-quality-with-dart-code-metrics-430a5e3e316d"
+            },
+            {
+              "guid": "lEaue5Ub7E7H",
+              "title": "flutter",
+              "index": 2,
+              "dateAdded": 1680860101924000,
+              "lastModified": 1691986816828000,
+              "id": 140,
+              "typeCode": 2,
+              "type": "text/x-moz-place-container",
+              "children": [
+                {
+                  "guid": "yWKHFovh4LoY",
+                  "title": "Raster thread performance optimization tips | by Filip Hracek | Flutter | Medium",
+                  "index": 0,
+                  "dateAdded": 1680859414971000,
+                  "lastModified": 1688149415000000,
+                  "id": 141,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://medium.com/flutter/raster-thread-performance-optimization-tips-e949b9dbcf06"
+                }
+              ]
+            },
+            {
+              "guid": "B9k08UYduFa7",
+              "title": "WeMakeDevs",
+              "index": 3,
+              "dateAdded": 1691987247840000,
+              "lastModified": 1691987254749000,
+              "id": 318,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://wemakedevs.org/"
+            },
+            {
+              "guid": "o6cTyJyNxyD3",
+              "title": "Explore | Showwcase",
+              "index": 4,
+              "dateAdded": 1680160575300000,
+              "lastModified": 1691986815069000,
+              "id": 42,
+              "typeCode": 1,
+              "iconUri": "https://www.showwcase.com/favicon.png",
+              "type": "text/x-moz-place",
+              "uri": "https://www.showwcase.com/"
+            },
+            {
+              "guid": "SqLhXi-lYmTA",
+              "title": "TypeScript union Type",
+              "index": 5,
+              "dateAdded": 1685250393117000,
+              "lastModified": 1688149415000000,
+              "id": 138,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://www.typescripttutorial.net/typescript-tutorial/typescript-union-type/"
+            },
+            {
+              "guid": "I4UBEbkHZ2TX",
+              "title": "Fossbytes - Technology Simplified",
+              "index": 6,
+              "dateAdded": 1667049312582000,
+              "lastModified": 1688149415000000,
+              "id": 139,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://fossbytes.com/"
+            },
+            {
+              "guid": "rpXPvQw3W-wy",
+              "title": "sdmg15/Best-websites-a-programmer-should-visit: Some useful websites for programmers.",
+              "index": 7,
+              "dateAdded": 1644761493591000,
+              "lastModified": 1688149415000000,
+              "id": 142,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://github.com/sdmg15/Best-websites-a-programmer-should-visit"
+            },
+            {
+              "guid": "Et65iEC_j-tS",
+              "title": "Aggregating DynamoDB data in realtime to list restaurants at Deliveroo",
+              "index": 8,
+              "dateAdded": 1666455117139000,
+              "lastModified": 1688149415000000,
+              "id": 143,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://arpitbhayani.me/system-design/201"
+            },
+            {
+              "guid": "KfTbpp0EsDAZ",
+              "title": "XDA Portal & Forums",
+              "index": 9,
+              "dateAdded": 1645010720436000,
+              "lastModified": 1688149415000000,
+              "id": 144,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://www.xda-developers.com/"
+            },
+            {
+              "guid": "ZT9Nddb4QVnX",
+              "title": "Better Programming",
+              "index": 10,
+              "dateAdded": 1655477033864000,
+              "lastModified": 1688149415000000,
+              "id": 145,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://medium.com/better-programming"
+            },
+            {
+              "guid": "ya20wcaH2D4b",
+              "title": "Top Coding News | gitconnected",
+              "index": 11,
+              "dateAdded": 1656669475283000,
+              "lastModified": 1688149415000000,
+              "id": 146,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://gitconnected.com/news"
+            },
+            {
+              "guid": "ZWP5dNXqBsWO",
+              "title": "Level Up Coding",
+              "index": 12,
+              "dateAdded": 1659508455449000,
+              "lastModified": 1688149415000000,
+              "id": 147,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://levelup.gitconnected.com/"
+            },
+            {
+              "guid": "n9xUbEAp0wTv",
+              "title": "Expert Career Guidance, Interview Tips | FAANGPath",
+              "index": 13,
+              "dateAdded": 1660324171675000,
+              "lastModified": 1688149415000000,
+              "id": 148,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://faangpath.com/blog/"
+            },
+            {
+              "guid": "9VeIuXSqVdYt",
+              "title": "Home Page - Lead Coding",
+              "index": 14,
+              "dateAdded": 1662137697402000,
+              "lastModified": 1688149415000000,
+              "id": 149,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://leadcoding.in/"
+            },
+            {
+              "guid": "0VYIv3V6TZry",
+              "title": "Archives | CSS-Tricks - CSS-Tricks",
+              "index": 15,
+              "dateAdded": 1663930533291000,
+              "lastModified": 1688149415000000,
+              "id": 150,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://css-tricks.com/archives/"
+            },
+            {
+              "guid": "sNj1Lmzpd5dF",
+              "title": "TrendRooms",
+              "index": 16,
+              "dateAdded": 1667740453830000,
+              "lastModified": 1688149415000000,
+              "id": 151,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "http://localhost:3000/home"
+            },
+            {
+              "guid": "yL0HcWjQAPHE",
+              "title": "HackerNoon - read, write and learn about any technology",
+              "index": 17,
+              "dateAdded": 1672409917900000,
+              "lastModified": 1688149415000000,
+              "id": 152,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://hackernoon.com/"
+            },
+            {
+              "guid": "XmhrjKQPx9QD",
+              "title": "The complete guide to System Design in 2023",
+              "index": 18,
+              "dateAdded": 1685704102668000,
+              "lastModified": 1688149415000000,
+              "id": 153,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://www.educative.io/blog/complete-guide-to-system-design"
+            }
+          ]
+        },
+        {
+          "guid": "Md-HzsM78OBD",
+          "title": "tech",
+          "index": 4,
+          "dateAdded": 1691985886288000,
+          "lastModified": 1691985960871000,
+          "id": 315,
+          "typeCode": 2,
+          "type": "text/x-moz-place-container",
+          "children": [
+            {
+              "guid": "reDtzGOElqp7",
+              "title": "mac",
+              "index": 0,
+              "dateAdded": 1691985901972000,
+              "lastModified": 1691985960871000,
+              "id": 316,
+              "typeCode": 2,
+              "type": "text/x-moz-place-container",
+              "children": [
+                {
+                  "guid": "496Up4LfvoxS",
+                  "title": "macReports • Apple Tips, Tutorials, and News",
+                  "index": 0,
+                  "dateAdded": 1689645124559000,
+                  "lastModified": 1691985909322000,
+                  "id": 303,
+                  "typeCode": 1,
+                  "iconUri": "https://macreports.com/wp-content/uploads/2022/10/cropped-site-1-192x192.png",
+                  "type": "text/x-moz-place",
+                  "uri": "https://macreports.com/"
+                },
+                {
+                  "guid": "Vxu3F3jKQWYM",
+                  "title": "MacForge - macEnhance",
+                  "index": 1,
+                  "dateAdded": 1689315389272000,
+                  "lastModified": 1691985957250000,
+                  "id": 298,
+                  "typeCode": 1,
+                  "iconUri": "https://www.macenhance.com/assets/img/61946208.png",
+                  "type": "text/x-moz-place",
+                  "uri": "https://www.macenhance.com/macforge"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "guid": "JxnEvmE87-eB",
+          "title": "design🖌️",
+          "index": 5,
+          "dateAdded": 1655020475900000,
+          "lastModified": 1692176844573000,
+          "id": 154,
+          "typeCode": 2,
+          "type": "text/x-moz-place-container",
+          "children": [
+            {
+              "guid": "XjV8cLkxGuUi",
+              "title": "tools",
+              "index": 0,
+              "dateAdded": 1665347811507000,
+              "lastModified": 1688149415000000,
+              "id": 155,
+              "typeCode": 2,
+              "type": "text/x-moz-place-container",
+              "children": [
+                {
+                  "guid": "myaFm8VpZbNu",
+                  "title": "Haikei",
+                  "index": 0,
+                  "dateAdded": 1653726225741000,
+                  "lastModified": 1688149415000000,
+                  "id": 156,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://app.haikei.app/"
+                },
+                {
+                  "guid": "c7kVYjlY4ffv",
+                  "title": "Meraki UI Free Tailwind CSS Components",
+                  "index": 1,
+                  "dateAdded": 1675542572856000,
+                  "lastModified": 1688149415000000,
+                  "id": 157,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://merakiui.com/"
+                },
+                {
+                  "guid": "z1P6rZm_JM19",
+                  "title": "Mamba UI | components Tailwind CSS",
+                  "index": 2,
+                  "dateAdded": 1675542469962000,
+                  "lastModified": 1688149415000000,
+                  "id": 158,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://mambaui.com/"
+                },
+                {
+                  "guid": "uxvgaEcH92ze",
+                  "title": "Headless UI - Unstyled, fully accessible UI components",
+                  "index": 3,
+                  "dateAdded": 1674994393259000,
+                  "lastModified": 1688149415000000,
+                  "id": 159,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://headlessui.com/"
+                },
+                {
+                  "guid": "8LQSiiqrIVZS",
+                  "title": "Tailwind Toolbox - Free Starter Templates and Components for Tailwind CSS",
+                  "index": 4,
+                  "dateAdded": 1674914368874000,
+                  "lastModified": 1688149415000000,
+                  "id": 160,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://www.tailwindtoolbox.com/"
+                },
+                {
+                  "guid": "pcmnkaYZXjb_",
+                  "title": "Tailwind CSS - Rapidly build modern websites without ever leaving your HTML.",
+                  "index": 5,
+                  "dateAdded": 1674914294013000,
+                  "lastModified": 1688149415000000,
+                  "id": 161,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://tailwindcss.com/"
+                },
+                {
+                  "guid": "2v87rFK7K-VC",
+                  "title": "Tailblocks — Ready-to-use Tailwind CSS blocks",
+                  "index": 6,
+                  "dateAdded": 1674914277631000,
+                  "lastModified": 1688149415000000,
+                  "id": 162,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://tailblocks.cc/"
+                },
+                {
+                  "guid": "xGl-x4NJOdz1",
+                  "title": "Material UI Theme Creator",
+                  "index": 7,
+                  "dateAdded": 1655051917584000,
+                  "lastModified": 1688149415000000,
+                  "id": 163,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://bareynol.github.io/mui-theme-creator/"
+                },
+                {
+                  "guid": "ovtSYf1EBsNu",
+                  "title": " MagicPattern Visual Toolbox",
+                  "index": 8,
+                  "dateAdded": 1665347794775000,
+                  "lastModified": 1688149415000000,
+                  "id": 164,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://www.magicpattern.design/dashboard"
+                },
+                {
+                  "guid": "2g5zvhviR4l0",
+                  "title": "Carbon | Create and share beautiful images of your source code",
+                  "index": 9,
+                  "dateAdded": 1666206689707000,
+                  "lastModified": 1688149415000000,
+                  "id": 165,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://carbon.now.sh/"
+                },
+                {
+                  "guid": "_8CLn0huHLlM",
+                  "title": "Neumorphism/Soft UI CSS shadow generator",
+                  "index": 10,
+                  "dateAdded": 1670589371699000,
+                  "lastModified": 1688149415000000,
+                  "id": 166,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://neumorphism.io/#e0e0e0"
+                },
+                {
+                  "guid": "PHQJWhPz31Wi",
+                  "title": "Micro Digital Tools - mdigi.tools",
+                  "index": 11,
+                  "dateAdded": 1671575978670000,
+                  "lastModified": 1688149415000000,
+                  "id": 167,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://mdigi.tools/"
+                },
+                {
+                  "guid": "Ox1ePy7rYuLQ",
+                  "title": "IRA Design - Illustrations @ Creative Tim",
+                  "index": 12,
+                  "dateAdded": 1671576216193000,
+                  "lastModified": 1688149415000000,
+                  "id": 168,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://iradesign.io/illustrations"
+                },
+                {
+                  "guid": "QmupyBm13uO2",
+                  "title": "BuiltWith Technology Lookup",
+                  "index": 13,
+                  "dateAdded": 1680590740551000,
+                  "lastModified": 1688149415000000,
+                  "id": 169,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://builtwith.com/"
+                }
+              ]
+            },
+            {
+              "guid": "d3rVpKlePSdZ",
+              "title": "color 🥰",
+              "index": 1,
+              "dateAdded": 1664391117749000,
+              "lastModified": 1688149415000000,
+              "id": 170,
+              "typeCode": 2,
+              "type": "text/x-moz-place-container",
+              "children": [
+                {
+                  "guid": "YVn_LozR1YcK",
+                  "title": "Color Scheme Generator - SchemeColor.com",
+                  "index": 0,
+                  "dateAdded": 1664391096670000,
+                  "lastModified": 1688149415000000,
+                  "id": 171,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://www.schemecolor.com/tools/color-scheme-generator"
+                },
+                {
+                  "guid": "JoFdHiFTgeaI",
+                  "title": "gradient-designer",
+                  "index": 1,
+                  "dateAdded": 1674914624425000,
+                  "lastModified": 1688149415000000,
+                  "id": 172,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://gradient-designer.csspost.com/"
+                },
+                {
+                  "guid": "2uU3VEfSmOc6",
+                  "title": "Gradients for Tailwind CSS | Hypercolor",
+                  "index": 2,
+                  "dateAdded": 1674914481512000,
+                  "lastModified": 1688149415000000,
+                  "id": 173,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://hypercolor.dev/"
+                },
+                {
+                  "guid": "ttt2XDe_u2b5",
+                  "title": "Color Palettes for Designers and Artists - Color Hunt",
+                  "index": 3,
+                  "dateAdded": 1664391024692000,
+                  "lastModified": 1688149415000000,
+                  "id": 174,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://colorhunt.co/"
+                },
+                {
+                  "guid": "P0uxeBl71aWQ",
+                  "title": "Coolors - The super fast color palettes generator!",
+                  "index": 4,
+                  "dateAdded": 1664377570592000,
+                  "lastModified": 1688149415000000,
+                  "id": 175,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://coolors.co/"
+                },
+                {
+                  "guid": "e5nEQb9-JHSr",
+                  "title": "Hex Color Codes and Color Palettes",
+                  "index": 5,
+                  "dateAdded": 1664391298669000,
+                  "lastModified": 1688149415000000,
+                  "id": 176,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://hexcolorpedia.com/"
+                },
+                {
+                  "guid": "LdMK1OLwxvO2",
+                  "title": "Colormind - the AI powered color palette generator",
+                  "index": 6,
+                  "dateAdded": 1664391346157000,
+                  "lastModified": 1688149415000000,
+                  "id": 177,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "http://colormind.io/"
+                }
+              ]
+            },
+            {
+              "guid": "mlNrD1HGxja2",
+              "title": "icons🥹",
+              "index": 2,
+              "dateAdded": 1666007938235000,
+              "lastModified": 1691835697717000,
+              "id": 178,
+              "typeCode": 2,
+              "type": "text/x-moz-place-container",
+              "children": [
+                {
+                  "guid": "jYK2TlTnlq4q",
+                  "title": "Free Icons and Icon packs | +500,000 icons to download - Findicons.com",
+                  "index": 0,
+                  "dateAdded": 1666007925168000,
+                  "lastModified": 1688149415000000,
+                  "id": 179,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://findicons.com/"
+                },
+                {
+                  "guid": "HOApHzCyGZ6w",
+                  "title": "Vector Icons and Stickers - PNG, SVG, EPS, PSD and CSS",
+                  "index": 1,
+                  "dateAdded": 1671576429871000,
+                  "lastModified": 1688149415000000,
+                  "id": 180,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://www.flaticon.com/"
+                },
+                {
+                  "guid": "XyhszGVoGI5g",
+                  "title": "React Icons",
+                  "index": 2,
+                  "dateAdded": 1655051949662000,
+                  "lastModified": 1688149415000000,
+                  "id": 181,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://react-icons.github.io/react-icons/"
+                },
+                {
+                  "guid": "_Ak4GBjOOTHA",
+                  "title": "SVG Repo - Free SVG Vectors and Icons",
+                  "index": 3,
+                  "dateAdded": 1668754340961000,
+                  "lastModified": 1688149415000000,
+                  "id": 182,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://www.svgrepo.com/"
+                },
+                {
+                  "guid": "q3Fw9lBtrdQY",
+                  "title": "Heroicons",
+                  "index": 4,
+                  "dateAdded": 1671576409100000,
+                  "lastModified": 1688149415000000,
+                  "id": 183,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://heroicons.com/"
+                },
+                {
+                  "guid": "rVPpAT3KWqZb",
+                  "title": "IconBrew - Open source icons for everyone",
+                  "index": 5,
+                  "dateAdded": 1691835679164000,
+                  "lastModified": 1691835686028000,
+                  "id": 313,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://iconbrew.com/"
+                },
+                {
+                  "guid": "Z9yKw9geNM_E",
+                  "title": "Over 5000+ free icons for macOS Monterey, Big Sur & iOS - massive app icon pack",
+                  "index": 6,
+                  "dateAdded": 1691835693503000,
+                  "lastModified": 1691835697717000,
+                  "id": 314,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://macosicons.com/#/"
+                }
+              ]
+            },
+            {
+              "guid": "uTBVOJ-uBqdE",
+              "title": "tailwind",
+              "index": 3,
+              "dateAdded": 1692176835694000,
+              "lastModified": 1692176844573000,
+              "id": 323,
+              "typeCode": 2,
+              "type": "text/x-moz-place-container",
+              "children": [
+                {
+                  "guid": "nwwufQKSyAuk",
+                  "title": "shadcn/ui",
+                  "index": 0,
+                  "dateAdded": 1692176812525000,
+                  "lastModified": 1692176844573000,
+                  "id": 322,
+                  "typeCode": 1,
+                  "iconUri": "https://ui.shadcn.com/apple-touch-icon.png",
+                  "type": "text/x-moz-place",
+                  "uri": "https://ui.shadcn.com/"
+                }
+              ]
+            },
+            {
+              "guid": "N3K7tKHl8cRb",
+              "title": "playground",
+              "index": 4,
+              "dateAdded": 1667055022484000,
+              "lastModified": 1688149415000000,
+              "id": 184,
+              "typeCode": 2,
+              "type": "text/x-moz-place-container",
+              "children": [
+                {
+                  "guid": "uIjRtj3v18Hm",
+                  "title": "Excalidraw",
+                  "index": 0,
+                  "dateAdded": 1665337852288000,
+                  "lastModified": 1688149415000000,
+                  "id": 185,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://excalidraw.com/"
+                },
+                {
+                  "guid": "ae_ke6e5B6DJ",
+                  "title": "Untitled Diagram.drawio - diagrams.net",
+                  "index": 1,
+                  "dateAdded": 1659767869125000,
+                  "lastModified": 1688149415000000,
+                  "id": 186,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://app.diagrams.net/#G1j5lrOB2tMA0qvtsu2hY_KdTDBIbVB0Qj"
+                },
+                {
+                  "guid": "GSMvPKKj3_mv",
+                  "title": "StackEdit",
+                  "index": 2,
+                  "dateAdded": 1673556291195000,
+                  "lastModified": 1688149415000000,
+                  "id": 187,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://stackedit.io/app#"
+                }
+              ]
+            },
+            {
+              "guid": "BgTiNjqt6CQf",
+              "title": "wallie",
+              "index": 5,
+              "dateAdded": 1675657628366000,
+              "lastModified": 1691490891000000,
+              "id": 188,
+              "typeCode": 2,
+              "type": "text/x-moz-place-container",
+              "children": [
+                {
+                  "guid": "gbtYFSemyCl2",
+                  "title": "Awesome Wallpapers - wallhaven.cc",
+                  "index": 0,
+                  "dateAdded": 1675658587423000,
+                  "lastModified": 1688149415000000,
+                  "id": 189,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://wallhaven.cc/"
+                },
+                {
+                  "guid": "YfQOEVTRV2m1",
+                  "title": "10000+ All Mac Wallpapers Free HD Download | AllMacWallpaper",
+                  "index": 1,
+                  "dateAdded": 1690308549640000,
+                  "lastModified": 1691490891000000,
+                  "id": 308,
+                  "typeCode": 1,
+                  "iconUri": "https://res.allmacwallpaper.com/content/images/icon.png",
+                  "type": "text/x-moz-place",
+                  "uri": "https://www.allmacwallpaper.com/"
+                },
+                {
+                  "guid": "DRrDv5aTPyfr",
+                  "title": "hdqwalls.com Best Source For HD,4k,5k,8k Wallpapers",
+                  "index": 2,
+                  "dateAdded": 1690311156059000,
+                  "lastModified": 1691490891000000,
+                  "id": 309,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://hdqwalls.com/"
+                }
+              ]
+            },
+            {
+              "guid": "WDm84cYq-YRm",
+              "title": "illustrations",
+              "index": 6,
+              "dateAdded": 1691986288072000,
+              "lastModified": 1691986328037000,
+              "id": 317,
+              "typeCode": 2,
+              "type": "text/x-moz-place-container",
+              "children": [
+                {
+                  "guid": "VtYrjNecQV9S",
+                  "title": "designstripe | Create & customize beautiful illustrations",
+                  "index": 0,
+                  "dateAdded": 1657964037080000,
+                  "lastModified": 1691986298631000,
+                  "id": 31,
+                  "typeCode": 1,
+                  "iconUri": "https://assets.website-files.com/60f85e33b5a89c7e65d83755/623498ecd63b5c1714909503_touch-icon.png",
+                  "type": "text/x-moz-place",
+                  "uri": "https://designstripe.com/"
+                },
+                {
+                  "guid": "ETYJFVxlQoCX",
+                  "title": "Blush: Illustrations for everyone",
+                  "index": 1,
+                  "dateAdded": 1656494752994000,
+                  "lastModified": 1691986328037000,
+                  "id": 198,
+                  "typeCode": 1,
+                  "iconUri": "https://blush.design/apple-touch-icon.png",
+                  "type": "text/x-moz-place",
+                  "uri": "https://blush.design/"
+                }
+              ]
+            },
+            {
+              "guid": "YvpH9wVv2kaa",
+              "title": "Complete List |Hugo Themes",
+              "index": 7,
+              "dateAdded": 1672397602658000,
+              "lastModified": 1688149415000000,
+              "id": 190,
+              "typeCode": 1,
+              "iconUri": "https://themes.gohugo.io/apple-touch-icon.png",
+              "type": "text/x-moz-place",
+              "uri": "https://themes.gohugo.io/"
+            },
+            {
+              "guid": "bicisW8uLaOs",
+              "title": "Unlimited UI Kits, Icons, Templates, Themes and More - UpLabs",
+              "index": 8,
+              "dateAdded": 1671576534237000,
+              "lastModified": 1688149415000000,
+              "id": 191,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://www.uplabs.com/"
+            },
+            {
+              "guid": "HIHi69GfyfU1",
+              "title": "Super Useful CSS Resources 🌈 - DEV Community 👩‍💻👨‍💻",
+              "index": 9,
+              "dateAdded": 1670590287899000,
+              "lastModified": 1688149415000000,
+              "id": 192,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://dev.to/lissy93/super-useful-css-resources-1ba3"
+            },
+            {
+              "guid": "ZZCHcxtIWEBd",
+              "title": "DrawKit - Beautiful vector illustrations",
+              "index": 10,
+              "dateAdded": 1665344533643000,
+              "lastModified": 1688149415000000,
+              "id": 193,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://www.drawkit.com/"
+            },
+            {
+              "guid": "mEOzB0a_flaU",
+              "title": "MUI: The React component library you always wanted",
+              "index": 11,
+              "dateAdded": 1650881853539000,
+              "lastModified": 1688149415000000,
+              "id": 194,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://mui.com/"
+            },
+            {
+              "guid": "yaf9F87G8Oba",
+              "title": "Paletton - The Color Scheme Designer",
+              "index": 12,
+              "dateAdded": 1654429859910000,
+              "lastModified": 1688149415000000,
+              "id": 195,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://paletton.com/#uid=1360u0kcF-c3SUy85L4hmsLlKnQ"
+            },
+            {
+              "guid": "wJHVxypQc7Fp",
+              "title": "Dribbble - Discover the World’s Top Designers & Creative Professionals",
+              "index": 13,
+              "dateAdded": 1655357353641000,
+              "lastModified": 1688149415000000,
+              "id": 196,
+              "typeCode": 1,
+              "iconUri": "https://cdn.dribbble.com/assets/dribbble-ball-192-23ecbdf987832231e87c642bb25de821af1ba6734a626c8c259a20a0ca51a247.png",
+              "type": "text/x-moz-place",
+              "uri": "https://dribbble.com/"
+            },
+            {
+              "guid": "k_vWMLO36g_j",
+              "title": "Create beautiful images of your code",
+              "index": 14,
+              "dateAdded": 1655490611466000,
+              "lastModified": 1688149415000000,
+              "id": 197,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://ray.so/"
+            },
+            {
+              "guid": "Um5X52OU06gJ",
+              "title": "Free Figma Component Library",
+              "index": 15,
+              "dateAdded": 1660036785659000,
+              "lastModified": 1688149415000000,
+              "id": 199,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://figmacomponents.com/"
+            },
+            {
+              "guid": "5jMeQEG-D7U8",
+              "title": "Animockup - Create product teasers with animated mockups",
+              "index": 16,
+              "dateAdded": 1660037172197000,
+              "lastModified": 1688149415000000,
+              "id": 200,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://animockup.com/"
+            },
+            {
+              "guid": "kC8riuziEvFH",
+              "title": "DesignLibz — Designer's Library | 400+ useful services and resources for the designer",
+              "index": 17,
+              "dateAdded": 1644509491213000,
+              "lastModified": 1688149415000000,
+              "id": 201,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://designlibz.com/"
+            },
+            {
+              "guid": "0L74EnCfo_YU",
+              "title": "Neumorphism",
+              "index": 18,
+              "dateAdded": 1664207454460000,
+              "lastModified": 1688149415000000,
+              "id": 202,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://neumorphism.coldstone.fun/#/"
+            },
+            {
+              "guid": "uccZgkuprQ5X",
+              "title": "Directory | Illustration Tools",
+              "index": 19,
+              "dateAdded": 1665344627534000,
+              "lastModified": 1688149415000000,
+              "id": 203,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://illustration.tools/"
+            },
+            {
+              "guid": "HHO-fSVQgRVV",
+              "title": "Evavic44/portfolio-ideas: A curation of awesome portfolio website ideas for developers and designers to draw inspiration from. Raise a pull request to add more. 💜",
+              "index": 20,
+              "dateAdded": 1665087376199000,
+              "lastModified": 1688149415000000,
+              "id": 204,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://github.com/Evavic44/portfolio-ideas"
+            },
+            {
+              "guid": "PMVmsbNaRrfZ",
+              "title": "Search Projects | Photos, videos, logos, illustrations and branding on Behance",
+              "index": 21,
+              "dateAdded": 1671576512030000,
+              "lastModified": 1688149415000000,
+              "id": 205,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://www.behance.net/"
+            },
+            {
+              "guid": "Uaz2CLKKLnYG",
+              "title": "Awwwards - Website Awards - Best Web Design Trends",
+              "index": 22,
+              "dateAdded": 1671576527176000,
+              "lastModified": 1688149415000000,
+              "id": 206,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://www.awwwards.com/"
+            }
+          ]
+        },
+        {
+          "guid": "YU_dFEL7LxB0",
+          "title": "jobhunt❤️‍🩹😵‍💫",
+          "index": 6,
+          "dateAdded": 1656669183057000,
+          "lastModified": 1691987490029000,
+          "id": 207,
+          "typeCode": 2,
+          "type": "text/x-moz-place-container",
+          "children": [
+            {
+              "guid": "Wik8kZsZw2mg",
+              "title": "hunt",
+              "index": 0,
+              "dateAdded": 1673646094791000,
+              "lastModified": 1688149415000000,
+              "id": 208,
+              "typeCode": 2,
+              "type": "text/x-moz-place-container",
+              "children": [
+                {
+                  "guid": "DULKKKsi-VMu",
+                  "title": "CRED Careers",
+                  "index": 0,
+                  "dateAdded": 1673628923639000,
+                  "lastModified": 1688149415000000,
+                  "id": 209,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://careers.cred.club/jobPosting?apply_url=https://jobs.lever.co/cred/a8d0c4bf-2100-4f53-abe2-b9a7d1dcc46c/apply"
+                },
+                {
+                  "guid": "L0_AsmGHpgRA",
+                  "title": "CRED - Mobile Intern - Interview Experience - Offcampus Phodenge by Aman",
+                  "index": 1,
+                  "dateAdded": 1673646069254000,
+                  "lastModified": 1688149415000000,
+                  "id": 210,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://offcampusphodenge.com/interview-experience/cred-mobile-intern-interview-experience/"
+                },
+                {
+                  "guid": "RL96OaAYqXC3",
+                  "title": "How to get a job at startups? | by Vivek Nigam | Medium",
+                  "index": 2,
+                  "dateAdded": 1673730211141000,
+                  "lastModified": 1688149415000000,
+                  "id": 211,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://medium.com/@viveknigam3003/how-to-get-a-job-at-startups-2079742360d5"
+                },
+                {
+                  "guid": "ipR6kuxnrFPx",
+                  "title": "Kalshi",
+                  "index": 3,
+                  "dateAdded": 1673815080652000,
+                  "lastModified": 1688149415000000,
+                  "id": 212,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://kalshi.com/careers/job?gh_jid=5213428003"
+                },
+                {
+                  "guid": "atfQN5lUsF7b",
+                  "title": "Flutter Developer at Quicko • Ahmedabad | Wellfound (formerly AngelList Talent)",
+                  "index": 4,
+                  "dateAdded": 1673817871819000,
+                  "lastModified": 1688149415000000,
+                  "id": 213,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://angel.co/company/quicko/jobs/2529137-flutter-developer"
+                }
+              ]
+            },
+            {
+              "guid": "VYRolaeb08Vm",
+              "title": "job waiting💤",
+              "index": 1,
+              "dateAdded": 1656669337581000,
+              "lastModified": 1688149415000000,
+              "id": 214,
+              "typeCode": 2,
+              "type": "text/x-moz-place-container",
+              "children": [
+                {
+                  "guid": "HuuVI1oFfcdq",
+                  "title": "Level Up - Transforming Tech Hiring",
+                  "index": 0,
+                  "dateAdded": 1656669331460000,
+                  "lastModified": 1688149415000000,
+                  "id": 215,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://levelup.pallet.com/talent/join/KvyxYvEexk8xrPta2Ye4j4/profile"
+                },
+                {
+                  "guid": "2ebuqJRWNEHU",
+                  "title": "Find Jobs in Technology",
+                  "index": 1,
+                  "dateAdded": 1660323993881000,
+                  "lastModified": 1688149415000000,
+                  "id": 216,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://www.dice.com/"
+                },
+                {
+                  "guid": "Pn7ciV9Au4wi",
+                  "title": "Job Search - Millions of Jobs Hiring Near You | ZipRecruiter",
+                  "index": 2,
+                  "dateAdded": 1660324021021000,
+                  "lastModified": 1688149415000000,
+                  "id": 217,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://www.ziprecruiter.com/"
+                },
+                {
+                  "guid": "HihJldLrvJFY",
+                  "title": "Search for Hourly Jobs & Essential Jobs on Snagajob",
+                  "index": 3,
+                  "dateAdded": 1660324051829000,
+                  "lastModified": 1688149415000000,
+                  "id": 218,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://www.snagajob.com/"
+                },
+                {
+                  "guid": "-nN0VHDHS00E",
+                  "title": "REMOTE WORK: Jobs, Companies & Remote Talent - 121 Countries - Pangian.com",
+                  "index": 4,
+                  "dateAdded": 1661586369132000,
+                  "lastModified": 1688149415000000,
+                  "id": 219,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://pangian.com/"
+                },
+                {
+                  "guid": "ED8yLsuWT7oL",
+                  "title": "We Work Remotely: Remote jobs in design, programming, marketing and more",
+                  "index": 5,
+                  "dateAdded": 1661586404506000,
+                  "lastModified": 1688149415000000,
+                  "id": 220,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://weworkremotely.com/"
+                },
+                {
+                  "guid": "KdjZT1PIMhqm",
+                  "title": "Remote Jobs in Programming, Support, Design and more",
+                  "index": 6,
+                  "dateAdded": 1661586422777000,
+                  "lastModified": 1688149415000000,
+                  "id": 221,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://remotive.com/"
+                },
+                {
+                  "guid": "9UyYPs_7GQBM",
+                  "title": "Remote Jobs: Design, Marketing, Programming, Writing & More",
+                  "index": 7,
+                  "dateAdded": 1661586446118000,
+                  "lastModified": 1688149415000000,
+                  "id": 222,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://justremote.co/"
+                },
+                {
+                  "guid": "AzfHOWbllHui",
+                  "title": "Remote Jobs: 1,000+ Job Openings for Remote Work | Jobspresso",
+                  "index": 8,
+                  "dateAdded": 1661586475519000,
+                  "lastModified": 1688149415000000,
+                  "id": 223,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://jobspresso.co/"
+                },
+                {
+                  "guid": "ZnUI8ak-QGWg",
+                  "title": "Remote Jobs | DailyRemote",
+                  "index": 9,
+                  "dateAdded": 1661586515344000,
+                  "lastModified": 1688149415000000,
+                  "id": 224,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://dailyremote.com/"
+                },
+                {
+                  "guid": "60vhWwmc1ZYd",
+                  "title": "Remote Jobs | Working Nomads",
+                  "index": 10,
+                  "dateAdded": 1661586537193000,
+                  "lastModified": 1688149415000000,
+                  "id": 225,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://www.workingnomads.com/jobs"
+                },
+                {
+                  "guid": "_oTv0GNI-NpV",
+                  "title": "Remote Leaf | Hand-picked remote-jobs, in your inbox",
+                  "index": 11,
+                  "dateAdded": 1661586557614000,
+                  "lastModified": 1688149415000000,
+                  "id": 226,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://remoteleaf.com/"
+                },
+                {
+                  "guid": "K8ypGDoMM2bd",
+                  "title": "ambitionbox",
+                  "index": 12,
+                  "dateAdded": 1666712854544000,
+                  "lastModified": 1688149415000000,
+                  "id": 227,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://www.ambitionbox.com/"
+                },
+                {
+                  "guid": "mY3jsh1dm_eA",
+                  "title": "Internships – Internship Search and Intern Jobs | Chegg Internships",
+                  "index": 13,
+                  "dateAdded": 1672845361878000,
+                  "lastModified": 1688149415000000,
+                  "id": 228,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://www.internships.com/"
+                },
+                {
+                  "guid": "cdK6BNarMCtT",
+                  "title": "Jobs, Volunteering, Grad Schools, and More - Idealist",
+                  "index": 14,
+                  "dateAdded": 1672845403154000,
+                  "lastModified": 1688149415000000,
+                  "id": 229,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://www.idealist.org/en"
+                },
+                {
+                  "guid": "pmEZQKO8RHal",
+                  "title": "TopHire - Tech Jobs for the Top 2% of Tech Talent",
+                  "index": 15,
+                  "dateAdded": 1673434801718000,
+                  "lastModified": 1688149415000000,
+                  "id": 230,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://tophire.co/"
+                }
+              ]
+            },
+            {
+              "guid": "djhphBejTmO-",
+              "title": "2,200+ Remote Programming Jobs - Arc - Arc",
+              "index": 2,
+              "dateAdded": 1681925677324000,
+              "lastModified": 1691987490029000,
+              "id": 44,
+              "typeCode": 1,
+              "iconUri": "https://assets.arc.dev/icons/apple-touch-icon.png",
+              "type": "text/x-moz-place",
+              "uri": "https://arc.dev/remote-jobs"
+            },
+            {
+              "guid": "mU9vWRMFeWgm",
+              "title": "Level Up",
+              "index": 3,
+              "dateAdded": 1656669435090000,
+              "lastModified": 1691986667704000,
+              "id": 33,
+              "typeCode": 1,
+              "iconUri": "https://levelup.pallet.com/logo192.png",
+              "type": "text/x-moz-place",
+              "uri": "https://levelup.pallet.com/jobs"
+            },
+            {
+              "guid": "5WMSg23AU0HB",
+              "title": "Dashboard – FlowCV",
+              "index": 4,
+              "dateAdded": 1678259295766000,
+              "lastModified": 1688149415000000,
+              "id": 231,
+              "typeCode": 1,
+              "iconUri": "https://app.flowcv.com/icon.svg",
+              "type": "text/x-moz-place",
+              "uri": "https://app.flowcv.com/"
+            },
+            {
+              "guid": "p-I5cmXDw4ta",
+              "title": "Product ",
+              "index": 5,
+              "dateAdded": 1665347572431000,
+              "lastModified": 1688149415000000,
+              "id": 232,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://www.producthunt.com/"
+            },
+            {
+              "guid": "-hbn8DA1FneX",
+              "title": "Aptitude Questions and Answers - IndiaBIX",
+              "index": 6,
+              "dateAdded": 1674750604136000,
+              "lastModified": 1688149415000000,
+              "id": 233,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://www.indiabix.com/"
+            },
+            {
+              "guid": "ymq-Q4ko3HAQ",
+              "title": "Opportunities - Instahyre",
+              "index": 7,
+              "dateAdded": 1673814823269000,
+              "lastModified": 1688149415000000,
+              "id": 234,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://www.instahyre.com/candidate/opportunities/?matching=true"
+            },
+            {
+              "guid": "UdNJ6RJDOte-",
+              "title": "Resume Skills and Keywords for Software Engineering (Updated for 2023)",
+              "index": 8,
+              "dateAdded": 1685257287820000,
+              "lastModified": 1688149415000000,
+              "id": 235,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://resumeworded.com/skills-and-keywords/software-engineering-skills-group"
+            },
+            {
+              "guid": "xGhU53QPEBLD",
+              "title": "Arc: Hire Remote Developers & Engineering Teams",
+              "index": 9,
+              "dateAdded": 1658038268792000,
+              "lastModified": 1688149415000000,
+              "id": 236,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://arc.dev/dashboard/d/jobs/browse"
+            },
+            {
+              "guid": "Wjkx9JRXWrsi",
+              "title": "Cuvette",
+              "index": 10,
+              "dateAdded": 1658039468198000,
+              "lastModified": 1688149415000000,
+              "id": 237,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://cuvette.tech/app/student/"
+            },
+            {
+              "guid": "mfQ_5D-mx9hc",
+              "title": "Startup Jobs | AngelList Talent",
+              "index": 11,
+              "dateAdded": 1658040085442000,
+              "lastModified": 1688149415000000,
+              "id": 238,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://angel.co/jobs"
+            },
+            {
+              "guid": "eyun8ghmNstj",
+              "title": "Learn, practice, participate & get hired on Unstop (formerly Dare2Compete)",
+              "index": 12,
+              "dateAdded": 1659112395385000,
+              "lastModified": 1688149415000000,
+              "id": 239,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://unstop.com/home"
+            },
+            {
+              "guid": "oL0LXMSx2WyD",
+              "title": "naukri",
+              "index": 13,
+              "dateAdded": 1660323625766000,
+              "lastModified": 1688149415000000,
+              "id": 240,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://www.naukri.com/"
+            },
+            {
+              "guid": "4GRvJTK0HVCC",
+              "title": "Job Vacancy - Latest Job Openings - Job Search Online - Monster India",
+              "index": 14,
+              "dateAdded": 1660323887487000,
+              "lastModified": 1688149415000000,
+              "id": 241,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://www.monsterindia.com/"
+            },
+            {
+              "guid": "jJfV51r4LfJZ",
+              "title": "Find email addresses in seconds • Hunter (company Email )",
+              "index": 15,
+              "dateAdded": 1665582944018000,
+              "lastModified": 1688149415000000,
+              "id": 242,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://hunter.io/",
+              "keyword": "bye searching by company. we can get the emails of the people. who are working on there?",
+              "postData": null
+            },
+            {
+              "guid": "5HoonRCds4KM",
+              "title": "RocketReach Search - Find Email, Phone & Social Media",
+              "index": 16,
+              "dateAdded": 1665583298193000,
+              "lastModified": 1688149415000000,
+              "id": 243,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://rocketreach.co/person"
+            },
+            {
+              "guid": "y6EnUHEoGIMF",
+              "title": "Top Startups 2023 — Sequoia, Y Combinator, A16Z, Accel",
+              "index": 17,
+              "dateAdded": 1673815377914000,
+              "lastModified": 1688149415000000,
+              "id": 244,
+              "typeCode": 1,
+              "iconUri": "https://res.cloudinary.com/die3a7qhl/image/upload/v1637771154/topstartups/Webp.net-resizeimage_21_hpulzz.png",
+              "type": "text/x-moz-place",
+              "uri": "https://topstartups.io/"
+            }
+          ]
+        },
+        {
+          "guid": "KX9jZDvtsp6F",
+          "title": "utility🏗️",
+          "index": 7,
+          "dateAdded": 1656664641286000,
+          "lastModified": 1691915208946000,
+          "id": 245,
+          "typeCode": 2,
+          "type": "text/x-moz-place-container",
+          "children": [
+            {
+              "guid": "sJBwOWwAJg5d",
+              "title": "serhii-londar/open-source-mac-os-apps: 🚀 Awesome list of open source applications for macOS. https://t.me/s/opensourcemacosapps",
+              "index": 0,
+              "dateAdded": 1689199256989000,
+              "lastModified": 1691915208946000,
+              "id": 296,
+              "typeCode": 1,
+              "iconUri": "https://github.githubassets.com/favicons/favicon.svg",
+              "type": "text/x-moz-place",
+              "uri": "https://github.com/serhii-londar/open-source-mac-os-apps"
+            },
+            {
+              "guid": "7vMYvG31jPQ9",
+              "title": "Free PDF, Video, Image & Other Online Tools - TinyWow",
+              "index": 1,
+              "dateAdded": 1659768080847000,
+              "lastModified": 1688149415000000,
+              "id": 246,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://tinywow.com/"
+            },
+            {
+              "guid": "RC9pRRHdb2xw",
+              "title": "Web Apps by 123apps - Edit, Convert, Create",
+              "index": 2,
+              "dateAdded": 1662135159539000,
+              "lastModified": 1688149415000000,
+              "id": 247,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://123apps.com/"
+            },
+            {
+              "guid": "FwYFZH37lZn5",
+              "title": "PDF24 Tools: Free PDF solutions for all PDF problems",
+              "index": 3,
+              "dateAdded": 1682377255511000,
+              "lastModified": 1688149415000000,
+              "id": 248,
+              "typeCode": 1,
+              "iconUri": "https://tools.pdf24.org/static/img/appIcons/v3/icon_192.png?v=5ca75609",
+              "type": "text/x-moz-place",
+              "uri": "https://tools.pdf24.org/en/"
+            },
+            {
+              "guid": "CHyY7dh_ydLY",
+              "title": "All PDF Tools - 100% Free - PDF24 Tools",
+              "index": 4,
+              "dateAdded": 1662135263249000,
+              "lastModified": 1688149415000000,
+              "id": 249,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://tools.pdf24.org/en/all-tools"
+            }
+          ]
+        },
+        {
+          "guid": "XwnYBrOlXK_e",
+          "title": "work🛠️",
+          "index": 8,
+          "dateAdded": 1662630552315000,
+          "lastModified": 1691846014168000,
+          "id": 250,
+          "typeCode": 2,
+          "type": "text/x-moz-place-container",
+          "children": [
+            {
+              "guid": "pu3bakD2rUuJ",
+              "title": "current task",
+              "index": 0,
+              "dateAdded": 1676975082413000,
+              "lastModified": 1688149415000000,
+              "id": 251,
+              "typeCode": 2,
+              "type": "text/x-moz-place-container",
+              "children": [
+                {
+                  "guid": "l7kni9EUx2kC",
+                  "title": "Embed Model Generation",
+                  "index": 0,
+                  "dateAdded": 1686034208187000,
+                  "lastModified": 1688149415000000,
+                  "id": 252,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://www.figma.com/file/ZYqdJojhbWtoMlUuI6Abr1/Recipe-Editor-New?type=design&node-id=2532-26734&t=42BKbRoak5lHb1MJ-0"
+                },
+                {
+                  "guid": "kt0bFERTWikK",
+                  "title": "(7) Embed Model Generation Data capabilities in Recipe Editor",
+                  "index": 1,
+                  "dateAdded": 1686034540103000,
+                  "lastModified": 1688149415000000,
+                  "id": 253,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://www.notion.so/nymblelabs/Embed-Model-Generation-Data-capabilities-in-Recipe-Editor-80b54f5fd2ea4c2da09a09f216a6850c"
+                }
+              ]
+            },
+            {
+              "guid": "pSJwmO_C2nrx",
+              "title": "GitLab",
+              "index": 1,
+              "dateAdded": 1676535769878000,
+              "lastModified": 1688149415000000,
+              "id": 254,
+              "typeCode": 1,
+              "iconUri": "https://about.gitlab.com/nuxt-images/ico/favicon-192x192.png?cache=2022041",
+              "type": "text/x-moz-place",
+              "uri": "https://gitlab.com/"
+            },
+            {
+              "guid": "11kR1orVSi1q",
+              "title": "Figma",
+              "index": 2,
+              "dateAdded": 1681816241036000,
+              "lastModified": 1688149415000000,
+              "id": 255,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://www.figma.com/file/PHebMGXAWK5PbI3IpJuicn/Nymble-Application-Updated?node-id=30-77848&t=k3UmWqAUFEhS6Mum-0"
+            },
+            {
+              "guid": "6ZL9tBgHMv2O",
+              "title": "Home - Recipe Editor (v2.3.13)",
+              "index": 3,
+              "dateAdded": 1676977337888000,
+              "lastModified": 1688149415000000,
+              "id": 256,
+              "typeCode": 1,
+              "iconUri": "https://recipe-editor-beta-akytmohtja-uc.a.run.app/icons/Icon-192.png",
+              "type": "text/x-moz-place",
+              "uri": "https://recipe-editor-beta-akytmohtja-uc.a.run.app/"
+            },
+            {
+              "guid": "UUrgCwbNwXYP",
+              "title": "Nymble API Playground",
+              "index": 4,
+              "dateAdded": 1676621029139000,
+              "lastModified": 1688149415000000,
+              "id": 257,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://www.notion.so/nymblelabs/Nymble-API-Playground-f4da8152f3394c42b3bd39b2e89b261f"
+            },
+            {
+              "guid": "FojYkzl6usr7",
+              "title": "Playground - https://julia-graphql-api-akytmohtja-uc.a.run.app/graphql",
+              "index": 5,
+              "dateAdded": 1676637876528000,
+              "lastModified": 1688149415000000,
+              "id": 258,
+              "typeCode": 1,
+              "iconUri": "https://cdn.jsdelivr.net/npm/@apollographql/graphql-playground-react@1.7.42/build/favicon.png",
+              "type": "text/x-moz-place",
+              "uri": "https://julia-graphql-api-akytmohtja-uc.a.run.app/graphql"
+            },
+            {
+              "guid": "t-L29_WtdpXW",
+              "title": "Filter database entries",
+              "index": 6,
+              "dateAdded": 1691059552733000,
+              "lastModified": 1691846014168000,
+              "id": 312,
+              "typeCode": 1,
+              "iconUri": "https://dev.notion.so/front-static/favicon.ico",
+              "type": "text/x-moz-place",
+              "uri": "https://developers.notion.com/reference/post-database-query-filter"
+            },
+            {
+              "guid": "KemrHImWSlhJ",
+              "title": "Issues - nymble-labs - Sentry",
+              "index": 7,
+              "dateAdded": 1681456688363000,
+              "lastModified": 1688149415000000,
+              "id": 259,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://nymble-labs.sentry.io/issues/?project=6442929"
+            }
+          ]
+        },
+        {
+          "guid": "G05aZKT84S1e",
+          "title": "todo🥺💀",
+          "index": 9,
+          "dateAdded": 1665583068156000,
+          "lastModified": 1688149415000000,
+          "id": 260,
+          "typeCode": 2,
+          "type": "text/x-moz-place-container",
+          "children": [
+            {
+              "guid": "Uh8stNhsvEgW",
+              "title": "testing",
+              "index": 0,
+              "dateAdded": 1666701748003000,
+              "lastModified": 1688149415000000,
+              "id": 261,
+              "typeCode": 2,
+              "type": "text/x-moz-place-container"
+            },
+            {
+              "guid": "6V51mGkBeBAS",
+              "title": "read",
+              "index": 1,
+              "dateAdded": 1676963682733000,
+              "lastModified": 1688149415000000,
+              "id": 262,
+              "typeCode": 2,
+              "type": "text/x-moz-place-container",
+              "children": [
+                {
+                  "guid": "sXr_HapCjJ_T",
+                  "title": "Why Bloc?",
+                  "index": 0,
+                  "dateAdded": 1676963666122000,
+                  "lastModified": 1688149415000000,
+                  "id": 263,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://bloclibrary.dev/#/whybloc"
+                },
+                {
+                  "guid": "UZALIDyMcg2H",
+                  "title": "Remote Job Roadmap 💼🌏. How to get a remote job while learning… | by Rohit Ghumare | Medium",
+                  "index": 1,
+                  "dateAdded": 1685697320580000,
+                  "lastModified": 1688149415000000,
+                  "id": 264,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://ghumare64.medium.com/remote-job-roadmap-276c2d61c0cc"
+                }
+              ]
+            },
+            {
+              "guid": "09COFhxA-ppy",
+              "title": "Implement Service Locator design pattern with get_it — Flutter | by Saravanan M | Nerd For Tech | Medium",
+              "index": 2,
+              "dateAdded": 1676891100455000,
+              "lastModified": 1688149415000000,
+              "id": 265,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://medium.com/nerd-for-tech/implement-service-locator-design-pattern-with-get-it-flutter-5e50671bbbcb"
+            },
+            {
+              "guid": "HtbkrqCtucnP",
+              "title": "Download an image or file from a URL in Go (Golang) - Welcome To Golang By Example",
+              "index": 3,
+              "dateAdded": 1665345870921000,
+              "lastModified": 1688149415000000,
+              "id": 266,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://golangbyexample.com/download-image-file-url-golang/"
+            },
+            {
+              "guid": "xBiMWVZlS0_o",
+              "title": "How to Set up CORS and Cookie-Session in Express - Code Concisely",
+              "index": 4,
+              "dateAdded": 1666638791782000,
+              "lastModified": 1688149415000000,
+              "id": 267,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://www.codeconcisely.com/posts/how-to-set-up-cors-and-cookie-session-in-express/"
+            },
+            {
+              "guid": "lfJzAgbVC561",
+              "title": "Top 10 Advanced VS Code Settings for Senior Developers | by Dr. Derek Austin 🥳 | JavaScript in Plain English",
+              "index": 5,
+              "dateAdded": 1667896574676000,
+              "lastModified": 1688149415000000,
+              "id": 268,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://javascript.plainenglish.io/top-10-advanced-vs-code-settings-for-senior-developers-46e348351bd6"
+            },
+            {
+              "guid": "b2tYKiJL4Nxm",
+              "title": "SSH web console. In this article, I will explain how to… | by Edison Devadoss | YavarTechWorks | Medium",
+              "index": 6,
+              "dateAdded": 1671575146348000,
+              "lastModified": 1688149415000000,
+              "id": 269,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://medium.com/yavar/ssh-web-console-21e87b611674"
+            },
+            {
+              "guid": "lVuMvF4kLDW5",
+              "title": "Ultimate Tools for Developers 🛠 - DEV Community 👩‍💻👨‍💻",
+              "index": 7,
+              "dateAdded": 1671576573132000,
+              "lastModified": 1688149415000000,
+              "id": 270,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://dev.to/dostonnabotov/ultimate-tools-for-developers-2aj2#code-editors-and-ides"
+            },
+            {
+              "guid": "nvBsZMUxbYjE",
+              "title": "Tips and tools for Flutter apps in production",
+              "index": 8,
+              "dateAdded": 1672409384013000,
+              "lastModified": 1688149415000000,
+              "id": 271,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://dartling.dev/tips-and-tools-for-flutter-apps-in-production"
+            },
+            {
+              "guid": "qEwEKb7pHL0k",
+              "title": "Package layout conventions | Dart",
+              "index": 9,
+              "dateAdded": 1673557156463000,
+              "lastModified": 1688149415000000,
+              "id": 272,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://dart.dev/tools/pub/package-layout#examples"
+            },
+            {
+              "guid": "ZKuJuEJkM64l",
+              "title": "How to shrink pdf export? - Ask the community - Figma Community Forum",
+              "index": 10,
+              "dateAdded": 1673792519246000,
+              "lastModified": 1688149415000000,
+              "id": 273,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://forum.figma.com/t/how-to-shrink-pdf-export/477/2"
+            },
+            {
+              "guid": "t8DIIeX1yXFW",
+              "title": "Deep Links and Flutter applications. How to handle them properly. | by Aleksandr Denisov | Flutter Community | Medium",
+              "index": 11,
+              "dateAdded": 1673807785715000,
+              "lastModified": 1688149415000000,
+              "id": 274,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://medium.com/flutter-community/deep-links-and-flutter-applications-how-to-handle-them-properly-8c9865af9283"
+            },
+            {
+              "guid": "a7zQHjK3Ik7E",
+              "title": "Assignment 5",
+              "index": 12,
+              "dateAdded": 1677394629702000,
+              "lastModified": 1688149415000000,
+              "id": 275,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://faculty.cs.niu.edu/~mcmahon/CS241/Assign/Spring2023/assignment05.html"
+            },
+            {
+              "guid": "MwtGUffauGCU",
+              "title": "index.html",
+              "index": 13,
+              "dateAdded": 1681195027088000,
+              "lastModified": 1688149415000000,
+              "id": 276,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "file:///home/skillz/Downloads/index.html"
+            }
+          ]
+        },
+        {
+          "guid": "Qk-XAaCpJ3PB",
+          "title": "New chat",
+          "index": 10,
+          "dateAdded": 1671942061306000,
+          "lastModified": 1688149415000000,
+          "id": 277,
+          "typeCode": 1,
+          "iconUri": "https://chat.openai.com/apple-touch-icon.png",
+          "type": "text/x-moz-place",
+          "uri": "https://chat.openai.com/chat"
+        },
+        {
+          "guid": "_AL3WfZMDyd7",
+          "title": "Who is Narayan?",
+          "index": 11,
+          "dateAdded": 1656669029480000,
+          "lastModified": 1691490891000000,
+          "id": 278,
+          "typeCode": 1,
+          "iconUri": "https://narayann.dev/lp_logo.png",
+          "type": "text/x-moz-place",
+          "uri": "https://narayann.dev/"
+        },
+        {
+          "guid": "WtK3-QURpXIT",
+          "title": "Writing a Good Git Commit | Showwcase",
+          "index": 12,
+          "dateAdded": 1691998431577000,
+          "lastModified": 1691998431577000,
+          "id": 319,
+          "typeCode": 1,
+          "iconUri": "https://www.showwcase.com/favicon.png",
+          "type": "text/x-moz-place",
+          "uri": "https://www.showwcase.com/show/36130/writing-a-good-git-commit"
+        },
+        {
+          "guid": "5kMZHA4s8fgQ",
+          "title": "The Basics of Human Nutrition - Online Course | Alison",
+          "index": 13,
+          "dateAdded": 1692121832279000,
+          "lastModified": 1692121832279000,
+          "id": 320,
+          "typeCode": 1,
+          "iconUri": "https://cdn01.alison-static.net/public/html/vendor/img/favicon/apple-touch-icon.png",
+          "type": "text/x-moz-place",
+          "uri": "https://alison.com/topic/learn/66942/the-basics-of-human-nutrition"
+        },
+        {
+          "guid": "qrJkeDfymzUO",
+          "title": "Discover Best Online Courses & Tutorials - Coursesity",
+          "index": 14,
+          "dateAdded": 1692122101713000,
+          "lastModified": 1692122101713000,
+          "id": 321,
+          "typeCode": 1,
+          "iconUri": "https://coursesity.com/assets/images/favicon/android-icon-192x192.png",
+          "type": "text/x-moz-place",
+          "uri": "https://coursesity.com/"
+        }
+      ]
+    },
+    {
+      "guid": "unfiled_____",
+      "title": "unfiled",
+      "index": 3,
+      "dateAdded": 1688144281262000,
+      "lastModified": 1688144281358000,
+      "id": 5,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "root": "unfiledBookmarksFolder"
+    },
+    {
+      "guid": "mobile______",
+      "title": "mobile",
+      "index": 4,
+      "dateAdded": 1688144281269000,
+      "lastModified": 1688144281358000,
+      "id": 6,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "root": "mobileFolder",
+      "children": [
+        {
+          "guid": "usTVyWN0cmww",
+          "title": "(2) Solved - Fundamentals of Networking for Effective Backend Design - TutFlix - Free Education Community",
+          "index": 0,
+          "dateAdded": 1665605810688000,
+          "lastModified": 1688149415000000,
+          "id": 283,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://tutflix.org/threads/fundamentals-of-networking-for-effective-backend-design.47303/#post-108782"
+        },
+        {
+          "guid": "qprC5fBVd37x",
+          "title": "",
+          "index": 1,
+          "dateAdded": 1667381521942000,
+          "lastModified": 1688149415000000,
+          "id": 284,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://mtg-dev.tech/blog/adding-social-previews-without-ssr"
+        },
+        {
+          "guid": "yr79BSc8EL55",
+          "title": "Inside Flutter | Flutter",
+          "index": 2,
+          "dateAdded": 1672715559201000,
+          "lastModified": 1688149415000000,
+          "id": 285,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://docs.flutter.dev/resources/inside-flutter"
+        },
+        {
+          "guid": "sniSMdvi2llo",
+          "title": "Zero Hassle Job Search - Instahyre",
+          "index": 3,
+          "dateAdded": 1672949185391000,
+          "lastModified": 1688149415000000,
+          "id": 286,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://www.instahyre.com/"
+        }
+      ]
+    }
+  ]
+}

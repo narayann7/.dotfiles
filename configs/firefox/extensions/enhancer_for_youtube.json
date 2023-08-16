@@ -1,5 +1,5 @@
 {
-  "version": "2.0.119.1",
+  "version": "2.0.119.2",
   "settings": {
     "blur": 2,
     "brightness": 57,
@@ -46,7 +46,7 @@
     "controlsvisible": false,
     "controlspeed": true,
     "controlspeedmousebutton": false,
-    "controlvolume": true,
+    "controlvolume": false,
     "controlvolumemousebutton": false,
     "convertshorts": true,
     "customcolors": {
@@ -105,7 +105,7 @@
     "themevariant": "youtube-deep-dark-firefox-quantum-dark.css",
     "update": 1666199493583,
     "volume": 100,
-    "volumemultiplier": 4,
+    "volumemultiplier": 2,
     "volumevariation": 5,
     "whitelist": "",
     "wideplayer": false,

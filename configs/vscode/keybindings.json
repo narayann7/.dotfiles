@@ -1,0 +1,48 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "shift+enter",
+    "command": "editor.action.formatDocument",
+    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+  },
+  {
+    "key": "shift+alt+f",
+    "command": "-editor.action.formatDocument",
+    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+  },
+  {
+    "key": "cmd+g",
+
+    "command": "docs.write",
+    "when": "editorTextFocus && config.docwriter.hotkey.mac == '⌘ + .' && editorLangId =~ /typescript|javascript|python|php|java|c|cpp|csharp|dart|ruby|go|rust/"
+  },
+  {
+    "key": "cmd+.",
+    "command": "-docs.write",
+    "when": "editorTextFocus && config.docwriter.hotkey.mac == '⌘ + .' && editorLangId =~ /typescript|javascript|python|php|java|c|cpp|csharp|dart|ruby|go|rust/"
+  },
+  {
+    "key": "ctrl+f",
+    "command": "inlineFold.toggle"
+  },
+  {
+    "key": "ctrl+cmd+l",
+    "command": "editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+cmd+k",
+    "command": "-editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "expandLineSelection",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "cmd+l",
+    "command": "-expandLineSelection",
+    "when": "textInputFocus"
+  }
+]

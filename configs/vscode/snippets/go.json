@@ -1,0 +1,21 @@
+{
+  "print": {
+    "prefix": "fp",
+    "body": ["fmt.Println($1)"],
+    "description": "print"
+  },
+  "basic temp": {
+    "prefix": "bs",
+    "body": [
+      "package main",
+      "",
+      "import \"fmt\"",
+      "",
+      "func main() {",
+      "	fmt.Println(\"hello world\")",
+      "}",
+      ""
+    ],
+    "description": "basic temp"
+  }
+}
