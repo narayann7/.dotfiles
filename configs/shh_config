@@ -1,9 +1,14 @@
 Host gitlab.com-work
 HostName gitlab.com
 User git
-IdentityFile /Users/narayan/.ssh/work
+IdentityFile {PATH}/{KEY_NAME : work}
 
 Host github.com-null
 HostName github.com
 User git
-IdentityFile /Users/narayan/.ssh/null
+IdentityFile {PATH}/{KEY_NAME : null}
+
+Host github.com
+HostName github.com
+User git
+IdentityFile {PATH}/{KEY_NAME : narayann7}
