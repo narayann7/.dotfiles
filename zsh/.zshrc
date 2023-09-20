@@ -32,7 +32,6 @@ setopt nosharehistory
 
 setopt histignorespace   
 
-
        
 # skip cmds w/ leading space from history
 export HSTR_CONFIG=hicolor       
@@ -51,4 +50,5 @@ function shellExit {
 trap shellExit EXIT
 
 # zstyle ':autocomplete:*' default-context history-incremental-search-backward list-lines 20
-# zstyle ':autocomplete:history-search-backward:*' list-lines 500
+# zstyle ':autocomplete:history-search-backward:*' list-lines 500PATH="~/.nvm/versions/node/v12.22.1/bin:$PATH"
+PATH="$PATH"

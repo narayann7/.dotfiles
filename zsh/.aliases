@@ -24,6 +24,7 @@ alias dkc="docker-compose"
 alias pp="python3"
 alias hh=hstr   
 alias ,,="open"
+alias n.="nnn"
 
 #functions alias
 alias e64=encode64

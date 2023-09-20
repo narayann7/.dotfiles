@@ -1,0 +1,6 @@
+[local_name]
+type = drive
+scope = drive
+token = {"access_token":"your_token"}
+team_drive = 
+root_folder_id = folder_id [imp]

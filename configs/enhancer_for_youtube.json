@@ -1,5 +1,5 @@
 {
-  "version": "2.0.119.2",
+  "version": "2.0.121",
   "settings": {
     "blur": 2,
     "brightness": 57,
@@ -50,12 +50,12 @@
     "controlvolumemousebutton": false,
     "convertshorts": true,
     "customcolors": {
-      "--main-color": "#a6a8a0",
-      "--main-background": "#000000",
-      "--second-background": "#000000",
-      "--hover-background": "#000000",
-      "--main-text": "#eff0f1",
       "--dimmer-text": "#cccccc",
+      "--hover-background": "#000000",
+      "--main-background": "#000000",
+      "--main-color": "#a6a8a0",
+      "--main-text": "#eff0f1",
+      "--second-background": "#000000",
       "--shadow": "#000000"
     },
     "customcssrules": "",

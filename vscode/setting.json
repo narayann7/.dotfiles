@@ -1,8 +1,7 @@
 {
-  "C_Cpp.updateChannel": "Insiders",
   "code-runner.saveFileBeforeRun": true,
   "code-runner.saveAllFilesBeforeRun": true,
-  "workbench.iconTheme": "vscode-icons",
+  "workbench.iconTheme": "material-icon-theme",
   "editor.suggestSelection": "first",
   "editor.mouseWheelZoom": true,
   "code-runner.clearPreviousOutput": true,
@@ -28,7 +27,7 @@
   "editor.fontSize": 15,
   "dart.previewFlutterUiGuidesCustomTracking": false,
   "markdown.preview.lineHeight": 2,
-  "cSpell.userWords": ["Pallete"],
+  "cSpell.userWords": ["narayan", "Pallete"],
   "explorer.confirmDragAndDrop": false,
   "editor.maxTokenizationLineLength": 100000,
   //log line more than 1000
@@ -80,8 +79,6 @@
     "cpp": true
   },
   "editor.inlineSuggest.enabled": true,
-  "powershell.powerShellDefaultVersion": "Windows PowerShell (x86)",
-  "bracketPairColorizer.depreciation-notice": false,
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.tabSize": 6
@@ -118,7 +115,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "go.toolsManagement.autoUpdate": true,
   "vslook.palette.type": "Material",
@@ -149,124 +146,31 @@
   },
   "DockerRun.DisableAutoGenerateConfig": true,
   "editor.inlayHints.fontFamily": "Sen",
-  "terminal.integrated.fontFamily": "Cascadia Mono",
   "terminal.integrated.fontWeight": "normal",
   "editor.codeLensFontFamily": "Sen",
   "scm.inputFontFamily": "Sen",
   "debug.console.fontFamily": "Sen",
-  "notebook.outputFontFamily": "Sen",
   "errorLens.fontFamily": "Sen",
   "errorLens.fontSize": "Sen",
   "dart.devToolsBrowser": "default",
   "vscode-office.openOutline": false,
   "files.associations": {
-    "*.cpp": "cpp"
+    "*.cpp": "cpp",
+    ".structure": "yaml"
   },
 
-  //todo tree
-  "todo-tree.general.tags": [
-    "BUG",
-    "bug",
-    "HACK",
-    "FIX",
-    "fix",
-    "TODO",
-    "todo",
-    "test",
-    "TEST",
-    "NOTE",
-    "note",
-    "DONE",
-    "done",
-    "REVIEW",
-    "review",
-    "remove",
-    "REMOVE"
-  ],
-
-  "todo-tree.highlights.customHighlight": {
-    "TODO": {
-      "icon": "check",
-      "type": "line",
-      "foreground": "#ff8c00"
-    },
-    "todo": {
-      "icon": "check",
-      "type": "line",
-      "foreground": "#ff8c00"
-    },
-
-    "FIX": {
-      "foreground": "red",
-      "icon": "alert",
-      "type": "line"
-    },
-    "fix": {
-      "foreground": "red",
-      "icon": "alert",
-      "type": "line"
-    },
-    "TEST": {
-      "foreground": "skyblue",
-      "icon": "check",
-      "type": "line"
-    },
-    "test": {
-      "foreground": "skyblue",
-      "icon": "check",
-      "type": "line"
-    },
-    "NOTE": {
-      "foreground": "lightgreen",
-      "icon": "note",
-      "type": "line"
-    },
-    "note": {
-      "foreground": "lightgreen",
-      "icon": "note",
-      "type": "line"
-    },
-    "DONE": {
-      "foreground": "lightgreen",
-      "icon": "check",
-      "type": "line"
-    },
-    "done": {
-      "foreground": "lightgreen",
-      "icon": "check",
-      "type": "line"
-    },
-    "REVIEW": {
-      "foreground": "green",
-      "icon": "eye",
-      "type": "line"
-    },
-    "review": {
-      "foreground": "green",
-      "icon": "eye",
-      "type": "line"
-    },
-    "REMOVE": {
-      "foreground": "red",
-      "icon": "alert",
-      "type": "line"
-    },
-    "remove": {
-      "foreground": "red",
-      "icon": "alert",
-      "type": "line"
-    }
-  },
   "dart.showInspectorNotificationsForWidgetErrors": false,
   "dart.cliConsole": "terminal",
   "debug.console.lineHeight": 20,
   "intellicodeApiExamples.loggingLevel": "ALL",
   "terminal.integrated.fontSize": 14,
   "debug.console.wordWrap": false,
-  "diffEditor.ignoreTrimWhitespace": false,
   "terminal.integrated.env.osx": {
     "FIG_NEW_SESSION": "1"
   },
   "dart.warnWhenEditingFilesOutsideWorkspace": false,
-  "workbench.colorCustomizations": {}
+  "workbench.colorCustomizations": {},
+  "npm.keybindingsChangedWarningShown": true,
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "editor.minimap.enabled": false
 }
