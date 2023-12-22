@@ -25,6 +25,8 @@ alias pp="python3"
 alias hh=hstr   
 alias ,,="open"
 alias n.="nnn"
+alias fflutter="fvm flutter" 
+alias dc="docker"
 
 #functions alias
 alias e64=encode64

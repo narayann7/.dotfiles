@@ -1,7 +1,7 @@
-export DOTFILES="/Users/narayan/github:narayann7/dotfiles"
-
+export DOTFILES="/Users/narayan/projects/github:narayann7/dotfiles"
+export PATH="$PATH":"$HOME/.pub-cache/bin"
 # welcome script
-#python3 "$DOTFILES/scripts/py/welcome.py"
+# python3 "$DOTFILES/scripts/py/welcome.py"
 
 # all variables used in shell and scripts
 source "$DOTFILES/zsh/variables.zsh"
@@ -11,9 +11,9 @@ plugins=(
     git
     zsh-autosuggestions
     zsh-syntax-highlighting
-    #zsh-autocomplete
+    # zsh-autocomplete
 )
-
+ 
 # all scouces
 source "$DOTFILES/zsh/source.zsh"
 
@@ -30,13 +30,13 @@ setopt noextendedhistory
 
 setopt nosharehistory
 
-setopt histignorespace   
+setopt histignorespace
 
-       
+
 # skip cmds w/ leading space from history
-export HSTR_CONFIG=hicolor       
+export HSTR_CONFIG=hicolor
 # get more colors
-bindkey -s "\C-r" "\C-a hstr -- \C-j"     
+bindkey -s "\C-r" "\C-a hstr -- \C-j"
 # bind hstr to Ctrl-r (
 export HSTR_TIOCSTI=y
 
@@ -46,9 +46,12 @@ function shellExit {
     zsh "$DOTFILES/scripts/shell/remove_duplicate_commands.zsh"
 }
 
-
 trap shellExit EXIT
 
 # zstyle ':autocomplete:*' default-context history-incremental-search-backward list-lines 20
 # zstyle ':autocomplete:history-search-backward:*' list-lines 500PATH="~/.nvm/versions/node/v12.22.1/bin:$PATH"
 PATH="$PATH"
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
+
+

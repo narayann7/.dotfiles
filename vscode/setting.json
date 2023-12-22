@@ -1,7 +1,7 @@
 {
   "code-runner.saveFileBeforeRun": true,
   "code-runner.saveAllFilesBeforeRun": true,
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "vscode-icons",
   "editor.suggestSelection": "first",
   "editor.mouseWheelZoom": true,
   "code-runner.clearPreviousOutput": true,
@@ -15,7 +15,7 @@
   "editor.selectionHighlight": true,
   "editor.suggest.snippetsPreventQuickSuggestions": true,
   "editor.tabCompletion": "onlySnippets",
-  "editor.wordBasedSuggestions": true,
+  "editor.wordBasedSuggestions": "matchingDocuments",
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   "editor.letterSpacing": 0.5,
@@ -27,7 +27,7 @@
   "editor.fontSize": 15,
   "dart.previewFlutterUiGuidesCustomTracking": false,
   "markdown.preview.lineHeight": 2,
-  "cSpell.userWords": ["narayan", "Pallete"],
+  "cSpell.userWords": ["narayan", "Nymble", "Pallete"],
   "explorer.confirmDragAndDrop": false,
   "editor.maxTokenizationLineLength": 100000,
   //log line more than 1000
@@ -57,7 +57,7 @@
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.suggestSelection": "first",
     "editor.tabCompletion": "onlySnippets",
-    "editor.wordBasedSuggestions": false,
+    "editor.wordBasedSuggestions": "off",
     "editor.defaultFormatter": "Dart-Code.dart-code"
   },
 
@@ -70,13 +70,15 @@
   },
   "github.copilot.enable": {
     "*": true,
-    "yaml": false,
     "plaintext": true,
     "markdown": true,
+    "scminput": false,
+    "yaml": false,
     "go": false,
     "javascript": true,
     "html": true,
-    "cpp": true
+    "cpp": true,
+    "sql": false
   },
   "editor.inlineSuggest.enabled": true,
   "[javascriptreact]": {
@@ -89,7 +91,7 @@
 
   //auto use fixes
   "editor.codeActionsOnSave": {
-    "source.fixAll": true
+    "source.fixAll": "explicit"
   },
   "emmet.triggerExpansionOnTab": true,
   "emmet.includeLanguages": {
@@ -115,7 +117,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescriptreact]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "go.toolsManagement.autoUpdate": true,
   "vslook.palette.type": "Material",
@@ -130,7 +132,7 @@
     "editor.defaultFormatter": "golang.go",
 
     "editor.codeActionsOnSave": {
-      "source.organizeImports": true
+      "source.organizeImports": "explicit"
     }
   },
   "editor.formatOnSave": true,
@@ -164,7 +166,6 @@
   "debug.console.lineHeight": 20,
   "intellicodeApiExamples.loggingLevel": "ALL",
   "terminal.integrated.fontSize": 14,
-  "debug.console.wordWrap": false,
   "terminal.integrated.env.osx": {
     "FIG_NEW_SESSION": "1"
   },
@@ -172,5 +173,13 @@
   "workbench.colorCustomizations": {},
   "npm.keybindingsChangedWarningShown": true,
   "terminal.integrated.defaultProfile.osx": "zsh",
-  "editor.minimap.enabled": false
+  "workbench.colorCustomizations": {},
+  "workbench.colorTheme": "VSLook",
+  "workbench.iconTheme": "office-material-icon-theme",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "gitlens.views.commitDetails.files.layout": "list",
+  "todo-tree.general.tags": ["todo", "fix", "bug", "review", "test"],
+  "todo-tree.highlights.useColourScheme": true,
+  "todo-tree.highlights.backgroundColourScheme": [],
+  "todo-tree.highlights.foregroundColourScheme": ["orange"]
 }

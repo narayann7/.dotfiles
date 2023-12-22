@@ -12,7 +12,6 @@
   },
   {
     "key": "cmd+g",
-
     "command": "docs.write",
     "when": "editorTextFocus && config.docwriter.hotkey.mac == '⌘ + .' && editorLangId =~ /typescript|javascript|python|php|java|c|cpp|csharp|dart|ruby|go|rust/"
   },
@@ -44,5 +43,49 @@
     "key": "cmd+l",
     "command": "-expandLineSelection",
     "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+cmd+j",
+    "command": "workbench.debug.panel.action.clearReplAction"
+  },
+  {
+    "key": "ctrl+cmd+r",
+    "command": "flutter.hotRestart"
+  },
+  {
+    "key": "cmd+r",
+    "command": "dart.hotReload",
+    "when": "dart-code:isInDartDebugSession && inDebugMode && debugType == 'dart' || dart-code:service.reloadSources && inDebugMode && debugType == 'dart'"
+  },
+  {
+    "key": "ctrl+f5",
+    "command": "-dart.hotReload",
+    "when": "dart-code:isInDartDebugSession && inDebugMode && debugType == 'dart' || dart-code:service.reloadSources && inDebugMode && debugType == 'dart'"
+  },
+  {
+    "key": "ctrl+cmd+b",
+    "command": "bookmarks.toggle",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+cmd+k",
+    "command": "-bookmarks.toggle",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+/",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "//todo: "
+    }
+  },
+  {
+    "key": "ctrl+x",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "print('logx ----\\n'+$1);"
+    }
   }
 ]
