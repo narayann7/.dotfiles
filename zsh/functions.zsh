@@ -57,17 +57,19 @@ crepos() {
 
 # nvm slows zsh down, so we lazy load it and use a custom node function to load it
 lazy_load_nvm() {
-  unset -f node nvm
+  unset -f npm node nvm
   export NVM_DIR=~/.nvm
   [[ -s "$NVM_DIR/nvm.sh" ]] && source "$NVM_DIR/nvm.sh"
 }
-
+npm() {
+  lazy_load_nvm
+  npm $@
+}
 node() {
   lazy_load_nvm
   node $@
 }
-
 nvm() {
   lazy_load_nvm
-  node $@
+  nvm $@
 }
