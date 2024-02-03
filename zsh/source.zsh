@@ -13,3 +13,7 @@ source "$DOTFILES/zsh/functions.zsh"
 # load oh-my-zsh
 source "$ZSH/oh-my-zsh.sh"
 
+
+PATH="$PATH"
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"

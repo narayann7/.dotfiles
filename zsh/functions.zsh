@@ -53,3 +53,21 @@ srepos() {
 crepos() {
     code "/Users/narayan/github:narayann7/dotfiles" "/Users/narayan/github:narayann7/dump"
 }
+
+
+# nvm slows zsh down, so we lazy load it and use a custom node function to load it
+lazy_load_nvm() {
+  unset -f node nvm
+  export NVM_DIR=~/.nvm
+  [[ -s "$NVM_DIR/nvm.sh" ]] && source "$NVM_DIR/nvm.sh"
+}
+
+node() {
+  lazy_load_nvm
+  node $@
+}
+
+nvm() {
+  lazy_load_nvm
+  node $@
+}

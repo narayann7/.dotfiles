@@ -1,5 +1,7 @@
 export DOTFILES="/Users/narayan/projects/narayann7/dotfiles"
 export PATH="$PATH":"$HOME/.pub-cache/bin"
+
+
 # welcome script
 # python3 "$DOTFILES/scripts/py/welcome.py"
 
@@ -13,7 +15,7 @@ plugins=(
     zsh-syntax-highlighting
     # zsh-autocomplete
 )
- 
+
 # all scouces
 source "$DOTFILES/zsh/source.zsh"
 
@@ -41,8 +43,7 @@ bindkey -s "\C-r" "\C-a hstr -- \C-j"
 export HSTR_TIOCSTI=y
 
 
-export NVM_DIR=~/.nvm
-    source $(brew --prefix nvm)/nvm.sh
+
 #function execute only when shell is closed
 function shellExit {
     # to remove the remove_duplicate_commands for zsh_history
@@ -53,8 +54,3 @@ trap shellExit EXIT
 
 # zstyle ':autocomplete:*' default-context history-incremental-search-backward list-lines 20
 # zstyle ':autocomplete:history-search-backward:*' list-lines 500PATH="~/.nvm/versions/node/v12.22.1/bin:$PATH"
-PATH="$PATH"
-export PATH="$HOME/.jenv/bin:$PATH"
-eval "$(jenv init -)"
-
-
