@@ -1,4 +1,4 @@
-export DOTFILES="/Users/narayan/projects/github:narayann7/dotfiles"
+export DOTFILES="/Users/narayan/projects/narayann7/dotfiles"
 export PATH="$PATH":"$HOME/.pub-cache/bin"
 # welcome script
 # python3 "$DOTFILES/scripts/py/welcome.py"
@@ -40,6 +40,9 @@ bindkey -s "\C-r" "\C-a hstr -- \C-j"
 # bind hstr to Ctrl-r (
 export HSTR_TIOCSTI=y
 
+
+export NVM_DIR=~/.nvm
+    source $(brew --prefix nvm)/nvm.sh
 #function execute only when shell is closed
 function shellExit {
     # to remove the remove_duplicate_commands for zsh_history

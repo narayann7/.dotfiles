@@ -12,3 +12,4 @@ source "$DOTFILES/zsh/functions.zsh"
 
 # load oh-my-zsh
 source "$ZSH/oh-my-zsh.sh"
+
