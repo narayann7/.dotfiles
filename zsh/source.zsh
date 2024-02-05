@@ -1,6 +1,8 @@
 # all variables used in shell and scripts
 source "$DOTFILES/zsh/variables.zsh"
 
+export PATH="$PATH":"$HOME/.pub-cache/bin"
+
 # iterm2 shell integration
 source ~/.iterm2_shell_integration.zsh
 

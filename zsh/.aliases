@@ -22,10 +22,10 @@ alias matrix="cmatrix -C cyan -b -s -u 5"
 alias dk="docker"
 alias dkc="docker-compose"
 alias pp="python3"
-alias hh=hstr   
+alias hh=hstr
 alias ,,="open"
 alias n.="nnn"
-alias fflutter="fvm flutter" 
+alias fflutter="fvm flutter"
 alias dc="docker"
 
 #functions alias
