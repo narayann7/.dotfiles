@@ -24,6 +24,7 @@ source "$DOTFILES/zsh/.aliases"
 # configure zsh
 source "$DOTFILES/zsh/config.zsh"
 
+
 #function execute only when shell is closed
 function shellExit {
     # to remove the remove_duplicate_commands for zsh_history
@@ -31,3 +32,6 @@ function shellExit {
 }
 
 trap shellExit EXIT
+
+eval "$(atuin init zsh --disable-up-arrow)"
+bindkey '^r' atuin-search

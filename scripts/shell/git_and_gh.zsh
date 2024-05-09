@@ -7,8 +7,17 @@ function gacp() {
    # Get the name of the current branch and store it in a variable
    branch=$(git rev-parse --abbrev-ref HEAD)
 
+   if [ "$branch" = "dev" ] || [ "$branch" = "main" ]; then
+      echo -n "Are you sure you want to push to $branch branch? (yes/no): "
+      read confirm
+      if [ "$confirm" != "yes" ]; then
+         echo "Aborted."
+         return
+      fi
+   fi
+
    git add .
-   git commit -m $1
+   git commit -m "$1"
    git push origin $branch
 }
 

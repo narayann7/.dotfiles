@@ -48,11 +48,12 @@ function gpt() {
 
 # open local directorys
 srepos() {
-    subl "/Users/narayan/github:narayann7/dotfiles" "/Users/narayan/github:narayann7/dump"
+    subl "/Users/narayan/narayann7/dotfiles" "/Users/narayan/github:narayann7/dump"
 }
 crepos() {
-    code "/Users/narayan/github:narayann7/dotfiles" "/Users/narayan/github:narayann7/dump"
+    code "/Users/narayan/narayann7/dotfiles" "/Users/narayan/github:narayann7/dump"
 }
+
 
 
 # nvm slows zsh down, so we lazy load it and use a custom node function to load it
