@@ -1,4 +1,5 @@
-import time,sys
+import sys
+import time
 
 welcomeMessage = "Welcome skillZ 👀\nWhere there is a shell there way ⚡ \n"
 

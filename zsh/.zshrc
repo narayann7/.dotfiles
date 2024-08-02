@@ -10,6 +10,7 @@ source "$DOTFILES/zsh/variables.zsh"
 # oh my zsh plugins
 plugins=(
     git
+    fzf-tab
     zsh-autosuggestions
     zsh-syntax-highlighting
     # zsh-autocomplete
@@ -24,7 +25,6 @@ source "$DOTFILES/zsh/.aliases"
 # configure zsh
 source "$DOTFILES/zsh/config.zsh"
 
-
 #function execute only when shell is closed
 function shellExit {
     # to remove the remove_duplicate_commands for zsh_history
@@ -35,3 +35,9 @@ trap shellExit EXIT
 
 eval "$(atuin init zsh --disable-up-arrow)"
 bindkey '^r' atuin-search
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/narayan/Downloads/Compressed/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/narayan/Downloads/Compressed/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/narayan/Downloads/Compressed/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/narayan/Downloads/Compressed/google-cloud-sdk/completion.zsh.inc'; fi

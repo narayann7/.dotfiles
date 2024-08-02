@@ -1,8 +1,6 @@
 # all variables used in shell and scripts
 source "$DOTFILES/zsh/variables.zsh"
 
-export PATH="$PATH":"$HOME/.pub-cache/bin"
-
 # iterm2 shell integration
 source ~/.iterm2_shell_integration.zsh
 
@@ -15,7 +13,8 @@ source "$DOTFILES/zsh/functions.zsh"
 # load oh-my-zsh
 source "$ZSH/oh-my-zsh.sh"
 
-
 PATH="$PATH"
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
+export PATH="$PATH":"$HOME/.pub-cache/bin"
+export PATH="/opt/homebrew/opt/ruby/3.3.4/bin:$PATH"
