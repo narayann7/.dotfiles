@@ -47,4 +47,3 @@ if [ -f '/Users/narayan/Downloads/Compressed/google-cloud-sdk/completion.zsh.inc
 ## Completion scripts setup. Remove the following line to uninstall
 [[ -f /Users/narayan/.dart-cli-completion/zsh-config.zsh ]] && . /Users/narayan/.dart-cli-completion/zsh-config.zsh || true
 ## [/Completion]
-
