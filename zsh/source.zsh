@@ -15,7 +15,7 @@ source "$ZSH/oh-my-zsh.sh"
 
 PATH="$PATH"
 export PATH="$HOME/.jenv/bin:$PATH"
-eval "$(jenv init -)"
+# eval "$(jenv init -)"
 export PATH="$PATH":"$HOME/.pub-cache/bin"
 export PATH="/opt/homebrew/opt/ruby/3.3.4/bin:$PATH"
 

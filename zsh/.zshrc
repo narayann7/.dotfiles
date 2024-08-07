@@ -34,8 +34,8 @@ function shellExit {
 
 trap shellExit EXIT
 
-eval "$(atuin init zsh --disable-up-arrow)"
-bindkey '^r' atuin-search
+# eval "$(atuin init zsh --disable-up-arrow)"
+# bindkey '^r' atuin-search
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/narayan/Downloads/Compressed/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/narayan/Downloads/Compressed/google-cloud-sdk/path.zsh.inc'; fi
