@@ -36,15 +36,3 @@ trap shellExit EXIT
 
 # eval "$(atuin init zsh --disable-up-arrow)"
 # bindkey '^r' atuin-search
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/narayan/Downloads/Compressed/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/narayan/Downloads/Compressed/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/narayan/Downloads/Compressed/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/narayan/Downloads/Compressed/google-cloud-sdk/completion.zsh.inc'; fi
-
-## [Completion]
-## Completion scripts setup. Remove the following line to uninstall
-[[ -f /Users/narayan/.dart-cli-completion/zsh-config.zsh ]] && . /Users/narayan/.dart-cli-completion/zsh-config.zsh || true
-## [/Completion]
-
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

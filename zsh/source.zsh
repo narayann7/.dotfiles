@@ -20,11 +20,6 @@ export PATH="$PATH":"$HOME/.pub-cache/bin"
 export PATH="/opt/homebrew/opt/ruby/3.3.4/bin:$PATH"
 export PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:$PATH"
 
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/narayan/projects/used_apps/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/narayan/projects/used_apps/google-cloud-sdk/path.zsh.inc'; fi
+[[ -f /Users/narayan/.dart-cli-completion/zsh-config.zsh ]] && . /Users/narayan/.dart-cli-completion/zsh-config.zsh || true
 
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/narayan/projects/used_apps/google-cloud-sdk/bin' ]; then . '/Users/narayan/projects/used_apps/google-cloud-sdk/bin'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/narayan/projects/used_apps/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/narayan/projects/used_apps/google-cloud-sdk/completion.zsh.inc'; fi
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
