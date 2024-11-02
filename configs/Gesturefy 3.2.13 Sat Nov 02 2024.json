@@ -1,0 +1,129 @@
+{
+  "Gestures": [
+    {
+      "pattern": [
+        [
+          21,
+          300
+        ],
+        [
+          17,
+          -300
+        ]
+      ],
+      "command": {
+        "name": "NewTab",
+        "settings": {
+          "position": "default",
+          "focus": true
+        }
+      }
+    },
+    {
+      "pattern": [
+        [
+          127,
+          214
+        ],
+        [
+          10,
+          3
+        ],
+        [
+          134,
+          -144
+        ]
+      ],
+      "command": {
+        "name": "ScrollBottom",
+        "settings": {
+          "duration": 100
+        }
+      }
+    },
+    {
+      "pattern": [
+        [
+          122,
+          -184
+        ],
+        [
+          11,
+          4
+        ],
+        [
+          108,
+          154
+        ]
+      ],
+      "command": {
+        "name": "ScrollTop",
+        "settings": {
+          "duration": 100
+        }
+      }
+    },
+    {
+      "pattern": [
+        [
+          285,
+          -207
+        ]
+      ],
+      "command": {
+        "name": "OpenLinkInNewTab",
+        "settings": {
+          "position": "default",
+          "focus": false,
+          "emptyTab": false
+        }
+      }
+    },
+    {
+      "pattern": [
+        [
+          -310,
+          1
+        ]
+      ],
+      "command": {
+        "name": "PageBack"
+      }
+    },
+    {
+      "pattern": [
+        [
+          42,
+          -9
+        ],
+        [
+          251,
+          -10
+        ]
+      ],
+      "command": {
+        "name": "PageForth"
+      }
+    },
+    {
+      "pattern": [
+        [
+          -3,
+          380
+        ]
+      ],
+      "command": {
+        "name": "CloseTab",
+        "settings": {
+          "nextFocus": "default",
+          "closePinned": true
+        }
+      }
+    }
+  ],
+  "Settings": {
+    "General": {
+      "theme": "dark"
+    }
+  }
+}
