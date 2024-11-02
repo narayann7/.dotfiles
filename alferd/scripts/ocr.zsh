@@ -1,11 +1,5 @@
-export PATH="/opt/homebrew/bin:/usr/local/bin:${PATH}"
+screencapture -i ~/ocr_snapshot.png
 
-screencapture -i /tmp/ocr_snapshot.png
+tesseract --dpi 300 ~/ocr_snapshot.png stdout | pbcopy
 
-if [{query} = ""]; then
-   tesseract --dpi 300 /tmp/ocr_snapshot.png stdout 2>&1
-else
-   tesseract --dpi 300 /tmp/ocr_snapshot.png stdout -l {query} 2>&1
-fi
-
-#then copy the output to the clipboard
+rm ~/ocr_snapshot.png

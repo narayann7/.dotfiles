@@ -1,76 +1,84 @@
+# Source git and GitHub related scripts
 source "$DOTFILES/scripts/shell/git_and_gh.zsh"
 
+# Homebrew functions
 function down() {
-     brew install $1
-}
-function remove() {
-    brew remove $1
-}
-function update() {
-     brew update
+    brew install "$1"
 }
 
+function remove() {
+    brew remove "$1"
+}
+
+function update() {
+    brew update
+}
+
+# Base64 encoding/decoding functions
 encode64() {
     if [[ $# -eq 0 ]]; then
-        cat | base64
+        base64
     else
-        printf '%s' $1 | base64
+        printf '%s' "$1" | base64
     fi
 }
 
 encodefile64() {
-    if [[ $# -eq 0 ]]; then
+    if [[ -z $1 ]]; then
         echo "You must provide a filename"
     else
-        base64 -i $1 -o $1.txt
-        echo "${1}'s content encoded in base64 and saved as ${1}.txt"
+        base64 -i "$1" -o "$1.txt"
+        echo "Encoded $1 to base64 and saved as $1.txt"
     fi
 }
 
 decode64() {
     if [[ $# -eq 0 ]]; then
-        cat | base64 --decode
+        base64 --decode
     else
-        printf '%s' $1 | base64 --decode
+        printf '%s' "$1" | base64 --decode
     fi
-
 }
-function gpt() {
+
+# Function to interact with GPT API
+gpt() {
     local url="https://api.openai.com/v1/chat/completions"
     local model="gpt-3.5-turbo"
-    local body="{\"model\":\"$model\", \"messages\":[{\"role\": \"user\", \"content\": \"$1\"}]}"
-    local headers="Content-Type: application/json"
-    local auth="Authorization: Bearer user_token"
+    local body=$(jq -n --arg content "$1" \
+        '{model: "gpt-3.5-turbo", messages: [{role: "user", content: $content}]}')
+    local headers=("Content-Type: application/json" "Authorization: Bearer user_token")
 
-    curl -s -H "$headers" -H "$auth" -d "$body" "$url" |
+    curl -s -H "${headers[0]}" -H "${headers[1]}" -d "$body" "$url" |
         jq -r '.choices[0].message.content'
 }
 
-# open local directorys
+# Functions to open local directories in editors
 srepos() {
-    subl "/Users/narayan/narayann7/dotfiles" "/Users/narayan/github:narayann7/dump"
+    subl "$DOTFILES" "/Users/narayan/github:narayann7/dump"
 }
+
 crepos() {
-    code "/Users/narayan/narayann7/dotfiles" "/Users/narayan/github:narayann7/dump"
+    code "$DOTFILES" "/Users/narayan/github:narayann7/dump"
 }
 
-
-
-# nvm slows zsh down, so we lazy load it and use a custom node function to load it
+# Lazy load NVM to improve Zsh startup time
 lazy_load_nvm() {
-  unset -f npm node nvm
-  export NVM_DIR=~/.nvm
-  [[ -s "$NVM_DIR/nvm.sh" ]] && source "$NVM_DIR/nvm.sh"
+    unset -f npm node nvm
+    export NVM_DIR="$HOME/.nvm"
+    [[ -s "$NVM_DIR/nvm.sh" ]] && source "$NVM_DIR/nvm.sh"
 }
+
 npm() {
-  lazy_load_nvm
-  npm $@
+    lazy_load_nvm
+    command npm "$@"
 }
+
 node() {
-  lazy_load_nvm
-  node $@
+    lazy_load_nvm
+    command node "$@"
 }
+
 nvm() {
-  lazy_load_nvm
-  nvm $@
+    lazy_load_nvm
+    command nvm "$@"
 }

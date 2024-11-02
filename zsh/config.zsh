@@ -1,24 +1,16 @@
-export HSTR_CONFIG=hicolor
-# get more colors
-bindkey -s "\C-r" "\C-a hstr -- \C-j"
-export HSTR_TIOCSTI=y
+# HSTR (History Suggest Box) configuration
+export HSTR_CONFIG=hicolor # Enable high color support
+export HSTR_TIOCSTI=y      # Enable terminal I/O control for HSTR
 
-setopt APPEND_HISTORY
-# Append to the ZSH history file, rather than overwriting it
-setopt HIST_FIND_NO_DUPS
-# following should be turned off, if sharing history via setopt SHARE_HISTORY
-setopt INC_APPEND_HISTORY
-# to remove time stamp
-setopt noextendedhistory
+# Zsh history options
+setopt APPEND_HISTORY      # Append to the ZSH history file, rather than overwriting it
+setopt HIST_FIND_NO_DUPS   # Avoid adding duplicate history entries
+setopt INC_APPEND_HISTORY  # Incrementally append history (consider turning off with SHARE_HISTORY)
+setopt SHARE_HISTORY       # Share command history data between sessions
+setopt HIST_IGNORE_SPACE   # Ignore commands that start with a space
+setopt NO_EXTENDED_HISTORY # Disable timestamps in history
+unset HIST_STAMPS          # Ensure no timestamps are set in the history
 
-setopt sharehistory
-
-setopt histignorespace
-
-setopt hist_find_no_dups
-
-unset HIST_STAMPS
 # Completion styling
-zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
-
-zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'             # Case-insensitive completion
+zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath' # Preview directory contents in fzf-tab
