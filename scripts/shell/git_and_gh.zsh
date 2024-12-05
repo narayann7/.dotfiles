@@ -1,3 +1,22 @@
+# push to github
+function push() {
+   git push origin $1
+}
+
+function pull() {
+   git pull origin $1
+}
+
+# checkout to a branch
+function checkout() {
+   git checkout $1
+}
+
+# create a new branch
+function branch() {
+   git checkout -b $1
+}
+
 function gac() {
    git add .
    git commit -m $1
@@ -7,7 +26,7 @@ function gacp() {
    # Get the name of the current branch and store it in a variable
    branch=$(git rev-parse --abbrev-ref HEAD)
 
-   if [ "$branch" = "dev" ] || [ "$branch" = "main" ]; then
+   if [ "$branch" = "dev" ] || [ "$branch" = "main" ] || [ "$branch" = "ctp_button" ]; then
       echo -n "Are you sure you want to push to $branch branch? (yes/no): "
       read confirm
       if [ "$confirm" != "yes" ]; then

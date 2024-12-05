@@ -46,7 +46,7 @@ gpt() {
     local model="gpt-3.5-turbo"
     local body=$(jq -n --arg content "$1" \
         '{model: "gpt-3.5-turbo", messages: [{role: "user", content: $content}]}')
-    local headers=("Content-Type: application/json" "Authorization: Bearer user_token")
+    local headers=("Content-Type: application/json" "Authorization: Bearer ")
 
     curl -s -H "${headers[0]}" -H "${headers[1]}" -d "$body" "$url" |
         jq -r '.choices[0].message.content'
@@ -62,23 +62,23 @@ crepos() {
 }
 
 # Lazy load NVM to improve Zsh startup time
-lazy_load_nvm() {
-    unset -f npm node nvm
-    export NVM_DIR="$HOME/.nvm"
-    [[ -s "$NVM_DIR/nvm.sh" ]] && source "$NVM_DIR/nvm.sh"
-}
+# lazy_load_nvm() {
+#     unset -f npm node nvm
+#     export NVM_DIR="$HOME/.nvm"
+#     [[ -s "$NVM_DIR/nvm.sh" ]] && source "$NVM_DIR/nvm.sh"
+# }
 
-npm() {
-    lazy_load_nvm
-    command npm "$@"
-}
+# npm() {
+#     lazy_load_nvm
+#     command npm "$@"
+# }
 
-node() {
-    lazy_load_nvm
-    command node "$@"
-}
+# node() {
+#     lazy_load_nvm
+#     command node "$@"
+# }
 
-nvm() {
-    lazy_load_nvm
-    command nvm "$@"
-}
+# nvm() {
+#     lazy_load_nvm
+#     command nvm "$@"
+# }
