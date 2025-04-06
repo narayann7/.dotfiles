@@ -5,3 +5,4 @@ export HISTSIZE=1000000000
 export HISTFILE=~/.zsh_history
 export SAVEHIST=1000000000
 export HISTDUP=erase
+export OLLAMA_HOST="0.0.0.0:11434"

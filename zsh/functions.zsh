@@ -1,13 +1,13 @@
 source "$DOTFILES/scripts/shell/git_and_gh.zsh"
 
 function down() {
-     brew install $1
+    brew install $1
 }
 function remove() {
     brew remove $1
 }
 function update() {
-     brew update
+    brew update
 }
 
 encode64() {
@@ -54,23 +54,47 @@ crepos() {
     code "/Users/narayan/narayann7/dotfiles" "/Users/narayan/github:narayann7/dump"
 }
 
+dsa() {
 
+    code /Users/narayan/projects/narayann7/dump
+    open -a "Firefox" https://leetcode.com/problemset/
+    open -a "Obsidian"
+
+}
+
+kdsa() {
+    # Kill Visual Studio Code
+    pkill -9 -f "code"
+
+    # Kill Firefox
+    pkill -f "Firefox"
+
+    # Kill Obsidian
+    pkill -f "Obsidian"
+}
 
 # nvm slows zsh down, so we lazy load it and use a custom node function to load it
-lazy_load_nvm() {
-  unset -f npm node nvm
-  export NVM_DIR=~/.nvm
-  [[ -s "$NVM_DIR/nvm.sh" ]] && source "$NVM_DIR/nvm.sh"
-}
-npm() {
-  lazy_load_nvm
-  npm $@
-}
-node() {
-  lazy_load_nvm
-  node $@
-}
-nvm() {
-  lazy_load_nvm
-  nvm $@
+# lazy_load_nvm() {
+#   unset -f npm node nvm
+#   export NVM_DIR=~/.nvm
+#   [[ -s "$NVM_DIR/nvm.sh" ]] && source "$NVM_DIR/nvm.sh"
+# }
+# npm() {
+#   lazy_load_nvm
+#   npm $@
+# }
+# node() {
+#   lazy_load_nvm
+#   node $@
+# }
+# nvm() {
+#   lazy_load_nvm
+#   nvm $@
+# }
+
+pyinit() {
+    local dir="$1"
+    python3 "$DOTFILES/scripts/py/init.py" "$dir"
+    cd "$dir" || return
+    source venv/bin/activate
 }

@@ -10,7 +10,6 @@ source "$DOTFILES/zsh/variables.zsh"
 # oh my zsh plugins
 plugins=(
     git
-    fzf-tab
     zsh-autosuggestions
     zsh-syntax-highlighting
     # zsh-autocomplete
