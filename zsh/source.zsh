@@ -25,3 +25,7 @@ if [ -f '/Users/narayan/projects/used_apps/google-cloud-sdk/bin' ]; then . '/Use
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/narayan/projects/used_apps/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/narayan/projects/used_apps/google-cloud-sdk/completion.zsh.inc'; fi
+
+export PATH="$HOME/.pyenv/bin:$PATH"
+eval "$(pyenv init --path)"
+eval "$(pyenv init -)"

@@ -35,6 +35,18 @@ def create_gitignore(app_dir):
     ])
     gitignore_path.write_text(content)
 
+def create_requirements_txt(app_dir):
+    requirements_path = app_dir / "requirements.txt"
+    content = "\n".join([
+        "# Add your Python dependencies here",
+    ])
+    requirements_path.write_text(content)
+
+def create_app_py(app_dir):
+    app_path = app_dir / "app.py"
+    content = ""
+    app_path.write_text(content)
+
 def main():
     if len(sys.argv) < 2:
         print("Usage: python init.py <folder>")
@@ -52,6 +64,8 @@ def main():
     create_virtualenv(app_dir)
     create_vscode_settings(app_dir)
     create_gitignore(app_dir)
+    create_requirements_txt(app_dir)
+    create_app_py(app_dir)
 
     print("\n✅ Setup complete!")
     print(f"👉 To activate your venv: source {app_dir}/venv/bin/activate")
