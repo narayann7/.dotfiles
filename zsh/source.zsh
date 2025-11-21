@@ -17,6 +17,11 @@ PATH="$PATH"
 export PATH="$PATH":"$HOME/.pub-cache/bin"
 export PATH="/opt/homebrew/opt/ruby/3.3.4/bin:$PATH"
 
+
+export JAVA_HOME=$(/usr/libexec/java_home -v 17)
+export PATH="$JAVA_HOME/bin:$PATH"
+
+
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/narayan/projects/used_apps/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/narayan/projects/used_apps/google-cloud-sdk/path.zsh.inc'; fi
 
