@@ -1,5 +1,20 @@
 source "$DOTFILES/scripts/shell/git_and_gh.zsh"
 
+
+ocr() {
+local img="/private/tmp/ocr.png"
+
+screencapture -i "$img" || return 1
+[[ ! -f "$img" ]] && return 1
+
+tesseract "$img" stdout --dpi 300 -l eng 2>/dev/null \
+  | sed 's/[[:space:]]\+$//' \
+  | pbcopy
+
+rm -f "$img"
+}
+
+
 function down() {
     brew install $1
 }
@@ -57,8 +72,6 @@ crepos() {
 dsa() {
 
     code /Users/narayan/projects/narayann7/dump
-    open -a "Firefox" https://leetcode.com/problemset/
-    open -a "Obsidian"
 
 }
 
@@ -98,3 +111,6 @@ pyinit() {
     cd "$dir" || return
     source venv/bin/activate
 }
+
+
+

@@ -35,5 +35,4 @@ trap shellExit EXIT
 eval "$(atuin init zsh --disable-up-arrow)"
 bindkey '^r' atuin-search
 
-# Added by Antigravity
-export PATH="/Users/narayan/.antigravity/antigravity/bin:$PATH"
+

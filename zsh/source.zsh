@@ -34,3 +34,21 @@ if [ -f '/Users/narayan/projects/used_apps/google-cloud-sdk/completion.zsh.inc' 
 export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
+
+# Added by Antigravity
+export PATH="/Users/narayan/.antigravity/antigravity/bin:$PATH"
+# bun completions
+[ -s "/Users/narayan/.bun/_bun" ] && source "/Users/narayan/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+
+export PATH="/Users/narayan/.shorebird/bin:$PATH"
+
+
